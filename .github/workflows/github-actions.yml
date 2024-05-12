@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   deploying:
-    run-on: window latest
+    runs-on: window-latest
     steps:
       - uses: actions/checkout@v4
 
