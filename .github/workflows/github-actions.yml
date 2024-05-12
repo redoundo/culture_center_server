@@ -1,0 +1,23 @@
+name: culture-center-server deploy
+on:
+  push:
+    branches:
+      - "server"
+
+permissions:
+  contents: read
+
+jobs:
+  deploying:
+    run-on: window latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+
+      - name: run crawling docker
+        run: |
+          cd /crawl
+          docker build -f Dockerfile
+          docker run -d -e DATABASE_HOST=${{secrets.DATABASE_HOST}} DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} --name crawling
