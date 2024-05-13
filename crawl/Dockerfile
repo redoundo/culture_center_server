@@ -9,6 +9,7 @@ COPY typeclass /crawl/typeclass
 COPY crawlingprocess.py /crawl
 
 
+RUN python install pip
 RUN pip install playwright
 RUN pip install mysql-connector-python
 RUN pip install python-dotenv
