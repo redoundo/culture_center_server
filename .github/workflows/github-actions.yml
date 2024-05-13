@@ -22,4 +22,4 @@ jobs:
           pip install APScheduler Flask PyJWT SQLAlchemy firebase-admin mysql-connector-python
           cd /crawl
           docker build -f Dockerfile
-          docker run -d -e DATABASE_HOST=${{secrets.DATABASE_HOST}} DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} --name crawling
+          docker run -it -d -e DATABASE_HOST=${{secrets.DATABASE_HOST}} DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} --name crawling
