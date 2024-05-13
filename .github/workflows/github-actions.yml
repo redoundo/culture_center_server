@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   deploying:
-    runs-on: codebuild-culture_center_server-${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on: codebuild-culture_center_build-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v4
 
