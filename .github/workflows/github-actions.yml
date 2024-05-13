@@ -15,6 +15,9 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v5.1.0
+        run: |
+          python install pip
+          pip install APScheduler Flask PyJWT SQLAlchemy firebase-admin mysql-connector-python
 
       - name: run crawling docker
         run: |

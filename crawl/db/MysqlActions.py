@@ -160,7 +160,6 @@ class MysqlActions:
     def create_train_sample(self):
         """
         크롤링한 내용을 라벨링 하기 위해 각 센터별 각 카테고리와 각 대상 마다 각각 100개씩 모은다.
-        TODO: 이걸 자동으로 해도 라벨링 해야할 파일이 있다는 걸 원격으로 받아 봤으면 좋겠는데...
         :return:
         """
         centers: list[str] = self.get_all_centers()
@@ -183,7 +182,7 @@ class MysqlActions:
                             train_samples.append(sample)
 
             today: datetime = datetime.datetime.now()
-            path: str = f"C:/Users/admin/Crawling/Crawling/pythonscript/ML/train_sample{today.year}_{today.month}_{today.day}.json"
+            path: str = "train_sample.json"
             add_json_data(path=path, value=train_samples, how="a")
         except Exception as e:
             print(e)
