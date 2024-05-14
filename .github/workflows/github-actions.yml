@@ -37,4 +37,4 @@ jobs:
           cd C:/Users/admin/flaskserver/server/app/crawl
           docker build -t crawler -f Dockerfile .
           docker images
-          docker run -d crawler -e DATABASE_HOST=${{secrets.DATABASE_HOST}} -e DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} -e DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}}
+          docker run -e DATABASE_HOST=${{secrets.DATABASE_HOST}} -e DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} -e DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} -d crawler
