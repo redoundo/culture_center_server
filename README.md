@@ -30,7 +30,7 @@
 
    [레포지토리 참조](https://github.com/redoundo/culture_center_server/tree/ml)
 
-2.  새로운 데이터들이 들어왔을 때 라벨링이 필요한데 
+2.  새로운 데이터들이 들어왔을 때 라벨링이 필요한데
 
 
 
@@ -38,4 +38,4 @@
 
 #### 스택
 
-​	Flask 
+Flask 
