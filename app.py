@@ -65,7 +65,7 @@ def send_message():
 background_scheduler.start()
 
 
-@flask_app.teardown_appcontext()
+@flask_app.teardown_appcontext
 def shutdown_scheduler():
     """
     flask app 이 끝나면 background scheduler 도 닫는다.
