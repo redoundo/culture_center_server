@@ -9,13 +9,10 @@ COPY typeclass /crawl/typeclass
 COPY crawlingprocess.py /crawl
 
 
-RUN pip install playwright
-RUN pip install mysql-connector-python
-RUN pip install python-dotenv
-RUN pip install python-dateutil
+RUN pip install playwright mysql-connector-python python-dotenv python-dateutil
 
 ENV DATABASE_NAME=culture-centers
 ENV DATABASE_USERNAME=culturecenter
 
 
-ENTRYPOINT ["crawlingprocess.py"]
+ENTRYPOINT ["python", "crawlingprocess.py"]
