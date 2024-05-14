@@ -19,7 +19,7 @@ jobs:
       - name: build python
         run: |
           python install pip
-          pip install -e .
+          pip install pip APScheduler Flask PyJWT SQLAlchemy firebase-admin mysql-connector-python
 
       - name: run crawling docker
         run: | 
