@@ -15,4 +15,4 @@ ENV DATABASE_NAME=culture-centers
 ENV DATABASE_USERNAME=culturecenter
 
 
-ENTRYPOINT ["python", "crawlingprocess.py"]
+CMD ["python", "crawlingprocess.py"]
