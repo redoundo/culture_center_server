@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   deploying:
-    runs-on: window-latest
+    runs-on: codebuild-myProject-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v4
 
