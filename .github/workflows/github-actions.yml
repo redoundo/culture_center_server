@@ -55,7 +55,7 @@ jobs:
          --application-name ${{ env.DEPLOY_APP_NAME }}
          --deployment-config-name CodeDeployDefault.AllAtOnce
          --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
-         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=$GITHUB_SHA.zip
+         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=.7z.zip
 
 
 #      - name: run crawling docker
