@@ -29,12 +29,15 @@ jobs:
           Add-Content -Path .env -Value DATABASE_HOST=${{secrets.DATABASE_HOST}}
           Add-Content -Path .env -Value DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}}
 
-
       - name: build python program
         run: pip install -e .
 
       - name: zip python
-        run: tar -a -c -f $GITHUB_SHA.zip appserver crawl utils app.py Dockerfile setup.py appspec.yml culturecenter.egg-info
+        run: |
+          $resource = "C:/Users/admin/flaskserver/server/app"
+          $7zipPath = "C:/Program Files/7-Zip/7z.exe"
+          $compressed = "C:/Users/admin/flaskserver/server/app/$GITHUB_SHA"
+          & $7zipPath a -t7z $compressed $resource
 
       - name: access to aws
         uses: aws-actions/configure-aws-credentials@v1
