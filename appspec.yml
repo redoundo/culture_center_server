@@ -1,5 +1,5 @@
 version: 0.0
-os: window
+os: windows
 files:
     - source: /
       destination: /home/app
@@ -14,8 +14,8 @@ file_exists_behavior: OVERWRITE
 permissions:
     - object: /home/app
       pattern: '**'
-      owner: root
-      group: root
+      owner: aws_redoundo
+      group: deploy-group
 
 hooks:
     AfterInstall:
