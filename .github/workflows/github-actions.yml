@@ -37,7 +37,7 @@ jobs:
           $resource = "C:/Users/admin/flaskserver/server/app"
           $7zipPath = "C:/Program Files/7-Zip/7z.exe"
           $compressed = "C:/Users/admin/flaskserver/server/app/${GITHUB_SHA}"
-          & $7zipPath a -t7z $compressed $resource
+          & $7zipPath a -tzip $compressed $resource
 
       - name: access to aws
         uses: aws-actions/configure-aws-credentials@v1
