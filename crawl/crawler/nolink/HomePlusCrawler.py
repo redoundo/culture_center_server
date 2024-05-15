@@ -1,6 +1,6 @@
-from server.app.crawl.typeclass.LectureType import LectureType
-from server.app.crawl.crawler.crawlerabstract import NoLinkCrawler
-from server.app.crawl.typeclass.ClassIdInfoType import ClassIdInfos
+from crawl.typeclass.LectureType import LectureType
+from crawl.crawler.crawlerabstract import NoLinkCrawler
+from crawl.typeclass.ClassIdInfoType import ClassIdInfos
 import math
 import time
 import re

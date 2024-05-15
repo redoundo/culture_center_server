@@ -1,12 +1,11 @@
-from mysql.connector import pooling
 from mysql.connector import connection
 from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
 from crawl.typeclass.ClassIdInfoType import ClassIdInfos
-from server.app.crawl.typeclass.LectureType import LectureType
-from server.app.utils.util import add_json_data
+from crawl.typeclass.LectureType import LectureType
 from dotenv import load_dotenv
 import os
+import json
 import datetime
 
 load_dotenv()
@@ -15,6 +14,10 @@ databasePassword: str = os.getenv("DATABASE_PASSWORD")
 databaseUser: str = os.getenv("DATABASE_USERNAME")
 databaseHost: str = os.getenv("DATABASE_HOST")
 databsePort: int = os.getenv("DATABASE_PORT")
+
+def add_json_data(path: str, how: str, value: any):
+    with open(path, how, encoding='utf-8-sig') as J:
+        json.dump(value, J, ensure_ascii=False, indent=4)
 
 def str_to_date(date: str) -> str:
     """

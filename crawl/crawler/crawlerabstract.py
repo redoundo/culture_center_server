@@ -1,8 +1,7 @@
-from server.app.crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
-from server.app.crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
 from playwright.sync_api import Page
-from server.app.crawl.typeclass.LectureType import LectureType
-
+from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
+from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
+from crawl.typeclass.ClassIdInfoType import ClassIdInfos
 
 class NoLinkCrawler:
     """
@@ -14,7 +13,7 @@ class NoLinkCrawler:
     total: int
     pageCount: int
     lectureHrefs: list[str]
-    lectureInfos: list[LectureType]
+    lectureInfos: list[ClassIdInfos]
 
     def __init__(self, url: str, center_info: CenterInfoNoLink, page: Page) -> None:
         self.centerInfo = center_info
@@ -85,7 +84,7 @@ class WithLinkCrawler:
     total: int
     pageCount: int
     lectureHrefs: list[str]
-    lectureInfos: list[LectureType]
+    lectureInfos: list[ClassIdInfos]
 
     def __init__(self, center_info: CenterInfoWithLink, page: Page) -> None:
         self.page = page

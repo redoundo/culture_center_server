@@ -3,9 +3,9 @@ import time
 import re
 
 from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
-from server.app.crawl.crawler.crawlerabstract import WithLinkCrawler
-from server.app.crawl.typeclass.LectureType import LectureType
-from server.app.crawl.typeclass.ClassIdInfoType import ClassIdInfos
+from crawl.crawler.crawlerabstract import WithLinkCrawler
+from crawl.typeclass.LectureType import LectureType
+from crawl.typeclass.ClassIdInfoType import ClassIdInfos
 from playwright.sync_api import Page
 
 

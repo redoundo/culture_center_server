@@ -1,12 +1,13 @@
-from server.app.crawl.crawler.crawlerabstract import NoLinkCrawler, WithLinkCrawler
-from server.app.crawl.crawler.nolink.EmartCrawler import EmartCrawler
-from server.app.crawl.crawler.nolink.LotteMartCrawler import LotteMartCrawler
-from server.app.crawl.crawler.nolink.HomePlusCrawler import HomePlusCrawler
-from server.app.crawl.crawler.nolink.AkplazaCrawler import AkplazaCrawler
-from server.app.crawl.crawler.withlink.GalleriaCrawler import GalleriaCrawler
-from server.app.crawl.crawler.withlink.HyundaiCrawler import HyundaiCrawler
-from server.app.crawl.crawler.withlink.LotteCrawler import LotteCrawler
+from crawl.crawler.crawlerabstract import NoLinkCrawler, WithLinkCrawler
+from crawl.crawler.nolink.EmartCrawler import EmartCrawler
+from crawl.crawler.nolink.LotteMartCrawler import LotteMartCrawler
+from crawl.crawler.nolink.HomePlusCrawler import HomePlusCrawler
+from crawl.crawler.nolink.AkplazaCrawler import AkplazaCrawler
+from crawl.crawler.withlink.GalleriaCrawler import GalleriaCrawler
+from crawl.crawler.withlink.HyundaiCrawler import HyundaiCrawler
+from crawl.crawler.withlink.LotteCrawler import LotteCrawler
 import enum
+
 
 
 class NoLinkCrawlerFactory(enum.Enum):

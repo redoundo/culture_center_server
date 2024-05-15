@@ -1,7 +1,13 @@
-from server.app.crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
-from server.app.crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
-from server.app.utils.util import validate_string
+from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
+from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 
+def validate_string(string: str) -> bool:
+    """
+    문자열이 유효한지 검증
+    :param string: 검증이 필요한 문자열
+    :return: 유효성 여부
+    """
+    return string is not None and string != "null" and len(string) > 0
 
 def unwrap_with_link(data: dict, center: str) -> list[CenterInfoWithLink]:
     """

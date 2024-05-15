@@ -1,19 +1,24 @@
 import datetime
-import os
-import time
-import asyncio
-import psutil
-from crawl.crawler.crawlerabstract import NoLinkCrawler, WithLinkCrawler
-from crawl.crawler.unwrapcenterinfo import unwrap_no_link, unwrap_with_link
+from crawler.crawlerabstract import NoLinkCrawler, WithLinkCrawler
+from crawler.unwrapcenterinfo import unwrap_no_link, unwrap_with_link
 from messages.messenger import DiscordMessenger
-from server.app.crawl.db.MysqlActions import MysqlActions
-from server.app.crawl.crawler.crawlerfactory import NoLinkCrawlerFactory, WithLinkCrawlerFactory
+from db.MysqlActions import MysqlActions
+from crawler.crawlerfactory import NoLinkCrawlerFactory, WithLinkCrawlerFactory
 from playwright.sync_api import Playwright, Page, sync_playwright, Browser
 import threading
+import sys
+import json
 import queue
-from utils.util import json_data
+
 
 database: MysqlActions = MysqlActions()
+sys.path.append("..")
+
+
+def json_data(path: str, how: str):
+    with open(path, how, encoding='utf-8-sig') as j:
+        data = json.load(j)
+    return data
 
 
 def url_crawling(href_queue: queue.Queue, message_queue: queue.Queue):
@@ -142,4 +147,5 @@ if __name__ == '__main__':
     url_thread.join()
     info_thread.join()
 
+    database.connection.close()
 
