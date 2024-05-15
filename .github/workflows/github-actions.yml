@@ -48,7 +48,7 @@ jobs:
 
 
       - name: Upload to S3
-        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/flaskserver/server/app/culturecenter s3://${{ env.S3_BUCKET_NAME }}/culturecenter.zip
+        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/flaskserver/server/app/culturecenter.zip s3://${{ env.S3_BUCKET_NAME }}/culturecenter.zip
 
       - name: 🚀 Deploy to EC2 with CodeDeploy
         run: aws deploy create-deployment
@@ -56,11 +56,3 @@ jobs:
          --deployment-config-name CodeDeployDefault.AllAtOnce
          --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
          --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=culturecenter.zip
-
-
-#      - name: run crawling docker
-#        run: |
-#          cd C:/Users/admin/flaskserver/server/app
-#          docker build -t crawlers:latest -f Dockerfile .
-#          docker image tag crawlers:latest ${{secrets.DOCKER_HUB_USERNAME}}/crawl_repo:latest
-#          docker run -d -e DATABASE_HOST=${{secrets.DATABASE_HOST}} -e DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} -e DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} ${{secrets.DOCKER_HUB_USERNAME}}/crawl_repo:latest

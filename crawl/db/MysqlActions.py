@@ -185,7 +185,7 @@ class MysqlActions:
                             train_samples.append(sample)
 
             today: datetime = datetime.datetime.now()
-            path: str = "train_sample.json"
+            path: str = "/crawl/train_sample.json"
             add_json_data(path=path, value=train_samples, how="a")
         except Exception as e:
             print(e)

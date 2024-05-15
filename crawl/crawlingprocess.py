@@ -146,6 +146,6 @@ if __name__ == '__main__':
 
     url_thread.join()
     info_thread.join()
-
+    database.create_train_sample()
     database.connection.close()
 

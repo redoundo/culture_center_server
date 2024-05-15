@@ -1,3 +1,4 @@
+import requests
 from flask import Flask, request, jsonify
 from appserver.error.customerror import global_error_handler
 from appserver.db.selectdb import *
@@ -339,6 +340,11 @@ def registering_fcm_receiver():
 
     register_fcm_receiver(user_id, registered_token["vapidToken"])
     return jsonify({"status": 200, "registered": True})
+
+
+@flask_app.route("/api/new_data_json", method=["GET"])
+def new_data():
+    return jsonify({"exist": os.path.isfile("/crawl/train_sample.json")})
 
 
 if __name__ == "__main__":

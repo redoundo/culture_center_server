@@ -15,13 +15,13 @@ class NoLinkCrawlerFactory(enum.Enum):
     쿼리 스트링 조합으로 검색이 불가능한 사이트들을 크롤링 하는 크롤러를 생산
     """
     HOMEPLUS = ("HOMEPLUS", HomePlusCrawler, "https://mschool.homeplus.co.kr/Lecture/Search",
-                "C:/Users/admin/flaskserver/server/app/crawl/resource/homeplus.json")
+                "crawl/resource/homeplus.json")
     EMART = ("EMART", EmartCrawler, "https://www.cultureclub.emart.com/enrolment",
-             "C:/Users/admin/flaskserver/server/app/crawl/resource/emart.json")
+             "crawl/resource/emart.json")
     LOTTEMART = ("LOTTEMART", LotteMartCrawler, "https://culture.lottemart.com/cu/gus/course/courseinfo/courselist.do?",
-                 "C:/Users/admin/flaskserver/server/app/crawl/resource/lottemart.json")
+                 "crawl/resource/lottemart.json")
     AKPLAZA = ("AKPLAZA", AkplazaCrawler, "https://culture.akplaza.com/course/list02",
-               "C:/Users/admin/flaskserver/server/app/crawl/resource/akplaza.json")
+               "/crawl/resource/akplaza.json")
 
     def __init__(self, center: str, crawler: NoLinkCrawler, url: str, path: str):
         """
@@ -65,9 +65,9 @@ class WithLinkCrawlerFactory(enum.Enum):
     """
     쿼리 스트링 조합으로 검색이 가능한 사이트들을 크롤링 하는 크롤러 생산
     """
-    HYUNDAI = ("HYUNDAI", HyundaiCrawler, "C:/Users/admin/flaskserver/server/app/crawl/resource/hyundai.json")
-    GALLERIA = ("GALLERIA", GalleriaCrawler, "C:/Users/admin/flaskserver/server/app/crawl/resource/galleria.json")
-    LOTTE = ("LOTTE", LotteCrawler, "C:/Users/admin/flaskserver/server/app/crawl/resource/lotte.json")
+    HYUNDAI = ("HYUNDAI", HyundaiCrawler, "crawl/resource/hyundai.json")
+    GALLERIA = ("GALLERIA", GalleriaCrawler, "crawl/resource/galleria.json")
+    LOTTE = ("LOTTE", LotteCrawler, "crawl/resource/lotte.json")
 
     def __init__(self, center: str, crawler: WithLinkCrawler, path: str):
         """
