@@ -36,7 +36,7 @@ jobs:
         run: |
           $resource = "C:/Users/admin/flaskserver/server/app"
           $7zipPath = "C:/Program Files/7-Zip/7z.exe"
-          $compressed = "C:/Users/admin/flaskserver/server/app/${GITHUB_SHA}"
+          $compressed = "C:/Users/admin/flaskserver/server/app/culturecenter"
           & $7zipPath a -tzip $compressed $resource
 
       - name: access to aws
@@ -48,14 +48,14 @@ jobs:
 
 
       - name: Upload to S3
-        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/flaskserver/server/app/.7z s3://${{ env.S3_BUCKET_NAME }}/.7z.zip
+        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/flaskserver/server/app/culturecenter s3://${{ env.S3_BUCKET_NAME }}/culturecenter.zip
 
       - name: 🚀 Deploy to EC2 with CodeDeploy
         run: aws deploy create-deployment
          --application-name ${{ env.DEPLOY_APP_NAME }}
          --deployment-config-name CodeDeployDefault.AllAtOnce
          --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
-         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=.7z.zip
+         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=culturecenter.zip
 
 
 #      - name: run crawling docker
