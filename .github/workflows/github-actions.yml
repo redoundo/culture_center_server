@@ -23,10 +23,10 @@ jobs:
 
       - name: setting env
         run: |
-          ehco DOCKER_HUB_PASSWORD=${{secrets.DOCKER_HUB_PASSWORD}} >> .env 
-          echo DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}} >> .env
-          echo DATABASE_HOST=${{secrets.DATABASE_HOST}} >> .env
-          echo DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} >> .env
+          Add-Content -Path .env -Value DOCKER_HUB_PASSWORD=${{secrets.DOCKER_HUB_PASSWORD}}
+          Add-Content -Path .env -Value DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}}
+          Add-Content -Path .env -Value DATABASE_HOST=${{secrets.DATABASE_HOST}}
+          Add-Content -Path .env -Value DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}}
 
 
       - name: build python program
