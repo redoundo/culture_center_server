@@ -1,0 +1,24 @@
+version: 0.0
+os: window
+files:
+    - source: /
+      destination: /home/app
+    - source: /appserver
+      destination: /home/app/appserver
+    - source: /utils
+      destination: /home/app/utils
+    - source: /crawl
+      destination: /home/app/crawl
+file_exists_behavior: OVERWRITE
+
+permissions:
+    - object: /home/app
+      pattern: '**'
+      owner: root
+      group: root
+
+hooks:
+    AfterInstall:
+        - location: scripts/after-install.ps1
+          timeout: 2000
+          runas: root

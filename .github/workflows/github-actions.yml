@@ -21,41 +21,42 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5.1.0
 
-#      - name: install dependancy
+      - name: setting env
+        run: |
+          echo DATABASE_HOST=${{secrets.DATABASE_HOST}} >> .env
+          echo DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} >> .env
+          echo DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} >> .env
+          echo DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}} >> .env
+          ehco DOCKER_HUB_PASSWORD=${{secrets.DOCKER_HUB_PASSWORD}} >> .env 
+
+      - name: build python program
+        run: pip install -e .
+
+      - name: zip python
+        run: tar -a -c -f $GITHUB_SHA.zip appserver crawl utils app.py Dockerfile setup.py appspec.yml culturecenter.egg-info
+
+      - name: access to aws
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+
+
+      - name: Upload to S3
+        run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://${{ secrets.S3_BUCKET_NAME }}/$GITHUB_SHA.zip
+
+      - name: 🚀 Deploy to EC2 with CodeDeploy
+        run: aws deploy create-deployment
+         --application-name ${{ env.DEPLOY_APP_NAME }}
+         --deployment-config-name CodeDeployDefault.AllAtOnce
+         --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
+         --s3-location bucket=${{ secrets.S3_BUCKET_NAME }},bundleType=zip,key=$GITHUB_SHA.zip
+
+
+#      - name: run crawling docker
 #        run: |
-#          python install pip
-#          pip install --upgrade pip
-#          pip install --upgrade setuptools
-#          pip install APScheduler Flask PyJWT SQLAlchemy firebase-admin mysql-connector-python requests
-#
-#      - name: build python program
-#        run: pip install -e .
-
-#      - name: zip python
-#        run: tar -a -c -f $GITHUB_SHA.tar .
-
-#      - name: access to aws
-#        uses: aws-actions/configure-aws-credentials@v1
-#        with:
-#          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#          aws-region: ap-northeast-2
-
-
-#      - name: Upload to S3
-#        run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.tar s3://${{ secrets.S3_BUCKET_NAME }}/$GITHUB_SHA.tar
-
-#      - name: 🚀 Deploy to EC2 with CodeDeploy
-#        run: aws deploy create-deployment
-#         --application-name ${{ env.DEPLOY_APP_NAME }}
-#         --deployment-config-name CodeDeployDefault.AllAtOnce
-#         --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
-#         --s3-location bucket=${{ secrets.S3_BUCKET_NAME }},bundleType=tar,key=$GITHUB_SHA.tar
-
-
-      - name: run crawling docker
-        run: | 
-          cd C:/Users/admin/flaskserver/server/app
-          docker build -t crawlers:latest -f Dockerfile .
-          docker image tag crawlers:latest ${{secrets.DOCKER_HUB_USERNAME}}/crawl_repo:latest
-          docker run -d -e DATABASE_HOST=${{secrets.DATABASE_HOST}} -e DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} -e DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} ${{secrets.DOCKER_HUB_USERNAME}}/crawl_repo:latest
+#          cd C:/Users/admin/flaskserver/server/app
+#          docker build -t crawlers:latest -f Dockerfile .
+#          docker image tag crawlers:latest ${{secrets.DOCKER_HUB_USERNAME}}/crawl_repo:latest
+#          docker run -d -e DATABASE_HOST=${{secrets.DATABASE_HOST}} -e DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}} -e DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}} ${{secrets.DOCKER_HUB_USERNAME}}/crawl_repo:latest
