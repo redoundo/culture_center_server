@@ -1,6 +1,7 @@
 from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
 from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 
+
 def validate_string(string: str) -> bool:
     """
     문자열이 유효한지 검증

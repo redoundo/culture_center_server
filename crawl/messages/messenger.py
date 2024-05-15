@@ -2,15 +2,12 @@ import datetime
 import json
 
 import requests
-import dotenv
-import os
 from queue import Queue
-dotenv.load_dotenv()
 
 
 class DiscordMessenger:
 
-    webhookUrl: str = os.getenv("DISCORD_WEBHOOK_URL")
+    webhookUrl: str = "https://discordapp.com/api/webhooks/1239404247532044338/UTjD8RbhudB18Or5wqMMtGgM2uXRNGXIrrqbcvkcMgltbCYaOJ3YDwiGWB5_d9pvuGMI"
     messageQueue: Queue
 
     def __init__(self, message_queue: Queue):

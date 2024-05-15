@@ -3,6 +3,7 @@ from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
 from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 from crawl.typeclass.ClassIdInfoType import ClassIdInfos
 
+
 class NoLinkCrawler:
     """
         검색 조건이 쿼리스트링에 설정 되지 않아 크롤러가 검색 조건을 직접 설정 해야 하는 사이트들이 대상.
