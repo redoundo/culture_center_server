@@ -23,6 +23,7 @@ jobs:
 
       - name: setting env
         run: |
+          cd C:/Users/admin/flaskserver/server/app
           Add-Content -Path .env -Value DOCKER_HUB_PASSWORD=${{secrets.DOCKER_HUB_PASSWORD}}
           Add-Content -Path .env -Value DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}}
           Add-Content -Path .env -Value DATABASE_HOST=${{secrets.DATABASE_HOST}}
