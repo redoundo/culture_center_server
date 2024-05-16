@@ -1,14 +1,29 @@
 version: 0.0
 os: windows
 files:
-    - source: /
+    - source: /app.py
       destination: /home/app
+    - source: /appspec.yml
+      destination: /home/app
+    - source: /Dockerfile
+      destination: /home/app
+    - source: /setup.py
+      destination: /home/app
+    - source: /README.md
+      destination: /home/app
+    - source: /requirements.txt
+      destination: /home/app
+    - source: /.github
+      destination: /home/app/.github
     - source: /appserver
       destination: /home/app/appserver
     - source: /utils
       destination: /home/app/utils
     - source: /crawl
       destination: /home/app/crawl
+    - source: /scripts
+      destination: /home/app/scripts
+
 file_exists_behavior: OVERWRITE
 
 hooks:
