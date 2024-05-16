@@ -29,7 +29,10 @@ file_exists_behavior: OVERWRITE
 hooks:
     ApplicationStop:
         - location: scripts/application-stop.ps1
+          timeout: 300
     AfterInstall:
         - location: scripts/after-install.ps1
+          timeout: 300
     ApplicationStart:
       - location: scripts/application-start.ps1
+        timeout: 300
