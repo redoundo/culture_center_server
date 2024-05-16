@@ -18,7 +18,7 @@ permissions:
       group: deploy-group
 
 hooks:
-    BeforeInstall:
+    ApplicationStop:
         - location: scripts/before-install.ps1
     AfterInstall:
-        - location: scripts/after-install.ps1 
+        - location: scripts/after-install.ps1
