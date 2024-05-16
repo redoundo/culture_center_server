@@ -18,6 +18,8 @@ permissions:
       group: deploy-group
 
 hooks:
+    BeforeInstall:
+        - location: scripts/before-install.ps1
     AfterInstall:
         - location: scripts/after-install.ps1
           timeout: 2000

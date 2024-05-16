@@ -1,0 +1,1 @@
+powershell.exe -Command Restart-Service -Name codedeployagent
