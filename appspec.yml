@@ -11,12 +11,6 @@ files:
       destination: /home/app/crawl
 file_exists_behavior: OVERWRITE
 
-permissions:
-    - object: /home/app
-      pattern: '**'
-      owner: aws_redoundo
-      group: deploy-group
-
 hooks:
     ApplicationStop:
         - location: scripts/before-install.ps1
