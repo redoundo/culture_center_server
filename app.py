@@ -342,7 +342,7 @@ def registering_fcm_receiver():
     return jsonify({"status": 200, "registered": True})
 
 
-@flask_app.route("/api/new_data_json", method=["GET"])
+@flask_app.route("/api/new_data_json", methods=["GET"])
 def new_data():
     return jsonify({"exist": os.path.isfile("/crawl/train_sample.json")})
 
