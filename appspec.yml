@@ -21,6 +21,4 @@ hooks:
     BeforeInstall:
         - location: scripts/before-install.ps1
     AfterInstall:
-        - location: scripts/after-install.ps1
-          timeout: 2000
-          runas: root
+        - location: scripts/after-install.ps1 
