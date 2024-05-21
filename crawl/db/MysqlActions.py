@@ -73,12 +73,12 @@ class MysqlActions:
 
             sql: str = "INSERT INTO lectures(lectureId, type, center, region, branch, address, target, category,"
             sql += "url, src, title, price, content, curriculum, lectureSupplies, lectureStart, lectureEnd, enrollStart"
-            sql += ",enrollEnd, crawlerIndex, lectureHeldDates)"
+            sql += ",enrollEnd, lectureHeldDates)"
             sql += f" VALUES('{data.classId}', '{data.type}', '{data.center}', '{data.region}',\
                '{data.branch}', '{data.address}', '{data.target}', '{data.category}', '{data.url}', '{data.src}',\
                 '{single_quote_escape(data.title)}', {data.price}, '{single_quote_escape(data.content)}',\
                  {casted_json}, '{single_quote_escape(data.lectureSupplies)}',\
-                  {str_to_date(data.lectureStart)}, {str_to_date(data.lectureEnd)}, {str_to_date(data.enrollStart)}, \
+                  {str_to_date(data.lectureStart)}, {str_to_date(data.lectureEnd)} , \
                   {str_to_date(data.enrollEnd)}, '{data.crawlerIndex}', '{data.lectureHeldDates}');"
             cursor.execute(sql)
         except Exception as e:

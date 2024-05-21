@@ -11,9 +11,9 @@ class DbConnection:
     engine: Engine
 
     def __init__(self):
-        self.url = URL.create(drivername=os.getenv("MYSQL_DRIVER_NAME"), username=os.getenv("MYSQL_USER"),
-                              host=os.getenv("MYSQL_HOST"), password=os.getenv("MYSQL_PASSWORD"),
-                              database=os.getenv("MYSQL_DATABASE"), port=os.getenv("MYSQL_PORT"))
+        self.url = URL.create(drivername=os.getenv("MYSQL_DRIVER_NAME"), username=os.getenv("DATABASE_USERNAME"),
+                              host=os.getenv("DATABASE_HOST"), password=os.getenv("DATABASE_PASSWORD"),
+                              database=os.getenv("DATABASE_NAME"), port=os.getenv("DATABASE_PORT"))
         self.engine = create_engine(self.url, echo=True, pool_size=5)
         return
 

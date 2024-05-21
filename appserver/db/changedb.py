@@ -1,6 +1,6 @@
 from .dbconnection import DbConnection
 from sqlalchemy.orm import Session
-from sqlalchemy import delete, update, insert
+from sqlalchemy import delete, update, insert, select
 from hashlib import sha256
 from .tablemodels import *
 
@@ -43,8 +43,10 @@ def delete_all_liked_by_user_id(user_id: int):
 
 def insert_applied_by_user_id(user_id: int, lecture_id: int):
     session: Session = DbConnection().get_session()
-    stmt = insert(Applied).values(appliedLectureId=lecture_id, appliedUserId=user_id)
-    session.execute(stmt)
+    exist_applied = session.query(Applied).where(Applied.appliedLectureId == lecture_id).where( Applied.appliedUserId == user_id).count()
+    if exist_applied == 0:
+        stmt = insert(Applied).values(appliedLectureId=lecture_id, appliedUserId=user_id)
+        session.execute(stmt)
     session.commit()
     session.close()
     return
@@ -52,8 +54,10 @@ def insert_applied_by_user_id(user_id: int, lecture_id: int):
 
 def insert_liked_by_user_id(user_id: int, lecture_id: int):
     session: Session = DbConnection().get_session()
-    stmt = insert(Liked).values(likedLectureId=lecture_id, likedUserId=user_id)
-    session.execute(stmt)
+    exist_liked = session.query(Liked).where(Liked.likedLectureId == lecture_id).where(Liked.likedUserId == user_id).count()
+    if exist_liked == 0:
+        stmt = insert(Liked).values(likedLectureId=lecture_id, likedUserId=user_id)
+        session.execute(stmt)
     session.commit()
     session.close()
     return
@@ -71,7 +75,7 @@ def withdraw_user_by_user_id(user_id: int):
 def sign_in_user(email: str, password: str, nickname: str, provider: str, providers_id: str):
     session: Session = DbConnection().get_session()
     sha_password: str = sha256(password.encode()).hexdigest()
-    stmt = insert(Users).values(email=email, password=sha_password, nickname=nickname,
+    stmt = insert(Users).values(email=email, nickname=nickname, password=sha_password,
                                 snsProvider=provider, snsProviderId=providers_id)
     session.execute(stmt)
     session.commit()

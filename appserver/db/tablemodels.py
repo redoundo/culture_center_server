@@ -23,6 +23,9 @@ class Lectures(Base):
     src: Mapped[str] = mapped_column(String(300), nullable=False)
     content: Mapped[str] = mapped_column(String(3000), nullable=False)
     price: Mapped[int] = mapped_column(nullable=False)
+    adult: Mapped[str] = mapped_column(String(100))
+    kid: Mapped[str] = mapped_column(String(100))
+    baby: Mapped[str] = mapped_column(String(100))
     lectureStart: Mapped[datetime] = mapped_column(nullable=False, type_=DateTime)
     lectureEnd: Mapped[datetime] = mapped_column(nullable=False, type_=DateTime)
     enrollStart: Mapped[datetime] = mapped_column(nullable=True, type_=DateTime)
@@ -30,8 +33,17 @@ class Lectures(Base):
     lectureSupplies: Mapped[str] = mapped_column(String(200), nullable=True)
     curriculum: Mapped[Optional[dict]] = mapped_column(nullable=True, type_=JSON)
     crawledDate: Mapped[datetime] = mapped_column(default=datetime.now(), onupdate=False, type_=DateTime)
-    crawlerIndex: Mapped[str] = mapped_column(String(100), nullable=False)  # db 에는 설정 하지 않을 예정임.
     lectureHeldDates: Mapped[str] = mapped_column(String(500), nullable=False)
+
+    def dictionary(self) -> dict:
+        return {
+            "lectureId": self.lectureId, "center": self.center, "type": self.type, "region": self.region, "branch": self.branch,
+            "address": self.address, "target": self.target, "category": self.category, "title": self.title, "url": self.url,
+            "src": self.src, "content": self.content, "price": self.price, "lectureStart": self.lectureStart,
+            "lectureEnd": self.lectureEnd, "enrollStart": self.enrollStart, "enrollEnd": self.enrollEnd,
+            "lectureSupplies": self.lectureSupplies, "curriculum": self.curriculum, "crawledDate": self.crawledDate,
+            "lectureHeldDates": self.lectureHeldDates
+        }
 
 
 class Centers(Base):
@@ -41,18 +53,26 @@ class Centers(Base):
     centerType: Mapped[str] = mapped_column(String(45), nullable=False)
     centerUrl: Mapped[str] = mapped_column(String(200), nullable=False)
 
+    # def __dict__(self):
+    #     return {"centerId": self.centerId, "centerName": self.centerName, "centerType": self.centerType, "centerUrl": self.centerUrl}
+
 
 class Categories(Base):
     __tablename__ = "categories"
     categoryId: Mapped[int] = mapped_column(primary_key=True, nullable=False, autoincrement=True)
-    categoryName: Mapped[str] = mapped_column(String(100), nullable=False, unique=True)
+    categoryName: Mapped[str] = mapped_column(String(100), nullable=False)
+    targetId: Mapped[int] = mapped_column(nullable=False)
 
+    # def __dict__(self):
+    #     return {"categoryId" : self.categoryId, "categoryName": self.categoryName, "targetId": self.targetId}
 
 class Targets(Base):
     __tablename__ = "targets"
     targetId: Mapped[int] = mapped_column(primary_key=True, nullable=False, autoincrement=True)
     targetName: Mapped[str] = mapped_column(String(45), nullable=False, unique=True)
 
+    # def __dict__(self):
+    #     return {"targetId": self.targetId, "targetName": self.targetName}
 
 class Branches(Base):
     __tablename__ = "branches"
@@ -61,6 +81,11 @@ class Branches(Base):
     branchAddress: Mapped[str] = mapped_column(String(255), nullable=False)
     centerIdOfBranch: Mapped[int] = mapped_column(nullable=False)
 
+    # def __dict__(self):
+    #     return {
+    #         "branchId": self.branchId, "branchName": self.branchName, "branchAddress": self.branchAddress, "centerIdOfBranch": self.centerIdOfBranch
+    #     }
+
 
 class Applied(Base):
     __tablename__ = "applied"
@@ -68,12 +93,22 @@ class Applied(Base):
     appliedLectureId: Mapped[int] = mapped_column(nullable=False)
     appliedUserId: Mapped[int] = mapped_column(nullable=False)
 
+    # def __dict__(self):
+    #     return {
+    #         "appliedId": self.appliedId, "appliedLectureId": self.appliedLectureId, "appliedUserId": self.appliedUserId
+    #     }
+
 
 class Liked(Base):
     __tablename__ = "liked"
     likedId: Mapped[int] = mapped_column(primary_key=True, nullable=False, autoincrement=True)
     likedLectureId: Mapped[int] = mapped_column(nullable=False)
     likedUserId: Mapped[int] = mapped_column(nullable=False)
+
+    # def __dict__(self):
+    #     return {
+    #         "liekdId": self.likedId, "likedLectureId": self.likedLectureId, "likedUserId": self.likedUserId
+    #     }
 
 
 class Users(Base):
@@ -88,3 +123,11 @@ class Users(Base):
     snsProviderId: Mapped[str] = mapped_column(String(255), nullable=False, unique=True)
     wantFcmMessage: Mapped[bool] = mapped_column()
     fcmToken: Mapped[str] = mapped_column(String(500), unique=True)
+
+    def dictionary(self) -> dict:
+        return {
+            "userId": self.userId, "email": self.email, "nickname": self.nickname, "password": self.password,
+            "registerDate": self.registerDate, "snsProvider": self.snsProvider, "snsProviderId": self.snsProviderId,
+            "wantFcmMessage": self.wantFcmMessage, "fcmToken": self.fcmToken
+        }
+

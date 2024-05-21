@@ -30,7 +30,7 @@ def select_users_info_by_user_id(user_id: int) -> dict | None:
     liked_results = select_all_liked_lectures_by_user_id(result.userId)
     session.close()
     return {
-        "user": result,
+        "user": result.dictionary(),
         "applied": applied_results,
         "liked": liked_results
     }
@@ -83,10 +83,10 @@ def check_user_already_exists(email: str) -> bool:
     session: Session = DbConnection().get_session()
     exist: int = session.query(Users).where(Users.email == email).count()
     session.close()
-    return exist == 0
+    return exist > 0
 
 
-def select_all_applied_lectures_by_user_id(user_id: int) -> list[Lectures]:
+def select_all_applied_lectures_by_user_id(user_id: int) -> list[dict]:
     """
     사용자가 신청한 강좌의 내용들을 가져온다.
     :param user_id: 사용자 아이디
@@ -95,16 +95,16 @@ def select_all_applied_lectures_by_user_id(user_id: int) -> list[Lectures]:
     session: Session = DbConnection().get_session()
     stmt = select(Applied.appliedLectureId).where(Applied.appliedUserId == user_id)
     result: Sequence[int] = session.scalars(stmt).all()
-    lectures: list[Lectures] = []
+    lectures: list[dict] = []
     for item in result:
         query = select(Lectures).where(Lectures.lectureId == item)
         lecture = session.scalar(query)
-        lectures.append(lecture)
+        lectures.append(lecture.dictionary())
     session.close()
     return lectures
 
 
-def select_all_liked_lectures_by_user_id(user_id: int) -> list[Lectures]:
+def select_all_liked_lectures_by_user_id(user_id: int) -> list[dict]:
     """
     사용자가 좋아요 한 강좌 내용.
     :param user_id: 사용자 아이디
@@ -112,17 +112,17 @@ def select_all_liked_lectures_by_user_id(user_id: int) -> list[Lectures]:
     """
     session: Session = DbConnection().get_session()
     stmt = select(Liked.likedLectureId).where(Liked.likedUserId == user_id)
-    lectures: list[Lectures] = []
+    lectures: list[dict] = []
     result: Sequence[int] = session.scalars(stmt).all()
     for item in result:
         query = select(Lectures).where(Lectures.lectureId == item)
         lecture = session.scalar(query)
-        lectures.append(lecture)
+        lectures.append(lecture.dictionary())
     session.close()
     return lectures
 
 
-def select_all_categories() -> Sequence[Categories]:
+def select_all_categories() -> list[dict]:
     """
     모든 카테고리 반환.
     :return:
@@ -130,11 +130,14 @@ def select_all_categories() -> Sequence[Categories]:
     session: Session = DbConnection().get_session()
     stmt = select(Categories)
     result = session.scalars(stmt).all()
+    categories: list[dict] = []
+    for category in result:
+        categories.append({"categoryId": category.categoryId, "categoryName": category.categoryName, "targetId": category.targetId})
     session.close()
-    return result
+    return categories
 
 
-def select_all_targets() -> Sequence[Targets]:
+def select_all_targets() -> list[dict]:
     """
     모든 대상 반환.
     :return:
@@ -142,8 +145,11 @@ def select_all_targets() -> Sequence[Targets]:
     session: Session = DbConnection().get_session()
     stmt = select(Targets)
     result = session.scalars(stmt).all()
+    targets: list[dict] = []
+    for target in result:
+        targets.append({"targetId": target.targetId, "targetName": target.targetName})
     session.close()
-    return result
+    return targets
 
 
 def select_centers_by_type(types: str) -> Sequence[Centers]:
@@ -170,53 +176,66 @@ def select_lecture_by_lecture_id(lecture_id: int) -> Lectures:
     return result
 
 
-def select_all_lectures_by_search_options(**kwargs) -> Sequence[Lectures]:
-    page_num: int = kwargs.get("page")
+def select_all_lectures_by_search_options(**kwargs) -> list[dict]:
+    page_num: str = kwargs.get("page")
     keyword: str = kwargs.get("keyword")
     center_type: str = kwargs.get("centerType")
-    target: str = kwargs.get("targetId")
-    category: str = kwargs.get("categoryId")
+    target: str = kwargs.get("target")
+    category: str = kwargs.get("category")
 
     text_query: str = "SELECT * FROM lectures"
     query_list: list[str] = []
 
     session: Session = DbConnection().get_session()
 
-    if validate_string(category):
-        category_name: str = session.query(Categories.categoryName).where(Categories.categoryId == int(category)).one()
-        query_list.append(f"category='{category_name}'")
-
-    if validate_string(target):
+    if validate_string(target) and  validate_string(category) :
         target_name: str = session.query(Targets.targetName).where(Targets.targetId == int(target)).one()
-        query_list.append(f"target='{target_name}'")
+        query_list.append(f" {target_name[0]} IS NOT NULL")
+        category_name: str = session.query(Categories.categoryName).where(Categories.categoryId == int(category)).one()
+        query_list.append(f" {target_name[0]}='{category_name[0]}'")
+    elif  validate_string(category):
+        category_name: str = session.query(Categories.categoryName).where(Categories.categoryId == int(category)).one()
+        query_list.append(f" kid='{category_name[0]}' OR baby='{category_name[0]}' OR adult='{category_name[0]}'")
+    elif validate_string(target):
+        target_name: str = session.query(Targets.targetName).where(Targets.targetId == int(target)).one()
+        query_list.append(f" {target_name[0]} IS NOT NULL")
+    else:
+        pass
+
 
     if validate_string(keyword):
-        query_list.append(f"title LIKE '%{keyword}%'")
+        query_list.append(f" title LIKE '%{keyword}%'")
 
     if validate_string(center_type):
-        query_list.append(f"type='{center_type}'")
+        query_list.append(f" type='{center_type}'")
+    print(query_list)
+    if len(query_list) > 0:
+        text_query = text_query + " WHERE " + " AND ".join(query_list)
 
-    if query_list.__len__() > 0:
-        text_query = text_query + "WHERE " + " AND ".join(query_list)
-
-    if page_num is not None:
-        text_query = text_query + f" LIMIT {page_num * 16}, 16;"
+    if page_num is not None and len(page_num) > 1 and page_num != "null":
+        text_query = text_query + f" LIMIT {int(page_num) * 16}, 16;"
     else:
         text_query = text_query + " LIMIT 1, 16;"
 
     stmt = select(Lectures).from_statement(text(text_query))
     results = session.scalars(stmt).all()
+    lectures: list[dict] = []
+    for lecture in results:
+        lectures.append(lecture.dictionary())
     session.close()
-    return results
+    return lectures
 
 
 def today_sign_in_user_mount() -> int:
-    query: str = f"SELECT Count(*) AS count FORM users WHERE DATE_FORMAT(registerDate, '%Y-%m-%d')={datetime.now()};"
-    stmt = select(Users).from_statement(text(query))
+    now: datetime = datetime.now()
+    # now.strftime("")
+    # query: str = f"SELECT Count(*) AS count FORM users WHERE DATE_FORMAT(registerDate, '%Y-%m-%d')=DATE_FORMAT('{now}', '%Y-%m-%d');"
+    # stmt = select(Users).from_statement(text(query))
     session: Session = DbConnection().get_session()
-    mount: int = session.scalars(stmt).one()
+    count = session.query(Users).where(Users.registerDate == now).count()
+    # mount: int = session.scalars(stmt).one()
     session.close()
-    return mount
+    return count
 
 
 def get_registered_fmc_token(user_id: int) -> str | None:

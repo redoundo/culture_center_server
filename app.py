@@ -1,5 +1,6 @@
 import requests
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from appserver.error.customerror import global_error_handler
 from appserver.db.selectdb import *
 from appserver.db.changedb import *
@@ -16,6 +17,7 @@ import os
 os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
 # 사용자 정의 에러가 raise 되면 global_error_handler 가 잡아서 해당 에러 내용을 response 에 넣는다.
 flask_app = global_error_handler(Flask(__name__))
+CORS(flask_app, origins=["http://localhost:3000"])
 # flask_app.config.from_mapping(
 #     CELERY=dict(
 #         broker_url="redis://default:ephreFpkHjIpJzqfFN7dqTMGIwG3Qfkx@redis-15946.c290.ap-northeast-1-2.ec2.redns.redis-cloud.com:15946",
@@ -53,27 +55,27 @@ flask_app = global_error_handler(Flask(__name__))
 #     return
 
 # 매일 아침 7시에 fcm message 를 보내는 scheduler.
-background_scheduler: BackgroundScheduler = BackgroundScheduler(deamon=True)
-
-
-@background_scheduler.scheduled_job(trigger="cron", hour=7)
-def send_message():
-    send_fcm_message()
-    print("fcm_message are sent!! current time is ")
-    return
-
-
-background_scheduler.start()
-
-
-@flask_app.teardown_appcontext
-def shutdown_scheduler():
-    """
-    flask app 이 끝나면 background scheduler 도 닫는다.
-    :return:
-    """
-    background_scheduler.shutdown()
-    return
+# background_scheduler: BackgroundScheduler = BackgroundScheduler()
+#
+#
+# @background_scheduler.scheduled_job(trigger="cron", hour=7)
+# def send_message():
+#     send_fcm_message()
+#     print("fcm_message are sent!! current time is ")
+#     return
+#
+#
+# background_scheduler.start()
+#
+#
+# @flask_app.teardown_appcontext
+# def shutdown_scheduler():
+#     """
+#     flask app 이 끝나면 background scheduler 도 닫는다.
+#     :return:
+#     """
+#     background_scheduler.shutdown()
+#     return
 
 
 @flask_app.route('/api/', methods=['GET'])
@@ -84,16 +86,25 @@ def find_all_lectures_by_search_options():
     :return:
     """
     params = request.args
-    lectures: Sequence[Lectures] = (
-        select_all_lectures_by_search_options(page=params['page'], category=params['categoryId'],
-                                              centerType=params['type'], keyword=params['keyword'],
-                                              target=params['targetId'])
+    token = request.headers.get("Authorization")
+    print(params.get("categoryId"))
+    lectures: list[dict] = (
+        select_all_lectures_by_search_options(page=params.get("page"), category=params.get('categoryId'),
+                                              centerType=params.get('type'), keyword=params.get('keyword'),
+                                              target=params.get('targetId'))
     )
-    targets: Sequence[Targets] = select_all_targets()
-    categories: Sequence[Categories] = select_all_categories()
+    if token != None:
+        user_id = decode_jwt(token).get("userId")
+        liked_applied: dict = {}
+        liked_applied["liked"] = select_all_liked_lectures_by_user_id(user_id)
+        liked_applied["applied"]=select_all_applied_lectures_by_user_id(user_id)
+    else:
+        liked_applied = None
+    targets: list[dict] = select_all_targets()
+    categories: list[dict] = select_all_categories()
     center_types: Sequence[str] = select_all_center_type()
     return jsonify({
-        'lectures': lectures, 'targets': targets, 'categories': categories, 'type': center_types
+        'lectures': lectures, 'targets': targets, 'categories': categories, 'type': center_types, "liked_applied": liked_applied
     })
 
 
@@ -142,7 +153,7 @@ def set_applied_this_lecture_by_lecture_id():
     """
     lecture_id = request.args.get("lectureId")
     token = request.headers.get("Authorization")
-
+    print(lecture_id)
     if not validate_string(token):
         return
     if not validate_string(lecture_id):
@@ -153,17 +164,18 @@ def set_applied_this_lecture_by_lecture_id():
     return jsonify({'status': 200})
 
 
-@flask_app.route("/api/myPage", methods=['POST'])
+@flask_app.route("/api/myPage/user", methods=['POST'])
 def find_user_by_user_id():
     """
     jwt 토큰을 통해 사용자 아이디를 가져온 뒤, 해당 아이디로 저장된 내용들을 전부 가져온다.
     :return:
     """
-    token = request.headers.get("Authorization")
-    if not validate_string(token):
+    token = request.get_json()
+    print(token)
+    if not validate_string(token["Authorization"]):
         raise CustomException.NEED_LOGIN_EXCEPTION
 
-    user_id = decode_jwt(token).get("userId")
+    user_id = decode_jwt(token["Authorization"]).get("userId")
     if user_id is None:
         raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
 
@@ -171,7 +183,7 @@ def find_user_by_user_id():
     if result is None:
         return jsonify({"user": None})
 
-    return jsonify(result)
+    return jsonify({"user": result})
 
 
 @flask_app.route("/api/myPage/<applied_liked>/delete", methods=['GET'])
@@ -182,12 +194,14 @@ def my_page_delete_liked_or_applied_by_lecture_id(applied_liked: str):
     :return:
     """
     token = request.headers.get("Authorization")
+    print(token)
     if not validate_string(token):
         raise CustomException.NEED_LOGIN_EXCEPTION
     user_id = decode_jwt(token).get("userId")
     if user_id is None:
         raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     lecture_id = request.args.get("lectureId")
+    print(lecture_id)
     if not validate_string(lecture_id):
         raise CustomException.NO_REQUIRED_ARGUMENTS_EXCEPTION
 
@@ -204,10 +218,11 @@ def find_user_info_for_edit_info():
     정보 변경을 위해 토큰에서 사용자 아이디를 받아온 뒤 사용자 정보를 가져온다.
     :return: 사용자 정보
     """
-    token = request.headers.get("Authorization")
-    if not validate_string(token):
+    token = request.get_json()
+    print(token)
+    if not validate_string(token["Authorization"]):
         raise CustomException.NEED_LOGIN_EXCEPTION
-    user_id = decode_jwt(token).get("userId")
+    user_id = decode_jwt(token["Authorization"]).get("userId")
     if user_id is None:
         raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     user: Users = select_user_by_user_id(int(user_id))
@@ -220,11 +235,12 @@ def update_user_info():
     사용자 정보 업데이트
     :return:
     """
-    token = request.headers.get("Authorization")
-    if not validate_string(token):
+    token = request.get_json()
+    print(token)
+    if not validate_string(token["Authorization"]):
         raise CustomException.NEED_LOGIN_EXCEPTION
 
-    user_id = decode_jwt(token).get("userId")
+    user_id = decode_jwt(token["Authorization"]).get("userId")
     if user_id is None:
         raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
 
@@ -241,25 +257,58 @@ def let_withdraw_user_by_user_id():
     회원 탈퇴
     :return:
     """
-    token = request.headers.get("Authorization")
-    if not validate_string(token):
+    token = request.get_json()
+    print(token)
+    if not validate_string(token["Authorization"]):
         raise CustomException.NEED_LOGIN_EXCEPTION
-    user_id = decode_jwt(token).get("userId")
+    user_id = decode_jwt(token["Authorization"]).get("userId")
     if user_id is None:
         raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     withdraw_user_by_user_id(int(user_id))
     return jsonify({"status": 200})
 
 
-@flask_app.route("/api/signIn/<sns>/publish_jwt", methods=["POST"])
+@flask_app.route("/api/<sns>/login", methods=["POST"])
+def sns_access_token(sns: str):
+    query = request.get_json()
+    print(query)
+
+    if sns == "naver":
+        publish_url: str = "https://nid.naver.com/oauth2.0/token"
+        response = requests.get(publish_url + "?" + query["query"])
+    else:
+        publish_url: str = "https://oauth2.googleapis.com/token"
+        response = requests.post(publish_url, query)
+
+    res = response.json()
+    print(res)
+    return jsonify(res)
+
+@flask_app.route("/api/naver/user_info", methods=["POST"])
+def naver_get_user_info():
+    url: str = "https://openapi.naver.com/v1/nid/me"
+    naver_token = request.get_json()
+    print(naver_token)
+    response = requests.get(url=url, headers={"Authorization": "Bearer " + naver_token["Authorization"]})
+    res = response.json()
+    print(res)
+    return jsonify(res)
+
+
+@flask_app.route("/api/signin/<sns>/publish_jwt", methods=["POST"])
 def sign_in_publish_jwt(sns: str):
     user_info = request.get_json()
+    print(user_info)
+    print(sns)
     if user_info["email"] is None or user_info["id"] is None:
         raise CustomException.FAILED_AUTHORIZED_EXCEPTION
 
     exist: int = check_user_already_exists(user_info["email"])
     if exist > 0:
-        return jsonify({"status": 403})
+        user: Users = select_user_by_email(user_info["email"])
+        print(user.userId)
+        print(encode_jwt(user.userId))
+        return jsonify({"status": 200, "Authentication": encode_jwt(user.userId)})
 
     if sns == "CultureCenter":
         now: datetime = datetime.now()
@@ -277,14 +326,13 @@ def sign_in_publish_jwt(sns: str):
 
     else:
         provider_id: str = sns.upper() + "_" + user_info["id"]
-        if user_info["nickname"] is None:
-            nickname: str = provider_id
-        else:
-            nickname: str = user_info["nickname"]
+        nickname: str = user_info["email"]
 
-        sign_in_user(user_info["email"], "NONE", nickname, sns, provider_id)
+        print(nickname)
+        sign_in_user(user_info["email"], provider_id, nickname, sns, provider_id)
 
     new_user: Users = select_user_by_email(user_info["email"])
+    print(new_user.userId)
     return jsonify({"status": 200, "Authentication": encode_jwt(new_user.userId)})
 
 
@@ -307,6 +355,17 @@ def login_publish_jwt(sns: str):
     jwt_token: str = encode_jwt(user.userId)
     return jsonify({"status": 200, "Authentication": jwt_token})
 
+
+@flask_app.route("/api/auth/isValid", methods=["POST"])
+def is_logged_in():
+    token = request.get_json()
+    decoded = decode_jwt(token["token"])
+    print(decoded)
+    user: Users = select_user_by_user_id(decoded["userId"])
+    if user.userId != None:
+        return jsonify({"status": 200, "userId": user.userId})
+    else:
+        return jsonify({"status": 400, "userId": -1})
 
 @flask_app.route("/api/signin/check_nickname_is_unique", methods=["POST"])
 def nickname_uniqueness():
