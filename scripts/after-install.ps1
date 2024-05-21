@@ -1,4 +1,3 @@
-choco install docker-cli
 python install pip
 pip install --upgrade pip
 pip install --upgrade setuptools
