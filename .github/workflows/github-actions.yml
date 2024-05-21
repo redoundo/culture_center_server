@@ -10,10 +10,9 @@ permissions:
 jobs:
   deploying:
     env:
-      DEPLOY_APP_NAME: culture_center_app
-      DEPLOYMENT_GROUP_NAME: deploy-group
+      DEPLOY_APP_NAME: culture-center-app
+      DEPLOYMENT_GROUP_NAME: code-deploy-group
       S3_BUCKET_NAME: culture-center-bucket
-      CUSTOM_NUMBER: 1
 
     runs-on: window-latest
     steps:
@@ -37,7 +36,7 @@ jobs:
         run: |
           $resource = "C:/Users/admin/flaskserver/server/app"
           $7zipPath = "C:/Program Files/7-Zip/7z.exe"
-          $compressed = "C:/Users/admin/flaskserver/server/app/culturecenter${{ env.CUSTOM_NUMBER }}"
+          $compressed = "C:/Users/admin/flaskserver/server/app/culturecenter"
           & $7zipPath a -tzip $compressed $resource
 
       - name: access to aws
@@ -49,11 +48,12 @@ jobs:
 
 
       - name: Upload to S3
-        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/flaskserver/server/app/culturecenter${{ env.CUSTOM_NUMBER }}.zip s3://${{ env.S3_BUCKET_NAME }}/culturecenter${{ env.CUSTOM_NUMBER }}.zip
+        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/flaskserver/server/app/culturecenter.zip s3://${{ env.S3_BUCKET_NAME }}/culturecenter.zip
 
       - name: 🚀 Deploy to EC2 with CodeDeploy
         run: aws deploy create-deployment
          --application-name ${{ env.DEPLOY_APP_NAME }}
          --deployment-config-name CodeDeployDefault.AllAtOnce
          --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
-         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=culturecenter${{ env.CUSTOM_NUMBER }}.zip
+         --ignore-application-stop-failures
+         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=culturecenter.zip
