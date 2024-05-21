@@ -53,8 +53,8 @@ class Centers(Base):
     centerType: Mapped[str] = mapped_column(String(45), nullable=False)
     centerUrl: Mapped[str] = mapped_column(String(200), nullable=False)
 
-    # def __dict__(self):
-    #     return {"centerId": self.centerId, "centerName": self.centerName, "centerType": self.centerType, "centerUrl": self.centerUrl}
+    def dictionary(self):
+        return {"centerId": self.centerId, "centerName": self.centerName, "centerType": self.centerType, "centerUrl": self.centerUrl}
 
 
 class Categories(Base):
@@ -63,16 +63,16 @@ class Categories(Base):
     categoryName: Mapped[str] = mapped_column(String(100), nullable=False)
     targetId: Mapped[int] = mapped_column(nullable=False)
 
-    # def __dict__(self):
-    #     return {"categoryId" : self.categoryId, "categoryName": self.categoryName, "targetId": self.targetId}
+    def dictionary(self):
+        return {"categoryId" : self.categoryId, "categoryName": self.categoryName, "targetId": self.targetId}
 
 class Targets(Base):
     __tablename__ = "targets"
     targetId: Mapped[int] = mapped_column(primary_key=True, nullable=False, autoincrement=True)
     targetName: Mapped[str] = mapped_column(String(45), nullable=False, unique=True)
 
-    # def __dict__(self):
-    #     return {"targetId": self.targetId, "targetName": self.targetName}
+    def dictionary(self):
+        return {"targetId": self.targetId, "targetName": self.targetName}
 
 class Branches(Base):
     __tablename__ = "branches"
@@ -81,10 +81,10 @@ class Branches(Base):
     branchAddress: Mapped[str] = mapped_column(String(255), nullable=False)
     centerIdOfBranch: Mapped[int] = mapped_column(nullable=False)
 
-    # def __dict__(self):
-    #     return {
-    #         "branchId": self.branchId, "branchName": self.branchName, "branchAddress": self.branchAddress, "centerIdOfBranch": self.centerIdOfBranch
-    #     }
+    def dictionary(self):
+        return {
+            "branchId": self.branchId, "branchName": self.branchName, "branchAddress": self.branchAddress, "centerIdOfBranch": self.centerIdOfBranch
+        }
 
 
 class Applied(Base):
@@ -93,10 +93,10 @@ class Applied(Base):
     appliedLectureId: Mapped[int] = mapped_column(nullable=False)
     appliedUserId: Mapped[int] = mapped_column(nullable=False)
 
-    # def __dict__(self):
-    #     return {
-    #         "appliedId": self.appliedId, "appliedLectureId": self.appliedLectureId, "appliedUserId": self.appliedUserId
-    #     }
+    def dictionary(self):
+        return {
+            "appliedId": self.appliedId, "appliedLectureId": self.appliedLectureId, "appliedUserId": self.appliedUserId
+        }
 
 
 class Liked(Base):
@@ -105,10 +105,10 @@ class Liked(Base):
     likedLectureId: Mapped[int] = mapped_column(nullable=False)
     likedUserId: Mapped[int] = mapped_column(nullable=False)
 
-    # def __dict__(self):
-    #     return {
-    #         "liekdId": self.likedId, "likedLectureId": self.likedLectureId, "likedUserId": self.likedUserId
-    #     }
+    def dictionary(self):
+        return {
+            "liekdId": self.likedId, "likedLectureId": self.likedLectureId, "likedUserId": self.likedUserId
+        }
 
 
 class Users(Base):

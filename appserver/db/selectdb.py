@@ -132,7 +132,7 @@ def select_all_categories() -> list[dict]:
     result = session.scalars(stmt).all()
     categories: list[dict] = []
     for category in result:
-        categories.append({"categoryId": category.categoryId, "categoryName": category.categoryName, "targetId": category.targetId})
+        categories.append(category.dictionary())
     session.close()
     return categories
 
@@ -147,7 +147,7 @@ def select_all_targets() -> list[dict]:
     result = session.scalars(stmt).all()
     targets: list[dict] = []
     for target in result:
-        targets.append({"targetId": target.targetId, "targetName": target.targetName})
+        targets.append(target.dictionary())
     session.close()
     return targets
 
@@ -208,7 +208,6 @@ def select_all_lectures_by_search_options(**kwargs) -> list[dict]:
 
     if validate_string(center_type):
         query_list.append(f" type='{center_type}'")
-    print(query_list)
     if len(query_list) > 0:
         text_query = text_query + " WHERE " + " AND ".join(query_list)
 
