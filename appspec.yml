@@ -13,6 +13,8 @@ files:
       destination: /home/app
     - source: /requirements.txt
       destination: /home/app
+    - source: /.env
+      destination: /home/app
     - source: /.github
       destination: /home/app/.github
     - source: /appserver

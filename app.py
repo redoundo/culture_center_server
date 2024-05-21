@@ -8,7 +8,6 @@ from appserver.sendfcmmessage import *
 from utils.util import validate_string
 from appserver.error.customerror import CustomException
 from appserver.Jwt.jwtprovider import decode_jwt, encode_jwt
-from celery import Celery, Task
 from apscheduler.schedulers.background import BackgroundScheduler
 import hashlib
 import os
@@ -18,41 +17,6 @@ os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
 # 사용자 정의 에러가 raise 되면 global_error_handler 가 잡아서 해당 에러 내용을 response 에 넣는다.
 flask_app = global_error_handler(Flask(__name__))
 CORS(flask_app, origins=["http://localhost:3000"])
-# flask_app.config.from_mapping(
-#     CELERY=dict(
-#         broker_url="redis://default:ephreFpkHjIpJzqfFN7dqTMGIwG3Qfkx@redis-15946.c290.ap-northeast-1-2.ec2.redns.redis-cloud.com:15946",
-#         task_ignore_result=True,
-#         broker_connection_retry_on_startup=True,
-#         broker_connection_max_retries=1,
-#         broker_pool_limit=1,
-#         worker_concurrency=1
-#     ),
-# )
-#
-#
-# class FlaskTask(Task):
-#     def __call__(self, *args: object, **kwargs: object) -> object:
-#         with flask_app.app_context():
-#             return self.run(*args, **kwargs)
-#
-#
-# def celery_init_app(flask_app: Flask) -> Celery:
-#     celery_app = Celery("tasks")
-#     celery_app.config_from_object(flask_app.config["CELERY"])
-#     celery_app.set_default()
-#     flask_app.extensions["CELERY"] = celery_app
-#     celery_app.task(FlaskTask)
-#
-#     return celery_app
-#
-#
-# celery_app = celery_init_app(flask_app)
-#
-#
-# @celery_app.task(bind=True)
-# def send_message_to_receiver():
-#     send_fcm_message()
-#     return
 
 # 매일 아침 7시에 fcm message 를 보내는 scheduler.
 # background_scheduler: BackgroundScheduler = BackgroundScheduler()
