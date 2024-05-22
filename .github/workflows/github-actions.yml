@@ -28,6 +28,7 @@ jobs:
           Add-Content -Path .env -Value DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}}
           Add-Content -Path .env -Value DATABASE_HOST=${{secrets.DATABASE_HOST}}
           Add-Content -Path .env -Value DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}}
+          Add-Content -Path .env -Value JWT_SECRET=${{secrets.JWT_SECRET}}
 
       - name: build python program
         run: pip install -e .
