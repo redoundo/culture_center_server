@@ -42,7 +42,7 @@ hooks:
           timeout: 600
     AfterInstall:
         - location: scripts/after-install.ps1
-          timeout: 600
+          timeout: 1200
     ApplicationStart:
       - location: scripts/application-start.ps1
-        timeout: 600
+        timeout: 1200
