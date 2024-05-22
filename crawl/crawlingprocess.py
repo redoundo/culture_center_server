@@ -4,7 +4,7 @@ from crawler.unwrapcenterinfo import unwrap_no_link, unwrap_with_link
 from messages.messenger import DiscordMessenger
 from db.MysqlActions import MysqlActions
 from crawler.crawlerfactory import NoLinkCrawlerFactory, WithLinkCrawlerFactory
-from playwright.sync_api import Playwright, Page, sync_playwright, Browser
+from playwright.sync_api import Page, sync_playwright, Browser
 import threading
 import sys
 import json

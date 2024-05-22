@@ -14,7 +14,7 @@ def encode_jwt(user_id: int) -> str:
     :param user_id: auto_increase 된 사용자 아이디
     :return:
     """
-    encoded: str = jwt.encode({"userId": user_id, 'exp':datetime.datetime.utcnow() + timedelta(days=3)},
+    encoded: str = jwt.encode({"userId": user_id, 'exp': datetime.datetime.utcnow() + timedelta(days=3)},
                               key=os.getenv("JWT_SECRET"),
                               algorithm=os.getenv("JWT_ALGORITHM")
                               )

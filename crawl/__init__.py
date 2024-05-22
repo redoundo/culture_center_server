@@ -5,6 +5,7 @@ from crawler import crawlerfactory, crawlerabstract, unwrapcenterinfo
 from crawler.nolink import AkplazaCrawler, EmartCrawler, HomePlusCrawler, LotteMartCrawler
 from crawler.withlink import GalleriaCrawler, LotteCrawler, HyundaiCrawler
 
+
 class_info_type = ClassIdInfoType
 center_info_no_link = CenterInfoNoLink
 center_info_with_link = CenterInfoWithLink

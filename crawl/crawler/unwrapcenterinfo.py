@@ -10,6 +10,7 @@ def validate_string(string: str) -> bool:
     """
     return string is not None and string != "null" and len(string) > 0
 
+
 def unwrap_with_link(data: dict, center: str) -> list[CenterInfoWithLink]:
     """
     json 파일 내용을 객체에 담아 반환한다. 모집중 조건도 전부 세팅되어 있는 링크이므로 바로 들어가서 크롤링을 하면 된다.

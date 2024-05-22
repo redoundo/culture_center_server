@@ -1,0 +1,8 @@
+server {
+    listen 8079;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/tmp/server-tmp/ipc.sock;
+    }
+}

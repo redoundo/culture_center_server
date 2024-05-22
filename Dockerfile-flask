@@ -1,0 +1,31 @@
+FROM ubuntu:latest
+
+WORKDIR /flask-server
+
+COPY utils /flask-server/utils
+COPY appserver /flask-server/appserver
+COPY app.py /flask-server
+COPY wsgi.py /flask-server
+COPY server-nginx /flask-server/etc/nginx/sites-available/server-nginx
+COPY guincorn-nginx.sh /flask-server
+
+RUN apt-get update
+RUN apt-get -y upgrade
+RUN apt-get -y upgrade python3
+RUN apt-get -y install python3-pip
+RUN mkdir flask-server
+RUN rm /usr/lib/python3.12/EXTERNALLY-MANAGED
+RUN apt-get -y install nginx
+RUN pip3 install flask gunicorn APScheduler PyJWT SQLAlchemy firebase-admin mysql-connector-python requests python-dotenv werkzeug Flask-Cors
+RUN chmod +x /flask-server/guincorn-nginx.sh
+
+ENV MYSQL_DRIVER_NAME=mysql+mysqlconnector
+ENV DATABASE_PORT=7007
+ENV DATABASE_NAME=culture_center_db
+ENV DATABASE_USERNAME=culturecenter
+ENV JWT_ACCESS_EXPIREDAT=60000
+ENV JWT_REFRESH_EXPIREDAT=70000
+ENV JWT_ISSURE=cultureCenterServer
+ENV JWT_ALGORITHM=HS256
+
+ENTRYPOINT  ["/bin/bash", "/flask-server/guincorn-nginx.sh"]

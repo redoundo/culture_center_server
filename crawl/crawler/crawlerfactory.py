@@ -9,7 +9,6 @@ from crawl.crawler.withlink.LotteCrawler import LotteCrawler
 import enum
 
 
-
 class NoLinkCrawlerFactory(enum.Enum):
     """
     쿼리 스트링 조합으로 검색이 불가능한 사이트들을 크롤링 하는 크롤러를 생산

@@ -367,9 +367,9 @@ def registering_fcm_receiver():
 
 @flask_app.route("/api/new_data_json", methods=["GET"])
 def new_data():
-    return jsonify({"exist": os.path.isfile("/crawl/train_sample.json")})
+    return jsonify({"exist": os.path.isfile("crawl/train_sample.json")})
 
 
 if __name__ == "__main__":
+    print("how are you??")
     flask_app.run(port=8079)
-

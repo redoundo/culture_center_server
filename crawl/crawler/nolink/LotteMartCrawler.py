@@ -4,7 +4,6 @@ from crawl.crawler.crawlerabstract import NoLinkCrawler
 from crawl.typeclass.ClassIdInfoType import ClassIdInfos
 import re
 import time
-import datetime
 from playwright.sync_api import Page
 
 

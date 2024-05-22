@@ -3,6 +3,14 @@ os: windows
 files:
     - source: /app.py
       destination: /home/app
+    - source: /wsgi.py
+      destination: /home/app
+    - source: /Dockerfile-flask
+      destination: /home/app
+    - source: /guincorn-nginx.sh
+      destination: /home/app
+    - source: /server-nginx
+      destination: /home/app
     - source: /appspec.yml
       destination: /home/app
     - source: /Dockerfile
