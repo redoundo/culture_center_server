@@ -11,4 +11,4 @@ ENV DATABASE_USERNAME=culturecenter
 ENV DATABASE_PORT=7007
 
 
-CMD ["python", "crawlingprocess.py"]
+CMD ["python3", "crawlingprocess.py"]

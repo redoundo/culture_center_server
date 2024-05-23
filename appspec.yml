@@ -1,5 +1,5 @@
 version: 0.0
-os: windows
+os: ubuntu
 files:
     - source: /app.py
       destination: /home/app
@@ -38,11 +38,11 @@ file_exists_behavior: OVERWRITE
 
 hooks:
     ApplicationStop:
-        - location: scripts/application-stop.ps1
+        - location: scripts/application-stop.sh
           timeout: 600
     AfterInstall:
-        - location: scripts/after-install.ps1
+        - location: scripts/after-install.sh
           timeout: 2400
     ApplicationStart:
-      - location: scripts/application-start.ps1
+      - location: scripts/application-start.sh
         timeout: 1200

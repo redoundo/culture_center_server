@@ -1,3 +1,4 @@
+#!bin/bash
 cd /home/app
 docker image build -t crawlers:latest -f Dockerfile .
 docker container run -d --name crawl_container --env-file .env -v /home/app/crawl/sample:/crawl/sample crawlers:latest
