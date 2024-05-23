@@ -1,2 +1,2 @@
 #!bin/bash
-systemctl start codedeploy-agent
+systemctl status codedeploy-agent

@@ -38,11 +38,11 @@ file_exists_behavior: OVERWRITE
 
 hooks:
     ApplicationStop:
-        - location: ./scripts/application-stop.sh
+        - location: /home/app/scripts/application-stop.sh
           timeout: 600
     AfterInstall:
-        - location: ./scripts/after-install.sh
+        - location: /home/app/scripts/after-install.sh
           timeout: 2400
     ApplicationStart:
-      - location: ./scripts/application-start.sh
+      - location: /home/app/scripts/application-start.sh
         timeout: 1200
