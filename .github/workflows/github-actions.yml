@@ -10,8 +10,8 @@ permissions:
 jobs:
   deploying:
     env:
-      DEPLOY_APP_NAME: ubuntu-code-deploy
-      DEPLOYMENT_GROUP_NAME: ubuntu-deploy-group
+      DEPLOY_APP_NAME: ubuntu-depoly-app
+      DEPLOYMENT_GROUP_NAME: ubuntu-code-deploy-group
       S3_BUCKET_NAME: culture-center-bucket
 
     runs-on: window-latest
