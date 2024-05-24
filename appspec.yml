@@ -37,7 +37,10 @@ files:
 permissions:
   - object: /home/app
     pattern: "**"
-    mode: '755'
+    mode: 755
+    type:
+      - file
+      - directory
     owner: root
     group: root
 
@@ -47,9 +50,12 @@ hooks:
     ApplicationStop:
         - location: scripts/application-stop.sh
           timeout: 600
+          runas: root
     AfterInstall:
         - location: scripts/after-install.sh
           timeout: 2400
+          runas: root
     ApplicationStart:
       - location: scripts/application-start.sh
         timeout: 1200
+        runas: root
