@@ -34,6 +34,12 @@ files:
     - source: /scripts
       destination: /home/app/scripts
 
+permissions:
+  - object: /home/app
+    pattern: "**"
+    owner: root
+    group: root
+
 file_exists_behavior: OVERWRITE
 
 hooks:
@@ -44,5 +50,5 @@ hooks:
         - location: scripts/after-install.sh
           timeout: 2400
     ApplicationStart:
-      - location: application-start.sh
+      - location: scripts/application-start.sh
         timeout: 1200
