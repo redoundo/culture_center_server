@@ -35,8 +35,8 @@ files:
       destination: /home/app/scripts
 
 permissions:
-  - object: "**/*.sh"
-    pattern: "**"
+  - object: /opt/codedeploy-agent/deployment-root
+    pattern: "*scripts*"
     mode: 755
     type:
       - file
