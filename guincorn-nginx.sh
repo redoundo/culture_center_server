@@ -1,4 +1,3 @@
-#echo $0
-#!bin/bash
-gunicorn -w 1 --bind 13.125.183.196:8079 wsgi:flask_app
+#!/bin/bash
+gunicorn -w 1 --bind 172.31.32.74:8077 wsgi:flask_app
 nginx
