@@ -1,3 +1,3 @@
 #!/bin/bash
-systemctl status codedeploy-agent
-chmod +x scripts/after-install.sh
+sudo systemctl status codedeploy-agent
+sudo chmod +x scripts/after-install.sh
