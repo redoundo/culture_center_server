@@ -35,7 +35,7 @@ files:
       destination: /home/app/scripts
 
 permissions:
-  - object: /home/app
+  - object: "**/*.sh"
     pattern: "**"
     mode: 755
     type:
