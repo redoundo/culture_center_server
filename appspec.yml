@@ -37,6 +37,7 @@ files:
 permissions:
   - object: /home/app
     pattern: "**"
+    mode: '755'
     owner: root
     group: root
 
