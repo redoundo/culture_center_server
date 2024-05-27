@@ -16,7 +16,7 @@ import os
 os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
 # 사용자 정의 에러가 raise 되면 global_error_handler 가 잡아서 해당 에러 내용을 response 에 넣는다.
 flask_app = global_error_handler(Flask(__name__))
-CORS(flask_app, origins=["http://localhost:3000"])
+CORS(flask_app, origins=["http://localhost:3000", "https://culture-centers.vercel.app"])
 
 # 매일 아침 7시에 fcm message 를 보내는 scheduler.
 # background_scheduler: BackgroundScheduler = BackgroundScheduler()

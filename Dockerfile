@@ -4,7 +4,7 @@ WORKDIR /crawl
 
 COPY crawl /crawl
 
-RUN pip install playwright mysql-connector-python python-dotenv python-dateutil requests
+RUN pip install playwright mysql-connector-python python-dotenv python-dateutil requests pytz
 
 ENV DATABASE_NAME=culture_center_db
 ENV DATABASE_USERNAME=culturecenter

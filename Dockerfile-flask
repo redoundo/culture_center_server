@@ -17,7 +17,7 @@ RUN apt-get -y install python3-pip
 RUN mkdir flask-server
 RUN rm /usr/lib/python3.12/EXTERNALLY-MANAGED
 RUN apt-get -y install nginx
-RUN pip3 install flask gunicorn APScheduler PyJWT SQLAlchemy firebase-admin mysql-connector-python requests python-dotenv werkzeug Flask-Cors
+RUN pip3 install pytz flask gunicorn APScheduler PyJWT SQLAlchemy firebase-admin mysql-connector-python requests python-dotenv werkzeug Flask-Cors
 RUN chmod +x /flask-server/guincorn-nginx.sh
 
 ENV MYSQL_DRIVER_NAME=mysql+mysqlconnector
