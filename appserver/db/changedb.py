@@ -1,6 +1,6 @@
 from .dbconnection import DbConnection
 from sqlalchemy.orm import Session
-from sqlalchemy import delete, update, insert, select
+from sqlalchemy import delete, update, insert
 from hashlib import sha256
 from .tablemodels import *
 

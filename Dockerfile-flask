@@ -8,6 +8,7 @@ COPY app.py /flask-server
 COPY wsgi.py /flask-server
 COPY server-nginx /flask-server/etc/nginx/sites-available/server-nginx
 COPY guincorn-nginx.sh /flask-server
+COPY sample /flask-server/sample
 
 RUN apt-get update
 RUN apt-get -y upgrade

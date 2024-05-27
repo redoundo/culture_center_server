@@ -1,13 +1,17 @@
 import datetime
+from pytz import timezone
 import json
-
+from dotenv import load_dotenv
+import os
 import requests
 from queue import Queue
+
+load_dotenv()
 
 
 class DiscordMessenger:
 
-    webhookUrl: str = "https://discordapp.com/api/webhooks/1239404247532044338/UTjD8RbhudB18Or5wqMMtGgM2uXRNGXIrrqbcvkcMgltbCYaOJ3YDwiGWB5_d9pvuGMI"
+    webhookUrl: str = os.getenv("DISCORD_WEBHOOK_URL")
     messageQueue: Queue
 
     def __init__(self, message_queue: Queue):
@@ -38,13 +42,13 @@ class DiscordMessenger:
         :return:
         """
         template: dict = {
-            "content": text + "\n" + datetime.datetime.now().strftime("%Y/%m/%d, %H:%M:%S")
+            "content": text + "\n" + datetime.datetime.now(timezone("Asia/Seoul")).strftime("%Y/%m/%d, %H:%M:%S")
         }
         response = requests.post(self.webhookUrl, template)
 
         if response.status_code > 299:  # 문제가 발생 하면
             template["content"] = response.json() + "\n" + text
-            template["error_time"] = datetime.datetime.now().strftime("%Y/%m/%d, %H:%M:%S")
+            template["error_time"] = datetime.datetime.now(timezone("Asia/Seoul")).strftime("%Y/%m/%d, %H:%M:%S")
             with open("sendfailed.json", "a") as j:
                 json.dump(template, j)
         return

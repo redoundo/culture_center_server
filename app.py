@@ -1,5 +1,5 @@
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 from appserver.error.customerror import global_error_handler
 from appserver.db.selectdb import *
@@ -366,9 +366,12 @@ def registering_fcm_receiver():
 
 
 @flask_app.route("/api/new_data_json", methods=["GET"])
-def new_data():
-    return jsonify({"exist": os.path.isfile("crawl/train_sample.json")})
-
+def download_new_data():
+    file_path: str = "/flask-server/sample/train_sample.json"
+    if os.path.exists(file_path) and os.path.isfile(file_path):
+        return send_file(path_or_file=file_path, as_attachment=True, download_name="train_sample.json")
+    else:
+        return jsonify({"status": 404, "message": "no such file."})
 
 if __name__ == "__main__":
     print("how are you??")

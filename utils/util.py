@@ -1,6 +1,7 @@
 from hashlib import sha256
 import json
 import re
+from pytz import timezone
 import datetime
 
 
@@ -47,7 +48,7 @@ def current_time(when, change):
     :param change: +- 숫자
     :return: 날짜
     """
-    now: datetime = datetime.datetime.now()
+    now: datetime = datetime.datetime.now(timezone('Asia/Seoul'))
     year: int = now.year
     month: int = now.month
     day: int = now.day

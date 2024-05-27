@@ -2,6 +2,7 @@ import math
 import re
 import time
 import datetime
+from pytz import timezone
 from crawl.typeclass.LectureType import LectureType
 from crawl.crawler.crawlerabstract import NoLinkCrawler
 from crawl.typeclass.ClassIdInfoType import ClassIdInfos
@@ -134,7 +135,7 @@ class EmartCrawler(NoLinkCrawler):
         lecture_start_split_date: list[str] = lecture_spans[0].split(".")  # [05, 27]
         lecture_end_split_date: list[str] = lecture_spans[1].split(".")  # [06, 03]
 
-        now: datetime = datetime.datetime.now()
+        now: datetime = datetime.datetime.now(timezone("Asia/Seoul"))
         # 2024-05-27
         lecture_full_start_date: str = f"{str(now.year)}-{lecture_start_split_date[0]}-{lecture_start_split_date[1]}"
         # 2024-06-03

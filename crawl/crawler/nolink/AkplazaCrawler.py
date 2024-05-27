@@ -1,6 +1,7 @@
 import re
 import copy
 import time
+from pytz import timezone
 import datetime
 from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 from crawl.typeclass.LectureType import LectureType
@@ -153,7 +154,7 @@ class AkplazaCrawler(NoLinkCrawler):
         lecture_start_split_date: list[str] = lecture_spans[0].split("/")
         lecture_end_split_date: list[str] = lecture_spans[1].split("/")
 
-        now: datetime = datetime.datetime.now()
+        now: datetime = datetime.datetime.now(timezone("Asia/Seoul"))
         lecture_full_start_date: str = f"{str(now.year)}-{lecture_start_split_date[0]}-{lecture_start_split_date[1]}"
         lecture_full_end_date: str = f"{str(now.year)}-{lecture_end_split_date[0]}-{lecture_end_split_date[1]}"
         # 날짜 형식 조정 후 강의일 추출.

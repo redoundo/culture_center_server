@@ -1,3 +1,5 @@
+import queue
+from pytz import timezone
 from mysql.connector import connection
 from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
@@ -28,7 +30,7 @@ def str_to_date(date: str) -> str:
     if date == 'NULL'.replace("'", "''"):
         return date
     if len(date) < 6:
-        return f"STR_TO_DATE('{str(datetime.datetime.now().year)}-{date[0:2]}-{date[3:5]}', '%Y-%m-%d')"
+        return f"STR_TO_DATE('{str(datetime.datetime.now(timezone('Asia/Seoul')).year)}-{date[0:2]}-{date[3:5]}', '%Y-%m-%d')"
     return f"STR_TO_DATE('{date[0:4]}-{date[5:7]}-{date[8:10]}', '%Y-%m-%d')"
 
 
@@ -126,7 +128,7 @@ class MysqlActions:
 
     def skip_saved_url(self, info: CenterInfoNoLink | CenterInfoWithLink, urls: list[str]) -> list[str]:
         need_crawl_urls: list[str] = []
-        now: datetime = datetime.datetime.now()
+        now: datetime = datetime.datetime.now(timezone("Asia/Seoul"))
         try:
             cursor: connection.MySQLCursor = self.connection.cursor()
 
@@ -160,7 +162,7 @@ class MysqlActions:
             self.connection.commit()
         return need_crawl_urls
 
-    def create_train_sample(self):
+    def create_train_sample(self, queue: queue.Queue):
         """
         크롤링한 내용을 라벨링 하기 위해 각 센터별 각 카테고리와 각 대상 마다 각각 100개씩 모은다.
         :return:
@@ -184,9 +186,11 @@ class MysqlActions:
                             sample["Classify"] = 0
                             train_samples.append(sample)
 
-            today: datetime = datetime.datetime.now()
-            path: str = "/crawl/train_sample.json"
+            today: datetime = datetime.datetime.now(timezone("Asia/Seoul"))
+            path: str = "/crawl/sample/train_sample.json"
             add_json_data(path=path, value=train_samples, how="a")
+
+            queue.put(f"train sample 이 생성 되었습니다. 현재 시각은 {today.year}-{today.month}-{today.day} {today.hour}:{today.minute}:{today.second} 입니다. 빠르게 다운 받아 주시기 바랍니다.")
         except Exception as e:
             print(e)
         finally:

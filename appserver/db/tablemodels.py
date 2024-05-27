@@ -64,7 +64,8 @@ class Categories(Base):
     targetId: Mapped[int] = mapped_column(nullable=False)
 
     def dictionary(self):
-        return {"categoryId" : self.categoryId, "categoryName": self.categoryName, "targetId": self.targetId}
+        return {"categoryId": self.categoryId, "categoryName": self.categoryName, "targetId": self.targetId}
+
 
 class Targets(Base):
     __tablename__ = "targets"
@@ -73,6 +74,7 @@ class Targets(Base):
 
     def dictionary(self):
         return {"targetId": self.targetId, "targetName": self.targetName}
+
 
 class Branches(Base):
     __tablename__ = "branches"
