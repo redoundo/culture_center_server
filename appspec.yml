@@ -33,6 +33,8 @@ files:
       destination: /home/app/crawl
     - source: /scripts
       destination: /home/app/scripts
+    - source: /sample
+      destination: /home/app/sample
 
 permissions:
   - object: /opt/codedeploy-agent/deployment-root
