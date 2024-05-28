@@ -7,9 +7,7 @@ files:
       destination: /home/app
     - source: /Dockerfile-flask
       destination: /home/app
-    - source: /guincorn-nginx.sh
-      destination: /home/app
-    - source: /server-nginx
+    - source: /server-nginx.conf
       destination: /home/app
     - source: /appspec.yml
       destination: /home/app
@@ -35,6 +33,8 @@ files:
       destination: /home/app/scripts
     - source: /sample
       destination: /home/app/sample
+    - source: /supervisord.conf
+      destination: /home/app
 
 permissions:
   - object: /opt/codedeploy-agent/deployment-root
