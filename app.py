@@ -19,28 +19,17 @@ flask_app = global_error_handler(Flask(__name__))
 CORS(flask_app, origins=["http://localhost:3000", "https://culture-centers.vercel.app"])
 
 # 매일 아침 7시에 fcm message 를 보내는 scheduler.
-# background_scheduler: BackgroundScheduler = BackgroundScheduler()
-#
-#
-# @background_scheduler.scheduled_job(trigger="cron", hour=7)
-# def send_message():
-#     send_fcm_message()
-#     print("fcm_message are sent!! current time is ")
-#     return
-#
-#
-# background_scheduler.start()
-#
-#
-# @flask_app.teardown_appcontext
-# def shutdown_scheduler():
-#     """
-#     flask app 이 끝나면 background scheduler 도 닫는다.
-#     :return:
-#     """
-#     background_scheduler.shutdown()
-#     return
+background_scheduler: BackgroundScheduler = BackgroundScheduler()
 
+
+@background_scheduler.scheduled_job(trigger="cron", hour=7)
+def send_message():
+    send_fcm_message()
+    print("fcm_message are sent!! current time is ")
+    return
+
+
+background_scheduler.start()
 
 @flask_app.route('/api/', methods=['GET'])
 @flask_app.route('/api/lecture', methods=['GET'])
