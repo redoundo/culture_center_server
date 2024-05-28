@@ -162,7 +162,7 @@ def select_centers_by_type(types: str) -> Sequence[Centers]:
 
 def select_all_center_type() -> Sequence[str]:
     session: Session = DbConnection().get_session()
-    stmt = select(Centers.centerType)
+    stmt = select(Centers.centerType).distinct()
     result = session.scalars(stmt).all()
     session.close()
     return result

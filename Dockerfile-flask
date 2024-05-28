@@ -6,9 +6,9 @@ COPY utils /flask-server/utils
 COPY appserver /flask-server/appserver
 COPY app.py /flask-server
 COPY wsgi.py /flask-server
-COPY server-nginx /flask-server/etc/nginx/sites-available/server-nginx
-COPY guincorn-nginx.sh /flask-server
+COPY server-nginx.conf /flask-server/etc/nginx/sites-available/server-nginx.conf
 COPY sample /flask-server/sample
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 RUN apt-get update
 RUN apt-get -y upgrade
@@ -16,7 +16,8 @@ RUN apt-get -y upgrade python3
 RUN apt-get -y install python3-pip
 RUN mkdir flask-server
 RUN rm /usr/lib/python3.12/EXTERNALLY-MANAGED
-RUN apt-get -y install nginx
+RUN apt-get -y install nginx supervisor
+RUN ln -s /flask-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/sites-enabled/server-nginx.conf
 RUN pip3 install pytz flask gunicorn APScheduler PyJWT SQLAlchemy firebase-admin mysql-connector-python requests python-dotenv werkzeug Flask-Cors
 RUN chmod +x /flask-server/guincorn-nginx.sh
 
@@ -29,4 +30,5 @@ ENV JWT_REFRESH_EXPIREDAT=70000
 ENV JWT_ISSURE=cultureCenterServer
 ENV JWT_ALGORITHM=HS256
 
-ENTRYPOINT  ["/bin/bash", "/flask-server/guincorn-nginx.sh"]
+CMD ["supervisord", "-n"]
+
