@@ -141,7 +141,7 @@ if __name__ == '__main__':
     messenger: DiscordMessenger = DiscordMessenger(message_queue=message_queue)
     url_thread: threading.Thread = threading.Thread(daemon=True, target=url_crawling, args=[url_queue, message_queue, ])
     info_thread: threading.Thread = threading.Thread(daemon=True, target=info_crawling, args=[url_queue, message_queue, ])
-    message_thread: threading.Thread = threading.Thread(daemon=True, target=messenger.send_message())
+    message_thread: threading.Thread = threading.Thread(daemon=True, target=messenger.send_message)
     url_thread.start()
     info_thread.start()
 

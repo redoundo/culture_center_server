@@ -14,13 +14,13 @@ class NoLinkCrawlerFactory(enum.Enum):
     쿼리 스트링 조합으로 검색이 불가능한 사이트들을 크롤링 하는 크롤러를 생산
     """
     HOMEPLUS = ("HOMEPLUS", HomePlusCrawler, "https://mschool.homeplus.co.kr/Lecture/Search",
-                "crawl/resource/homeplus.json")
+                "crawler/resource/homeplus.json")
     EMART = ("EMART", EmartCrawler, "https://www.cultureclub.emart.com/enrolment",
-             "crawl/resource/emart.json")
+             "crawler/resource/emart.json")
     LOTTEMART = ("LOTTEMART", LotteMartCrawler, "https://culture.lottemart.com/cu/gus/course/courseinfo/courselist.do?",
-                 "crawl/resource/lottemart.json")
+                 "crawler/resource/lottemart.json")
     AKPLAZA = ("AKPLAZA", AkplazaCrawler, "https://culture.akplaza.com/course/list02",
-               "/crawl/resource/akplaza.json")
+               "crawler/resource/akplaza.json")
 
     def __init__(self, center: str, crawler: NoLinkCrawler, url: str, path: str):
         """
