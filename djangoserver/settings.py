@@ -25,7 +25,8 @@ SECRET_KEY = config("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "0.0.0.0", "culture-centers.vercel.app"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "0.0.0.0", "culture-centers.vercel.app", "13.125.183.196",
+                 "ec2-13-125-183-196.ap-northeast-2.compute.amazonaws.com"]
 
 
 # Application definition
