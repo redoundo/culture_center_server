@@ -1,0 +1,978 @@
+{
+  "서울점": {
+    "본점": {
+      "Address": "서울특별시 중구 남대문로 81 (소공동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0001&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "잠실점": {
+      "Address": "서울특별시 송파구 올림픽로 240 (잠실동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0002&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "청량리점": {
+      "Address": "서울특별시 동대문구 왕산로 214(전농동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0004&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "관악점": {
+      "Address": "서울특별시 관악구 봉천로 209(봉천동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0006&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "영등포점": {
+      "Address": "서울특별시 영등포구 경인로 846(영등포동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0010&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "강남점": {
+      "Address": "서울특별시 강남구 선릉로 62길 28(대치동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0013&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "노원점": {
+      "Address": "서울특별시 노원구 동일로 1414(상계동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0022&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "미아점": {
+      "Address": "서울특별시 강북구 도봉로 62 (미아동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0026&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "건대스타시티점": {
+      "Address": "서울특별시 광진구 능동로 92(자양동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0028&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "김포공항점": {
+      "Address": "서울특별시 강서구 하늘길 38 (방화동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0340&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "경기도": {
+    "분당점": {
+      "Address": "경기도 성남시 분당구 황새울로 200번길 45(수내동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0008&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "일산점": {
+      "Address": "경기도 고양시 일산동구 중앙로 1283(장항동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0011&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "중동점": {
+      "Address": "경기도 부천시 길주로 300(중동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0334&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "구리점": {
+      "Address": "경기도 구리시 경춘로 261(인창동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0335&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "안산점": {
+      "Address": "경기도 안산시 단원구 중앙대로 873 (고잔동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0336&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "평촌점": {
+      "Address": "경기도 안양시 동안구 시민대로 180(호계동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0341&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "수원점": {
+      "Address": "경기도 수원시 권선구 세화로 134(서둔동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0349&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "롯데몰광명점": {
+      "Address": "경기도 광명시 일직로 17(일직동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0350&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "동탄점": {
+      "Address": "경기도 화성시 동탄역로 160(오산동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0399&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "인천": {
+    "인천점": {
+      "Address": "인천광역시 미추홀구 연남로 35(관교동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0344&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "부산": {
+    "부산본점": {
+      "Address": "부산광역시 부산진구 가야대로 772(부전동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0005&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "동래점": {
+      "Address": "부산광역시 동래구 중앙대로 1393(온천동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0016&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "센텀시티점": {
+      "Address": "부산광역시 해운대구 센텀남대로 59(우동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0027&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "광복점": {
+      "Address": "부산광역시 중구 중앙대로 2(중앙동7가)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0333&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "광주": {
+    "광주점": {
+      "Address": "광주광역시 동구 독립로 268(대인동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0007&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "대전": {
+    "대전점": {
+      "Address": "대전광역시 서구 계룡로 612(괴정동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0012&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "경상북도": {
+    "포항점": {
+      "Address": "경상북도 포항시 북구 학산로 62(학산동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0014&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "울산": {
+    "울산점": {
+      "Address": "울산광역시 남구 삼산로 288(삼산동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0015&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "경상남도": {
+    "창원점": {
+      "Address": "경상남도 창원시 성산구 중앙대로 124(상남동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0017&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "마산점": {
+      "Address": "경상남도 창원시 마산합포구 동서동로 18(신포동2가)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0354&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "대구": {
+    "대구점": {
+      "Address": "대구광역시 북구 태평로 161(칠성동2가)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0023&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    },
+    "상인점": {
+      "Address": "대구광역시 달서구 월배로 232(상인동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0024&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "전라북도": {
+    "전주점": {
+      "Address": "전라북도 전주시 완산구 온고을로 20(서신동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0025&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  },
+  "전라남도": {
+    "롯데몰군산점": {
+      "Address": "전북 군산시 조촌로 130(조촌동)",
+      "Hrefs": {
+        "성인": {
+          "공예": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0101&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "노래": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0102&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "댄스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0103&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "드로잉": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0104&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "라이프스타일": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0105&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "악기": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0106&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "어학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0107&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "인문학": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0108&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "재테크": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0109&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "쿠킹": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0111&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "피트니스": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=01&mdclsCtegryCd=0112&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "영·유아": {
+          "오감발달": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=02&mdclsCtegryCd=0202&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "음악·미술": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=02&mdclsCtegryCd=0203&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=02&mdclsCtegryCd=0205&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        },
+        "아동": {
+          "신체활동": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=03&mdclsCtegryCd=0302&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "창의·체험": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=03&mdclsCtegryCd=0303&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20",
+          "언어·사회성": "https://culture.lotteshopping.com/application/search/list.do?type=branch&brchCd=0361&lrclsCtegryCd=03&mdclsCtegryCd=0304&smclsCtegryCd=&yyList=&lectClCdList=&lectStatCdList=03&stDaywCdList=&timeTypeList=&amtTypeList=&stAmt=&endAmt=&q=&orderSet=C&pageIndex=1&initIndex=1&listCnt=20"
+        }
+      }
+    }
+  }
+}

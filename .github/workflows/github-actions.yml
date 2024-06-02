@@ -1,0 +1,66 @@
+name: culture-center-server deploy
+on:
+  push:
+    branches:
+      - "djangoserver"
+
+permissions:
+  contents: read
+
+jobs:
+  deploying:
+    env:
+      DEPLOY_APP_NAME: ubuntu-depoly-app
+      DEPLOYMENT_GROUP_NAME: ubuntu-code-deploy-group
+      S3_BUCKET_NAME: culture-center-bucket
+
+    runs-on: window-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.1.0
+
+      - name: setting env
+        run: |
+          cd C:/Users/admin/djangoserver
+          Add-Content -Path .env -Value DOCKER_HUB_PASSWORD=${{secrets.DOCKER_HUB_PASSWORD}}
+          Add-Content -Path .env -Value DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}}
+          Add-Content -Path .env -Value DATABASE_HOST=${{secrets.DATABASE_HOST}}
+          Add-Content -Path .env -Value DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}}
+          Add-Content -Path .env -Value JWT_SECRET=${{secrets.JWT_SECRET}}
+          Add-Content -Path .env -Value DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}}
+
+      - name: build python program
+        run: pip install -e .
+
+      - name: zip python
+        run: |
+          $resource = "C:/Users/admin/djangoserver"
+          $7zipPath = "C:/Program Files/7-Zip/7z.exe"
+          $compressed = "C:/Users/admin/djangoserver/culturecenter"
+          & $7zipPath a -tzip $compressed $resource
+
+      - name: Access to AWS
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_TOKEN }}
+
+      - name: Upload to S3
+        run: aws s3 cp --region ap-northeast-2 C:/Users/admin/djangoserver/culturecenter.zip s3://${{ env.S3_BUCKET_NAME }}/culturecenter.zip
+
+      - name: 🚀 Deploy to EC2 with CodeDeploy
+        run: aws deploy create-deployment
+         --application-name ${{ env.DEPLOY_APP_NAME }}
+         --deployment-config-name CodeDeployDefault.AllAtOnce
+         --deployment-group-name ${{ env.DEPLOYMENT_GROUP_NAME }}
+         --ignore-application-stop-failures
+         --s3-location bucket=${{ env.S3_BUCKET_NAME }},bundleType=zip,key=culturecenter.zip
