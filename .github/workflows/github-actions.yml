@@ -21,6 +21,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5.1.0
 
+      - name: build python program
+        run: pip install -e .
+
       - name: zip python
         run: |
           $resource = "C:/Users/admin/djangoserver"

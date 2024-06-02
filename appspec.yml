@@ -25,6 +25,8 @@ files:
       destination: /home/app/sample
     - source: /supervisord.conf
       destination: /home/app
+    - source: /requirements.txt
+      destination: /home/app
     - source: /djangoapp
       destination: /home/app/djangoapp
     - source: /djangoserver
