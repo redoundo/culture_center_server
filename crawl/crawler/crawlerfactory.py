@@ -42,6 +42,11 @@ class NoLinkCrawlerFactory(enum.Enum):
 
     @classmethod
     def get_crawler(cls, center: str) -> NoLinkCrawler:
+        """
+        사이트 이름으로 크롤러 클래스를 찾아 반환한다.
+        :param center: 사이트 이름
+        :return: 해당 사이트의 크롤러
+        """
         return [member.crawler for name, member in cls.__members__.items() if name == center][0]
 
     @classmethod

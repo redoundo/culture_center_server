@@ -153,6 +153,11 @@ def select_all_targets() -> list[dict]:
 
 
 def select_centers_by_type(types: str) -> Sequence[Centers]:
+    """
+    센터 타입에 맞는 센터들을 반환.
+    :param types: 센터 타입
+    :return: 센터들
+    """
     session: Session = DbConnection().get_session()
     stmt = select(Centers).where(Centers.centerType == types)
     result = session.scalars(stmt).all()
@@ -161,6 +166,10 @@ def select_centers_by_type(types: str) -> Sequence[Centers]:
 
 
 def select_all_center_type() -> Sequence[str]:
+    """
+    모든 센터들의 타입 반환.
+    :return: 센터 타입들
+    """
     session: Session = DbConnection().get_session()
     stmt = select(Centers.centerType).distinct()
     result = session.scalars(stmt).all()
@@ -169,6 +178,11 @@ def select_all_center_type() -> Sequence[str]:
 
 
 def select_lecture_by_lecture_id(lecture_id: int) -> Lectures:
+    """
+    강좌 아이디로 강좌 내용을 찾아 반환
+    :param lecture_id: 강좌 아이디
+    :return: 강좌 내용
+    """
     session: Session = DbConnection().get_session()
     stmt = select(Lectures).where(Lectures.lectureId == lecture_id)
     result = session.scalar(stmt)
@@ -177,6 +191,11 @@ def select_lecture_by_lecture_id(lecture_id: int) -> Lectures:
 
 
 def select_all_lectures_by_search_options(**kwargs) -> list[dict]:
+    """
+    검색 조건이 없으면 기본 값을 설정한 뒤 검색 결과를 반환한다.
+    :param kwargs: 검색 조건들.
+    :return: 검색 결과
+    """
     page_num: str = kwargs.get("page")
     keyword: str = kwargs.get("keyword")
     center_type: str = kwargs.get("centerType")
@@ -251,7 +270,7 @@ def get_registered_fmc_token(user_id: int) -> str | None:
 
 def need_message_in_fmc_receivers(new_user: Users = None) -> dict[Users, Sequence[Lectures]]:
     """
-
+    오늘 알림 전송이 필요한 사용자 및 알림 대상 강좌 내용 반환.
     :return:
     """
     session: Session = DbConnection().get_session()

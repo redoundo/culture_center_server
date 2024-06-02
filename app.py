@@ -223,6 +223,11 @@ def let_withdraw_user_by_user_id():
 
 @flask_app.route("/api/<sns>/login", methods=["POST"])
 def sns_access_token(sns: str):
+    """
+    code 를 받은 뒤에 access token 반환.
+    :param sns:
+    :return:
+    """
     query = request.get_json()
     print(query)
 
@@ -239,6 +244,10 @@ def sns_access_token(sns: str):
 
 @flask_app.route("/api/naver/user_info", methods=["POST"])
 def naver_get_user_info():
+    """
+    네이버 sns 로그인 시, access token 을 사용해  사용자 정보 반환.
+    :return:
+    """
     url: str = "https://openapi.naver.com/v1/nid/me"
     naver_token = request.get_json()
     print(naver_token)
@@ -250,6 +259,11 @@ def naver_get_user_info():
 
 @flask_app.route("/api/signin/<sns>/publish_jwt", methods=["POST"])
 def sign_in_publish_jwt(sns: str):
+    """
+    자체 jwt 토큰 발급
+    :param sns: culturecenter | naver | google
+    :return: jwt 토큰들
+    """
     user_info = request.get_json()
     print(user_info)
     print(sns)
@@ -291,6 +305,11 @@ def sign_in_publish_jwt(sns: str):
 
 @flask_app.route("/api/login/<sns>/publish_jwt", methods=["POST"])
 def login_publish_jwt(sns: str):
+    """
+    자체 로그인 jwt 토큰 발급
+    :param sns: culturecenter | naver | google
+    :return: jwt 토큰들
+    """
     user_info = request.get_json()
     if user_info["email"] is None or user_info["id"] is None:
         raise CustomException.FAILED_AUTHORIZED_EXCEPTION
@@ -311,6 +330,10 @@ def login_publish_jwt(sns: str):
 
 @flask_app.route("/api/auth/isValid", methods=["POST"])
 def is_logged_in():
+    """
+    jwt 토큰 유효성 확인을 통해 사용자가 로그인 되어져 있는 상태인지 여부 반환.
+    :return: userId | -1
+    """
     token = request.get_json()
     decoded = decode_jwt(token["token"])
     print(decoded)
@@ -338,6 +361,10 @@ def nickname_uniqueness():
 
 @flask_app.route("/api/register_fcm_receiver", methods=["POST"])
 def registering_fcm_receiver():
+    """
+    fcm 전송 요청자 등록
+    :return: 
+    """
     token = request.headers.get("Authorization")
     if not validate_string(token):
         raise CustomException.NEED_LOGIN_EXCEPTION
@@ -356,6 +383,10 @@ def registering_fcm_receiver():
 
 @flask_app.route("/api/new_data_json", methods=["GET"])
 def download_new_data():
+    """
+    크롤링 완료 후, 새로운 라벨링 파일이 생성되면 endpoint 로 사용.
+    :return:
+    """
     file_path: str = "/flask-server/sample/train_sample.json"
     if os.path.exists(file_path) and os.path.isfile(file_path):
         return send_file(path_or_file=file_path, as_attachment=True, download_name="train_sample.json")

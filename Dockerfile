@@ -6,6 +6,7 @@ COPY crawl /crawl
 
 RUN pip install playwright mysql-connector-python python-dotenv python-dateutil requests pytz
 RUN playwright install
+RUN playwright install-deps
 
 ENV DATABASE_NAME=culture_center_db
 ENV DATABASE_USERNAME=culturecenter

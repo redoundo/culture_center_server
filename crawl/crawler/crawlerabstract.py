@@ -65,7 +65,10 @@ class NoLinkCrawler:
 
     def extract_lecture_info(self, url: str, page: Page, info: dict):
         """
-        강의 href 를 통해 강의 정보를 가져온다.
+        강의 href 를 통해 강의 정보를 가져 온다.
+        :param url: 내용을 추출할 url
+        :param page: playwright Page 객체
+        :param info: url 을 가져 왔을 때의 context
         :return:
         """
         pass
