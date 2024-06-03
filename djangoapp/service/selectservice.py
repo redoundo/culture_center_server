@@ -146,13 +146,13 @@ def select_lecture_by_lecture_id(lecture_id: int) -> dict | None:
     return a_lecture.dictionary()
 
 
-def select_all_center_type() -> list[str]:
+def select_all_center_type() -> list[dict]:
     """
     모든 센터들의 타입 반환.
     :return: 센터 타입들
     """
     center_types = Centers.objects.all()
-    return [center_type.centertype for center_type in center_types]
+    return [center_type.dictionary() for center_type in center_types]
 
 
 def select_centers_by_type(types: str) -> list[dict]:
@@ -162,7 +162,7 @@ def select_centers_by_type(types: str) -> list[dict]:
     :return: 센터들
     """
     centers = Centers.objects.filter(centertype=types)
-    return [ center.dictionary() for center in centers]
+    return [center.dictionary() for center in centers]
 
 
 def select_all_lectures_by_search_options(**kwargs) -> list[dict]:
@@ -176,11 +176,12 @@ def select_all_lectures_by_search_options(**kwargs) -> list[dict]:
     center_type: str = kwargs.get("centerType")
     target: str = kwargs.get("target")
     category: str = kwargs.get("category")
+    center_name: str = kwargs.get("centerName")
 
     and_dict: dict = dict()
     or_dict: dict = dict()
     
-    if validate_string(target) and  validate_string(category) :
+    if validate_string(target) and validate_string(category):
         and_dict[target] = category
     elif validate_string(category):
         or_dict["kid"] = category
@@ -192,6 +193,8 @@ def select_all_lectures_by_search_options(**kwargs) -> list[dict]:
         and_dict["centertype"] = center_type
     if validate_string(keyword):
         and_dict["title"] = f"%{keyword}%"
+    if validate_string(center_name):
+        and_dict["center"] = center_name
     
     limit: int = 0
     if page_num is not None and len(page_num) > 1 and page_num != "null":

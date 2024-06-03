@@ -41,7 +41,8 @@ def find_lectures_by_search_options(request: HttpRequest):
                                                                  target=request.GET.get("targetId", None),
                                                                  category=request.GET.get("categoryId", None),
                                                                  keyword=request.GET.get("keyword", None),
-                                                                 centerType=request.GET.get("type", None))
+                                                                 centerType=request.GET.get("type", None),
+                                                                 centerName=request.GET.get("center", None))
     if token is not None:
         # todo: 전역 처리 설정 안함. 그래서 user_id 확인에 들어가지 않았음.
         user_id = decode_jwt(token).get("userId")
@@ -53,7 +54,7 @@ def find_lectures_by_search_options(request: HttpRequest):
 
     targets: list[dict] = select_all_targets()
     categories: list[dict] = select_all_categories()
-    center_types: list[str] = select_all_center_type()
+    center_types: list[dict] = select_all_center_type()
     print(targets)
     return JsonResponse({
         'lectures': lectures, 'targets': targets, 'categories': categories, 'type': center_types,

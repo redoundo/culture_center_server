@@ -32,7 +32,8 @@ class Branches(models.Model):
 
     def dictionary(self):
         return {
-            "branchId": self.branchid, "branchName": self.branchname, "branchAddress": self.branchaddress, "centerIdOfBranch": self.centeridofbranch
+            "branchId": self.branchid, "branchName": self.branchname, "branchAddress": self.branchaddress,
+            "centerIdOfBranch": self.centeridofbranch
         }
 
     class Meta:
@@ -56,11 +57,13 @@ class Categories(models.Model):
 class Centers(models.Model):
     centerid = models.AutoField(db_column='centerId', primary_key=True)  # Field name made lowercase.
     centername = models.CharField(db_column='centerName', unique=True, max_length=90)  # Field name made lowercase.
+    centerrealname = models.CharField(db_column='centerRealName', unique=True, max_length=90, default='null')
     centertype = models.CharField(db_column='centerType', max_length=45)  # Field name made lowercase.
     centerurl = models.CharField(db_column='centerUrl', max_length=200)  # Field name made lowercase.
-    
+
     def dictionary(self):
-        return {"centerId": self.centerid, "centerName": self.centername, "centerType": self.centertype, "centerUrl": self.centerurl}
+        return {"centerId": self.centerid, "centerName": self.centername, "centerRealName": self.centerrealname,
+                "centerType": self.centertype, "centerUrl": self.centerurl}
 
     class Meta:
         managed = True
@@ -91,18 +94,21 @@ class Lectures(models.Model):
     lecturesupplies = models.CharField(db_column='lectureSupplies', max_length=200, blank=True, null=True)
     curriculum = models.JSONField(blank=True, null=True)
     crawleddate = models.DateTimeField(db_column='crawledDate', default=now)  # Field name made lowercase.
-    lecturehelddates = models.CharField(db_column='lectureHeldDates', max_length=500, blank=True, null=True)  # Field name made lowercase.
+    lecturehelddates = models.CharField(db_column='lectureHeldDates', max_length=500, blank=True,
+                                        null=True)  # Field name made lowercase.
 
     def dictionary(self) -> dict:
         return {
-            "lectureId": self.lectureid, "center": self.center, "type": self.type, "region": self.region, "branch": self.branch,
-            "address": self.address, "target": self.target, "category": self.category, "title": self.title, "url": self.url,
+            "lectureId": self.lectureid, "center": self.center, "type": self.type, "region": self.region,
+            "branch": self.branch,
+            "address": self.address, "target": self.target, "category": self.category, "title": self.title,
+            "url": self.url,
             "src": self.src, "content": self.content, "price": self.price, "lectureStart": self.lecturestart,
             "lectureEnd": self.lectureend, "enrollStart": self.enrollstart, "enrollEnd": self.enrollend,
             "lectureSupplies": self.lecturesupplies, "curriculum": self.curriculum, "crawledDate": self.crawleddate,
             "lectureHeldDates": self.lecturehelddates
         }
-    
+
     class Meta:
         managed = True
         db_table = 'lectures'
@@ -118,7 +124,6 @@ class Liked(models.Model):
             "liekdId": self.likedid, "likedLectureId": self.likedlectureid, "likedUserId": self.likeduserid
         }
 
-
     class Meta:
         managed = True
         db_table = 'liked'
@@ -127,7 +132,7 @@ class Liked(models.Model):
 class Targets(models.Model):
     targetid = models.AutoField(db_column='targetId', primary_key=True)  # Field name made lowercase.
     targetname = models.CharField(db_column='targetName', max_length=45)  # Field name made lowercase.
-    
+
     def dictionary(self):
         return {"targetId": self.targetid, "targetName": self.targetname}
 
@@ -143,9 +148,11 @@ class Users(models.Model):
     password = models.CharField(max_length=255)
     registerdate = models.DateTimeField(db_column='registerDate', default=now)  # Field name made lowercase.
     snsprovider = models.CharField(db_column='snsProvider', max_length=255)  # Field name made lowercase.
-    snsproviderid = models.CharField(db_column='snsProviderId', unique=True, max_length=255) # Field name made lowercase.
+    snsproviderid = models.CharField(db_column='snsProviderId', unique=True,
+                                     max_length=255)  # Field name made lowercase.
     wantfcmmessage = models.IntegerField(db_column='wantFcmMessage', default=0)  # Field name made lowercase.
-    fcmtoken = models.CharField(db_column='fcmToken', max_length=500, blank=True, null=True)  # Field name made lowercase.
+    fcmtoken = models.CharField(db_column='fcmToken', max_length=500, blank=True,
+                                null=True)  # Field name made lowercase.
 
     def dictionary(self) -> dict:
         return {
