@@ -86,13 +86,8 @@ def set_liked_this_lecture_by_lecture_id(request: HttpRequest, user: dict):
     :return:
     """
     lecture_id = request.GET.get("lectureId", None)
-    # token = request.headers.get("Authorization")
-    #
-    # if not validate_string(token):
-    #     raise CustomException.NEED_LOGIN_EXCEPTION
 
     if validate_string(lecture_id):
-        # user_id = decode_jwt(token).get("userId")
         insert_liked_by_user_id(lecture_id=int(lecture_id), user_id=int(user.get("userId")))
     else:
         raise CustomException.NO_REQUIRED_ARGUMENTS_EXCEPTION
@@ -127,11 +122,6 @@ def find_user_by_user_id(request: HttpRequest, user: dict):
     jwt 토큰을 통해 사용자 아이디를 가져온 뒤, 해당 아이디로 저장된 내용들을 전부 가져온다.
     :return:
     """
-    # token = request.headers.get("Authorization")
-    #
-    # if not validate_string(token):
-    #     raise CustomException.NEED_LOGIN_EXCEPTION
-    # user_id = decode_jwt(token).get("userId")
     result = select_users_info_by_user_id(int(user.get("userId")))
     print(user)
     if user is None:
@@ -152,12 +142,6 @@ def my_page_delete_liked_or_applied_by_lecture_id(request: HttpRequest, user: di
     :return:
     """
     lecture_id = request.GET.get("lectureId", None)
-    # token = request.headers.get("Authorization")
-    # if not validate_string(token):
-    #     raise CustomException.NEED_LOGIN_EXCEPTION
-    # user_id = decode_jwt(token).get("userId")
-    # if user_id is None:
-    #     raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     if not validate_string(lecture_id):
         raise CustomException.NO_REQUIRED_ARGUMENTS_EXCEPTION
 
@@ -196,12 +180,6 @@ def update_user_info(request: HttpRequest, user: dict):
     :return:
     """
     post: dict = json.loads(request.body)
-    # token: str = post.get("Authorization")
-    # if not validate_string(token):
-    #     raise CustomException.NEED_LOGIN_EXCEPTION
-    # user_id = decode_jwt(token).get("userId")
-    # if user_id is None:
-    #     raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     nickname: str = post.get("nickname")
     if not validate_string(nickname):
         raise CustomException.NO_REQUIRED_ARGUMENTS_EXCEPTION
@@ -217,12 +195,6 @@ def let_withdraw_user_by_user_id(request: HttpRequest, user: dict):
     회원 탈퇴
     :return:
     """
-    # token = request.headers.get("Authorization")
-    # if not validate_string(token):
-    #     raise CustomException.NEED_LOGIN_EXCEPTION
-    # user_id = decode_jwt(token).get("userId")
-    # if user_id is None:
-    #     raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     try:
         withdraw_user_by_user_id(int(user.get("userId")))
     except Exception as e:
@@ -376,12 +348,6 @@ def registering_fcm_receiver(request: HttpRequest, user: dict):
     fcm 전송 요청자 등록
     :return:
     """
-    # token = request.headers.get("Authorization")
-    # if not validate_string(token):
-    #     raise CustomException.NEED_LOGIN_EXCEPTION
-    # user_id = decode_jwt(token).get("userId")
-    # if user_id is None:
-    #     raise CustomException.INVALID_JWT_TOKEN_EXCEPTION
     post: dict = json.loads(request.body)
     if post.get("vapidToken") is None:
         return JsonResponse({"status": 400, "registered": False})
