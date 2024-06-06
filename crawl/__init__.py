@@ -1,5 +1,5 @@
 from typeclass import ClassIdInfoType, CenterInfoNoLink, CenterInfoWithLink, LectureType
-from db import MysqlActions
+from crawl.crawler.db import MysqlActions
 from messages import messenger
 from crawler import crawlerfactory, crawlerabstract, unwrapcenterinfo
 from crawler.nolink import AkplazaCrawler, EmartCrawler, HomePlusCrawler, LotteMartCrawler

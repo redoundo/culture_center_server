@@ -55,8 +55,16 @@ class LectureType(object):
         return
 
     def set_lecture_held_dates(self, lecture_start_end: list[str], detail: str, count_by_week: int):
-        self.lectureStart = lecture_start_end[0]
-        self.lectureEnd = lecture_start_end[1]
+        """
+        강좌가 진행 되는 날짜들을 !으로 연결 한다.
+        :param lecture_start_end: [	'2024-06-07', '2024-08-23' ]
+        :param detail: 금 15:10~16:00
+        :param count_by_week: 총 12회
+        :return:
+        """
+
+        self.lectureStart = lecture_start_end[0].replace(".", "-")
+        self.lectureEnd = lecture_start_end[1].replace(".", "-")
         lecture_day = re.findall(r"[월화수목금토일]", detail)
         if lecture_day is None or len(lecture_day) < 1:
             print(f"lecture_held_dates 를 계산 하지 못했습니다!! {detail}")

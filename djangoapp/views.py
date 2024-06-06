@@ -44,13 +44,12 @@ def find_lectures_by_search_options(request: HttpRequest):
                                                                  centerType=request.GET.get("type", None),
                                                                  centerName=request.GET.get("center", None))
     if token is not None:
-        # todo: 전역 처리 설정 안함. 그래서 user_id 확인에 들어가지 않았음.
         user_id = decode_jwt(token).get("userId")
         print(user_id)
-        liked_applied: dict = {"liked": select_all_liked_lectures_by_user_id(int(user_id)),
+        liked_applied: dict | None = {"liked": select_all_liked_lectures_by_user_id(int(user_id)),
                                "applied": select_all_applied_lectures_by_user_id(int(user_id))}
     else:
-        liked_applied = None
+        liked_applied: dict | None = None
 
     targets: list[dict] = select_all_targets()
     categories: list[dict] = select_all_categories()

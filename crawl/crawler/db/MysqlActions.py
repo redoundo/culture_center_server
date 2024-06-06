@@ -15,11 +15,13 @@ databaseName: str = os.getenv("DATABASE_NAME")
 databasePassword: str = os.getenv("DATABASE_PASSWORD")
 databaseUser: str = os.getenv("DATABASE_USERNAME")
 databaseHost: str = os.getenv("DATABASE_HOST")
-databsePort: int = os.getenv("DATABASE_PORT")
+databasePort: str = os.getenv("DATABASE_PORT")
+
 
 def add_json_data(path: str, how: str, value: any):
     with open(path, how, encoding='utf-8-sig') as J:
         json.dump(value, J, ensure_ascii=False, indent=4)
+
 
 def str_to_date(date: str) -> str:
     """
@@ -56,7 +58,7 @@ class MysqlActions:
             db 연결 풀 생성. auto commit 설정 되어있음.
         """
         self.connection = connection.MySQLConnection(user=databaseUser, database=databaseName,
-                                                       password=databasePassword, host=databaseHost ,port=databsePort)
+                                                     password=databasePassword, host=databaseHost, port=int(databasePort))
 
         return
 
@@ -190,7 +192,8 @@ class MysqlActions:
             path: str = "/crawl/sample/train_sample.json"
             add_json_data(path=path, value=train_samples, how="a")
 
-            queue.put(f"train sample 이 생성 되었습니다. 현재 시각은 {today.year}-{today.month}-{today.day} {today.hour}:{today.minute}:{today.second} 입니다. 빠르게 다운 받아 주시기 바랍니다.")
+            queue.put(
+                f"train sample 이 생성 되었습니다. 현재 시각은 {today.year}-{today.month}-{today.day} {today.hour}:{today.minute}:{today.second} 입니다. 빠르게 다운 받아 주시기 바랍니다.")
         except Exception as e:
             print(e)
         finally:

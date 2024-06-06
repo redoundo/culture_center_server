@@ -8,15 +8,11 @@
 
 ---
 
-### 주요 기능
-
-    
----
 
 ### 문제 상황 및 해결 과정
 
 1. 데이터를 수집하는 센터마다 강좌를 분류하는 기준이 상이하며 오분류 된 강좌가 존재 하는 상황.
-   - 여러 사이트에서 크롤링을 해온 데이터를 재분류 해야 하는데 정규 분포식 만으로 해결 하는 게 힘들었습니다. 그래서 정규 표현식 대신 머신 러닝을 통해 데이터를 재분류를 하기로 결정 했습니다.
+   - 여러 사이트에서 크롤링을 해온 데이터를 재분류 해야 하는데 정규 표현식 만으로 해결 하는 게 힘들었습니다. 그래서 정규 표현식 대신 머신 러닝을 통해 데이터를 재분류를 하기로 결정 했습니다.
    - 미리 학습 시킨 모델을 파인 튜닝 하면 간단 하지만 제가 원하는 기준으로 텍스트 분류가 가능 하다는 걸 알게 되었습니다. 그렇게 크롤링한 강좌들을 제가 원하는 분류 기준으로 라벨링 한 뒤, kobert 모델을 사용해 학습시켰습니다.
    - 강좌 내용은 계속 달라지기 때문에 지속적인 학습이 필요 하겠으나, 정규 표현식으로 진행했을 때보다 정교한 분류가 가능해졌습니다.
    - [ml 레포지토리 참조](https://github.com/redoundo/culture_center_server/tree/ml)
@@ -206,74 +202,106 @@
 
     - 크롤러 클래스와 크롤러 클래스를 생성하는 과정이 분리되었기 때문에, 크롤러 클래스를 생성시키는 과정에서 변경사항이 존재 하더라도 크롤러에는 아무런 영향을 미치지 않아서 개발하기가 쉬워졌습니다.
 3. 크롤링을 진행할 때 현재 어떤 상황인지 알기가 어려운 문제
-    - dicord 알림을
+    - 크롤러에 queue 를 전달해 크롤러 측에서 queue 에 메시지를 넣으면 
       <details>
         <summary>discord 알림 전달 과정</summary>      
         <pre>
             if __name__ == '__main__':
+                <code>
                 url_queue: queue.Queue = queue.Queue(maxsize=5)
-                message_queue: queue.Queue = queue.Queue(maxsize=10) 
+                # 메세지를 추가하는 queue 입니다.
+                message_queue: queue.Queue = queue.Queue(maxsize=10)
+                # queue 에 메세지 추가시 discord 에 알림을 보내는 역할 입니다. 
                 messenger: DiscordMessenger = DiscordMessenger(message_queue=message_queue)
+                </code> 
+                # aws 프리티어여서 thread 사용
                 url_thread: threading.Thread = threading.Thread(daemon=True, target=url_crawling, args=[url_queue, message_queue, ])
                 info_thread: threading.Thread = threading.Thread(daemon=True, target=info_crawling, args=[url_queue, message_queue, ])
                 message_thread: threading.Thread = threading.Thread(daemon=True, target=messenger.send_message)
+                <code>
                 url_thread.start()
-                info_thread.start() 
+                info_thread.start()
+                </code> 
                 url_thread.join()
-                info_thread.join()
+                info_thread.join() 
+                <code>
+                # 크롤링을 한 뒤, 데이터 재분류를 위해 라벨링이 필요한 내용을 파일에 저장합니다.
                 database.create_train_sample(queue=message_queue)
                 database.connection.close() 
+                </code>
                 message_thread.join() 
       </pre>
 </details>
 
 4. 전역 에러 처리
-    - flask app 에 error handler 를 등록하여 개별적으로 에러를 처리 하지 않고 한곳에서 에러를 처리하게끔 구성 했습니다.
+    - REST_FRAMEWORK 의 EXCEPTION_HANDLER 에 에러 헨들러를 등록하여 개별적으로 에러를 처리 하지 않고 한곳에서 에러를 처리하게끔 구성 했습니다.
         <details>
-            <summary>error handler 등록 코드</summary>
+            <summary>error handler 코드</summary>
             <pre>
-                def global_error_handler(app: Flask):
-                    """
-                    flask application 에 사용자 정의된 예외를 포함한 httpException 을 다룰 수 있는 처리자를 미리 등록 해놓음.
-                    :param app: flask application
-                    :return: app
-                    """
-                    def error_handler(error):
-                        if isinstance(error, CustomException):
-                            res: dict = {
-                                "errorName": error.errorName,
-                                "status": error.status,
-                                "message": error.message
-                            }
-                        elif isinstance(error, HTTPException):
-                            res: dict = {
-                                "errorName": error.name,
-                                "status": error.code,
-                                "message": error.description
-                            }
-                        else:
-                            message = _aborter.mapping[400].description
-                            res: dict = {
-                                "errorName": "ELSE_ERROR",
-                                "status": 400,
-                                "message": message
-                            }
-                        response = jsonify(res)
-                        response.status_code = res["status"]
-                        return response 
-                    for http in list(default_exceptions.values()):
-                        app.register_error_handler(http, error_handler)
-                    app.register_error_handler(CustomException, error_handler)
-                    return app 
+                def custom_exception_handler(exc, context):
+                    # DRF의 기본 예외 처리 함수 호출
+                    response = exception_handler(exc, context)
+                    if isinstance(exec, CustomException) or isinstance(exec, ErrorCode):
+                        return JsonResponse({"status": exec.status, "errorMessage": exec.message, "errorCode": exec.errorName})
+                    return response
             </pre>
         </details>
+    
+5. 크롤러 실행 자동화
+    - 크롤러 컨테이너가 실행 되고 있는 상태인지 확인한 뒤, exit 혹은 pause 상태일 때만 컨테이너를 실행 시키게끔 만들었습니다.
+        <details>
+            <summary>crontab 설정</summary>
+            <pre>
+                crontab -e
+                0 0 1,5,9,13,17,21,23 * ? /usr/bin/python3 /home/app/crawl/checkcrawlerstatus.py
+            </pre>
+      </details>
+        <details>
+            <summary>crontab이 실행 하는 코드</summary>
+            <pre>
+                <code>
+                def get_container_status(container):
+                    """
+                    container 상태를 반환
+                    """
+                    result = subprocess.run(['docker', 'inspect', container], stdout=subprocess.PIPE)
+                    container_info = json.loads(result.stdout.decode('utf-8'))
+                    if len(container_info) > 0:
+                        return container_info[0]['State']['Status']
+                    else:
+                        return None
+                </code>
+                <code>
+                 def start_container_when_exit():
+                     """
+                     exit, pause 상태일 때만 container 를 실행시킨다.
+                     """
+                     container: str = "crawl_container"
+                     status = get_container_status(container)
+                     if status is None:
+                         return
+                     elif status != "Up":
+                         user_name: str = os.getenv("DOCKER_HUB_USERNAME")
+                         password: str = os.getenv("DOCKER_HUB_PASSWORD")
+                         subprocess.run(['docker', 'login', '-u', user_name, '-p', password])
+                         subprocess.run(['docker', 'container', 'start', container])
+                     return 
+                </code>
+                 if __name__ == "__main__":
+                     start_container_when_exit()
 
-    - 
+   </pre>
+   </details>
+   
+
+ 
 ### 아키텍쳐
-![culture-center](https://github.com/redoundo/culture_center_server/assets/96558064/60d9da7a-812b-4580-8b3c-e0af6cfe1c57)
+![django-archtecture](https://github.com/redoundo/culture_center_server/assets/96558064/d5b9a04a-a0a9-456e-8297-74f54041234c)
 
 ### 웹사이트 기능
-[웹 사이트 기능 코드](https://github.com/redoundo/culture_center_server/blob/b7571b0cb546c174601769b02ff591dd49fafc90/app.py)
+[웹 사이트 이동](https://culture-centers.vercel.app)  
+
+[기능 코드](https://github.com/redoundo/culture_center_server/blob/b7571b0cb546c174601769b02ff591dd49fafc90/app.py)
 1. 강좌 검색
     <details>
         <summary>강좌 검색 과정</summary>
@@ -327,6 +355,11 @@ wsl을 통해 linux 계열 이미지를 사용할 수는 있으나 wsl 과 ubunt
 </details> 
 
 
+## ERD
+
+![](C:\Users\admin\Downloads\culture_center_erm.png)
+
+
 ### 사용 기술
 
 `front-end`
@@ -337,26 +370,20 @@ wsl을 통해 linux 계열 이미지를 사용할 수는 있으나 wsl 과 ubunt
 
 `back-end`
 
-- Flask
+- Django
 - Gunicorn
 - Nginx
-- SQLAlchemy
 - Docker
+- Mysql
 
-`deploy`
+`infra`
 - Github Actions
+- AWS Api Gateway
 - AWS S3
 - AWS CodeDeploy
 - AWS EC2
+- AWS RDS
 
 `crawler` 
 - Playwright
 
-`database`
-- Mysql
-- AWS RDS
-
-
-## ERD
-
-![](C:\Users\admin\Downloads\culture_center_erm.png)

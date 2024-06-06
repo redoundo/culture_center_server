@@ -6,6 +6,7 @@ from crawl.crawler.nolink.AkplazaCrawler import AkplazaCrawler
 from crawl.crawler.withlink.GalleriaCrawler import GalleriaCrawler
 from crawl.crawler.withlink.HyundaiCrawler import HyundaiCrawler
 from crawl.crawler.withlink.LotteCrawler import LotteCrawler
+from crawl.crawler.nolink.ShinsegaeCrawler import ShinsegaeCrawler
 import enum
 
 
@@ -21,6 +22,8 @@ class NoLinkCrawlerFactory(enum.Enum):
                  "crawler/resource/lottemart.json")
     AKPLAZA = ("AKPLAZA", AkplazaCrawler, "https://culture.akplaza.com/course/list02",
                "crawler/resource/akplaza.json")
+    SHINSEGAE = ("SHINSEGAE", ShinsegaeCrawler, "https://sacademy.shinsegae.com/sdotcom/web/HP0010P0/HP0010P0.do?rcptStat=RT",
+                 "crawler/resource/shinsegae.json")
 
     def __init__(self, center: str, crawler: NoLinkCrawler, url: str, path: str):
         """

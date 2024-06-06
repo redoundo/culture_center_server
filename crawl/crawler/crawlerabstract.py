@@ -1,7 +1,8 @@
-from playwright.sync_api import Page
 from crawl.typeclass.CenterInfoWithLink import CenterInfoWithLink
 from crawl.typeclass.CenterInfoNoLink import CenterInfoNoLink
 from crawl.typeclass.ClassIdInfoType import ClassIdInfos
+from crawl.typeclass.PublicLibrary import PublicLibrary
+from playwright.sync_api import Page, Browser
 
 
 class NoLinkCrawler:
@@ -146,3 +147,22 @@ class WithLinkCrawler:
     def __call__(self, center_info: CenterInfoWithLink, page: Page):
         self.__init__(center_info, page)
         return
+
+
+class PublicCenterCrawler:
+
+    centerInfo: list[PublicLibrary]
+    browser: Browser
+
+    def __init__(self, center_infos: list[PublicLibrary], browser: Browser):
+        self.browser = browser
+        self.centerInfo = center_infos
+        return
+
+    def crawl(self):
+        pass
+
+    def __call__(self, center_infos: list[PublicLibrary], web: Browser):
+        self.__init__(center_infos, web)
+        return
+
