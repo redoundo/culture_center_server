@@ -112,3 +112,77 @@ class PublicSeoulCrawler(PublicCenterCrawler):
         date: int = datetime.now().day
         return
 
+    def __ice_edu_lib(self, center_info: PublicLibrary):
+        """
+        인천 광역시 교육청 통합 공공 도서관
+        :param center_info:
+        :return:
+        """
+        page: Page = self.browser.new_page()
+        page.goto(center_info.get_link(), timeout=0)
+        time.sleep(2)
+
+        pagination = page.locator("#board_paging > span > a").all()
+        lecture_href: list[str] = []
+        for num in pagination:
+            num.click()
+            time.sleep(2)
+            lectures = page.locator("#teach > div.op_wrap > div > div").all()
+            for lecture in lectures:
+                homepage_id: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue")
+                group_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue1")
+                category_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue2")
+                teach_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue3")
+                lecture_href.append(f"https://lib.ice.go.kr/ice/module/teach/detail.do?homepage_id={homepage_id}&group_idx={group_idx}&category_idx={category_idx}&teach_idx={teach_idx}&menu_idx=92")
+        page.close()
+        return
+
+    def __jbe_edu_lib(self, center_info: PublicLibrary):
+        """
+        전북특별자치도교육청통합도서관/교육문화회관
+        :param center_info:
+        :return:
+        """
+        page: Page = self.browser.new_page()
+        page.goto(center_info.get_link(), timeout=0)
+        time.sleep(2)
+
+        pagination = page.locator("#board_paging > span > a").all()
+        lecture_href: list[str] = []
+
+        for num in pagination:
+            num.click()
+            time.sleep(2)
+            lectures = page.locator("#teach > div.op_wrap > div > div").all()
+            for lecture in lectures:
+                homepage_id: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue")
+                group_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue1")
+                category_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue2")
+                teach_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue3")
+                detail_menu_idx: str = lecture.locator("div.op_title.category > a").get_attribute("keyvalue4")
+                lecture_href.append(f"https://lib.jbe.go.kr/jbe/module/teach/detail.do?homepage_id={homepage_id}&group_idx={group_idx}&category_idx={category_idx}&teach_idx={teach_idx}&menu_idx=17&detail_menu_idx={detail_menu_idx}")
+        page.close()
+        return
+
+    def __gwangju_seogu_edu_lib(self, center_info: PublicLibrary):
+        page: Page = self.browser.new_page()
+        page.goto(center_info.get_link(), timeout=0)
+        time.sleep(2)
+
+        pagination = page.locator("#board_paging > span > a").all()
+        lecture_href: list[str] = []
+        for num in pagination:
+            num.click()
+            time.sleep(2)
+            lectures = page.locator("#content > table > tbody > tr").all()
+            for lecture in lectures:
+                status: str = lecture.locator("td:nth-child(7) > span").inner_text()
+                if status == "접수중":
+                    cul_edu_id: str = lecture.locator("td.title > a").get_attribute("href").replace("javascript:cultureEduInfoView('", "").replace("')", "")
+                    lecture_href.append(f"https://library.seogu.gwangju.kr/library/index.9is?contentUid=9be5df89604f89ac01604fa17b160145&culEduId={cul_edu_id}")
+        return
+
+
+
+
+
