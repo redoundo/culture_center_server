@@ -284,7 +284,8 @@
                     # DRF의 기본 예외 처리 함수 호출
                     response = exception_handler(exc, context)
                     if isinstance(exec, CustomException) or isinstance(exec, ErrorCode):
-                        return JsonResponse({"status": exec.status, "errorMessage": exec.message, "errorCode": exec.errorName})
+                        return JsonResponse({"status": exec.status, 
+                            "errorMessage": exec.message, "errorCode": exec.errorName})
                     return response
             </pre>
         </details>
