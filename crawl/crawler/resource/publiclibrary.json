@@ -26,7 +26,7 @@
   },
   "부산광역시": {
     "부산광역시교육청도서관": "https://home.pen.go.kr/yeyak/edu/lib/selectEduList.do?mi=14556&eduSeq=&srchRsSysId=&srchEduCtgry=&currPage=1&srchRsvSttus=REQST&srchPeriodDiv=rcept&srchRsvBgnde=&srchRsvEndde=&srchRsvValue=&pageIndex=50",
-    "부산광역시도서관포털": "https://library.busan.go.kr/portal/board/index.do?menu_idx=67&manage_idx=595"
+    "부산광역시도서관포털": "https://library.busan.go.kr/portal/board/index.do?menu_idx=67&manage_idx=595&rowCount=50"
   },
   "울산광역시": {
     "울산동구통합도서관": "https://library.donggu.ulsan.kr/main/edusat/list.do",

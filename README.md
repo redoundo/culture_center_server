@@ -4,9 +4,51 @@
 
   	기업 소재의 문화 센터 뿐만 아니라 도서관 등에서 실행 되는 문화 강좌를 모아 제공합니다.
   	파편화 된 문화 강좌들을 쉽게 찾고 싶어서 진행한 프로젝트 입니다.
-  	강좌 내용이 지속적으로 업데이트 되고 그에 맞는 크롤링이 필요하기 때문에 
 
 ---
+
+### 웹사이트 기능
+[웹 사이트 이동](https://culture-centers.vercel.app)  
+
+[기능 코드](https://github.com/redoundo/culture_center_server/blob/b7571b0cb546c174601769b02ff591dd49fafc90/app.py)
+1. 강좌 검색
+    <details>
+        <summary>강좌 검색 과정</summary>
+        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/b877dea5-d4e3-4b82-bb55-559c69a54372">
+   </details>
+    <details>
+        <summary>검색 영상</summary>
+            <img src="https://github.com/redoundo/culture_center_server/assets/96558064/3adb735a-a8c9-4201-94ff-479100c47088"/>
+    </details>
+2. 강좌 찜하기 및 지원하기
+   <details>
+        <summary>강좌 찜하기 및 지원 과정</summary>
+        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/bbef43c0-886a-4fb5-98b2-fcd7e4f93c0a">
+   </details>
+   <details>
+        <summary>찜한/ 지원한 강좌 삭제 과정</summary>
+        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/9792e4f4-1750-4bc7-8b57-ef2fa3eddd22">
+   </details>
+    <details>
+        <summary>강의 찜한 / 지원한 강좌 삭제 영상</summary>
+        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/cb0a7134-7098-4e33-9480-96f6ea350dfd"/>
+    </details>
+
+3. sns 로그인
+    <details>
+        <summary>sns 로그인 과정</summary>
+        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/970d395c-b6ff-4a18-a392-ab2239fc4346">
+   </details>
+    <details>
+        <summary>회원정보 변경 및 탈퇴 영상</summary>
+        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/9d5c2a63-9c8c-4b78-a375-87049c8a4a98"/>
+    </details>
+
+
+ 
+### 아키텍쳐
+![django-archtecture](https://github.com/redoundo/culture_center_server/assets/96558064/d5b9a04a-a0a9-456e-8297-74f54041234c)
+
 
 
 ### 문제 상황 및 해결 과정
@@ -294,70 +336,15 @@
    </details>
    
 
- 
-### 아키텍쳐
-![django-archtecture](https://github.com/redoundo/culture_center_server/assets/96558064/d5b9a04a-a0a9-456e-8297-74f54041234c)
-
-### 웹사이트 기능
-[웹 사이트 이동](https://culture-centers.vercel.app)  
-
-[기능 코드](https://github.com/redoundo/culture_center_server/blob/b7571b0cb546c174601769b02ff591dd49fafc90/app.py)
-1. 강좌 검색
-    <details>
-        <summary>강좌 검색 과정</summary>
-        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/b877dea5-d4e3-4b82-bb55-559c69a54372">
-   </details>
-    <details>
-        <summary>검색 영상</summary>
-            <img src="https://github.com/redoundo/culture_center_server/assets/96558064/3adb735a-a8c9-4201-94ff-479100c47088"/>
-    </details>
-2. 강좌 찜하기 및 지원하기
-   <details>
-        <summary>강좌 찜하기 및 지원 과정</summary>
-        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/bbef43c0-886a-4fb5-98b2-fcd7e4f93c0a">
-   </details>
-   <details>
-        <summary>찜한/ 지원한 강좌 삭제 과정</summary>
-        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/9792e4f4-1750-4bc7-8b57-ef2fa3eddd22">
-   </details>
-    <details>
-        <summary>강의 찜한 / 지원한 강좌 삭제 영상</summary>
-        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/cb0a7134-7098-4e33-9480-96f6ea350dfd"/>
-    </details>
-
-3. sns 로그인
-    <details>
-        <summary>sns 로그인 과정</summary>
-        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/970d395c-b6ff-4a18-a392-ab2239fc4346">
-   </details>
-    <details>
-        <summary>회원정보 변경 및 탈퇴 영상</summary>
-        <img src="https://github.com/redoundo/culture_center_server/assets/96558064/9d5c2a63-9c8c-4b78-a375-87049c8a4a98"/>
-    </details>
-
-
-
 ### Api 레퍼런스
 
 [postman api](https://documenter.getpostman.com/view/25808797/2sA3JRZebp)
-
-### 트러블 슈팅 
-
-<details >
-    <summary>windows os 인 ec2 인스턴스에서 ubuntu 이미지 사용시 에러 발생</summary>
-    <div style="padding: 15px;font-style: italic">
-        latest: Pulling from library/ubuntu 2024-05-23 03:16:56 [stderr]no matching manifest for windows/amd64 10.0.20348 in the manifest list entries
-    </div>
-    <div style="padding: 9px">
-        windows os 에 설치된 docker 에서는 linux 계열 이미지를 사용하지 못하기 때문에 발생하는 에러 입니다.
-wsl을 통해 linux 계열 이미지를 사용할 수는 있으나 wsl 과 ubuntu를 설치해본 결과 인스턴스의 심각한 용량 부족으로 인해 새로운 ec2 인스턴스를 생성하기로 결정했습니다.
-    </div>
-</details> 
-
+ 
 
 ## ERD
 
-![](C:\Users\admin\Downloads\culture_center_erm.png)
+![culture_center_erm](https://github.com/redoundo/culture_center_server/assets/96558064/dd1c3e98-317a-4a48-962b-fd51203df64a)
+
 
 
 ### 사용 기술

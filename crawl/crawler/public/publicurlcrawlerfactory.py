@@ -88,11 +88,21 @@ class PublicUrlCrawlerFactory:
         lecture.url = url
         lecture.src = soup.select_one("#cntntsView > div.rveInfo > div.img > p > img").get_attribute_list("src")[0]
         lecture.branch = soup.select_one("#cntntsView > div.rveInfo > div.infoBox > ul > li:nth-child(1)").get_text(separator="@", strip=True).split("@")[1]
+        lecture.address = center_info.get_addresses().get(lecture.branch)
         lecture.target = soup.select_one("#cntntsView > div.rveInfo > div.infoBox > ul > li:nth-child(8)").get_text(separator="@", strip=True).split("@")[-1]
-        start_span = soup.select_one("#cntntsView > div.rveInfo > div.infoBox > ul > li:nth-child(2)").get_text(separator="@", strip=True).split("@")[-1]
-        lecture_start = re.search(r"", start_span)
+        lecture.title = soup.select_one("#cntntsView > div.rveInfo > div.infoBox > h3").get_text(strip=True)
+        lecture.category = lecture.title  # 카테고리가 따로 존재 하지 않아 제목으로 대체
+        
+        start_span = soup.select_one("#cntntsView > div.rveInfo > div.infoBox > ul > li:nth-child(2)").get_text(separator="@", strip=True).split("@")[-1].replace("\n", "").replace("\t", "")
+        lecture_start: list[str] = re.findall(r"[0-9]{4}\s?[/.-]\s?[0-9]{2}\s?[/.-]\s?[0-9]{2}|[월화수목금토일,\s]+\s?[])]?\s?[0-9]{2}\s?:\s?[0-9]{2}\s?[-~]\s?[0-9]{2}\s?:\s?[0-9]{2}", start_span)
+        lecture.set_lecture_held_dates([lecture_start[0], lecture_start[1]], lecture_start[-1])
 
+        enroll_span = soup.select_one("#cntntsView > div.rveInfo > div.infoBox > ul > li:nth-child(3)").get_text(separator="@", strip=True).split("@")[-1].replace("\n", "").replace("\t", "")
+        enroll_start: list[str] = re.findall(r"[0-9]{4}\s?[/.-]\s?[0-9]{2}\s?[/.-]\s?[0-9]{2}", enroll_span)
+        lecture.enrollEnd = enroll_start[-1]
+        lecture.enrollStart = enroll_start[0]
 
+        lecture.content = soup.select_one("#cntntsView > div.box_st1.mgt20 > div.list_st1.mg10.cnDivEduCn.ViewImg100").get_text(strip=True, separator="\n")
 
         return
 

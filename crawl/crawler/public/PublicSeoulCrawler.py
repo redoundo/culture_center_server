@@ -3,6 +3,7 @@ from crawl.typeclass.PublicLibrary import PublicLibrary
 from crawl.typeclass.LectureType import LectureType
 from playwright.sync_api import Page, Locator, Browser
 import re
+from datetime import datetime
 import time
 from crawl.crawler.utils.utils import validate_string, trim_lecture_time, trim_lecture_price
 
@@ -99,5 +100,15 @@ class PublicSeoulCrawler(PublicCenterCrawler):
         page.close()
         return
 
+    def __ulsan_donggu(self, center_info: PublicLibrary):
+        page: Page = self.browser.new_page()
+        page.goto(center_info.get_link(), timeout=0)
+        time.sleep(2)
 
+        lecture_count: int = int(page.inner_text("#board > div.board_total > div.board_total_left > strong"))
+        if lecture_count < 1:
+            return
+        month: int = datetime.now().month
+        date: int = datetime.now().day
+        return
 
