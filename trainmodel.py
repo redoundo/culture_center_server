@@ -14,9 +14,10 @@ load_dotenv()
 
 
 class TrainModel:
-    dataLocation: str = os.environ.get('DATALOACTION')
-    savePath: str = os.environ.get('SAVEPATH')
-
+    # dataLocation: str = os.environ.get('DATALOACTION')
+    # savePath: str = os.environ.get('SAVEPATH')
+    savePath: str = "C:/Users/admin/mlcicd/ml_model.pth"
+    dataLocation: str = "C:/Users/admin/mlcicd/samples.json"
     tokenizer: PreTrainedTokenizerFast
     model: any
     vocab: dict
@@ -25,11 +26,11 @@ class TrainModel:
     testLoader: any
     trainLoader: any
 
-    device = torch.device("cuda:0")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     maxLen: int = 64
     batchSize: int = 64
     warmupRatio: float = 0.1
-    numEpochs: int = 20
+    numEpochs: int = 17
     maxGradNorm: int = 1
     logInterval: int = 200
     learningRate = 5e-5
@@ -42,7 +43,7 @@ class TrainModel:
         config.num_labels = num
         config.return_dict = False
         self.model = AutoModel.from_pretrained("skt/kobert-base-v1", config=config)
-
+        self.model.to(self.device)
         self.vocab = self.tokenizer.get_vocab()
         self.data = self.get_data()
         return
@@ -73,7 +74,7 @@ class TrainModel:
         for arr in data:
             if arr["Classify"] is not None:
                 if type(arr["Classify"]) is int:
-                    dataset.append([arr["Title"], arr["Classify"]])
+                    dataset.append([arr["title"], arr["Classify"]])
                 else:
                     continue
             else:
@@ -145,7 +146,8 @@ class TrainModel:
                 print("epoch {} test acc {}".format(e + 1, test_acc / (batch_id + 1)))
                 test_history.append(test_acc / (batch_id + 1))
 
-        torch.save(model.state_dict(), self.savePath)
+        # torch.save(model.state_dict(), self.savePath)
+        torch.save(model, self.savePath)
         return
 
     def calc_accuracy(self, x, y):

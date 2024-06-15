@@ -4,17 +4,20 @@ from dotenv import load_dotenv
 from multiprocessing import freeze_support
 from transformers import AutoTokenizer, AutoConfig, PreTrainedTokenizerFast, AutoModel
 import numpy as np
-import os
+from collections import OrderedDict
 import torch
+import json
 
 load_dotenv()
 
 
 class Classifying:
-    savePath: str = os.getenv('SAVEPATH')
+    # savePath: str = os.getenv('SAVEPATH')
+    savePath: str = "C:/Users/admin/mlcicd/ml_model.pth"
+    dataLocation: str = "C:/Users/admin/mlcicd/train_sample.json"
     model: any
     tokenizer: PreTrainedTokenizerFast
-    device = torch.device("cuda:0")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     vocab: dict[str, int]
     maxLen: int = 64
@@ -24,19 +27,45 @@ class Classifying:
         config = AutoConfig.from_pretrained("skt/kobert-base-v1")
         config.num_labels = label_num
         config.return_dict = False
-        model = AutoModel.from_pretrained("skt/kobert-base-v1", config=config)
-        self.model = model.load_state_dict(torch.load(self.savePath))
+        self.model = torch.load(self.savePath)
+        # self.model = AutoModel.from_pretrained("skt/kobert-base-v1", config=config)
+        # self.model.to(self.device)
+        # state_dict = self.delete_prefix(torch.load(self.savePath))
+        # self.model.load()
+        # self.model.load_state_dict(state_dict=state_dict)
         self.tokenizer = AutoTokenizer.from_pretrained("skt/kobert-base-v1", use_fast=False, config=config)
 
         self.vocab = self.tokenizer.get_vocab()
         return
 
+    def delete_prefix(self, state):
+        new_state_dict: OrderedDict = OrderedDict()
+        for key in list(state.keys()):
+            new_state_dict[key.replace("bert.", "")] = state[key]
+        return new_state_dict
+
+    def data_to_arr(self, data: list[dict]) -> list:
+        """
+        라벨링한 내용을 가져 온다. [["제목",20],["제목",11]...] 같은 형식으로 self.data 에 저장 된다.
+        :return:
+        """
+        dataset: list = []
+        for arr in data:
+            if arr["Classify"] is not None:
+                if type(arr["Classify"]) is int:
+                    dataset.append([arr["title"], arr["Classify"]])
+                else:
+                    continue
+            else:
+                continue
+        return dataset
+
     def classify(self, new_data: list) -> tuple | None:
         if len(new_data) < 1:
             return None
         else:
-            to_dataset = BERTDataset(new_data, 0, 1, self.tokenizer, self.vocab, self.maxLen, True, False)
-            dataloader = DataLoader(to_dataset, batch_size=self.batchSize, num_workers=0)
+            to_dataset = BERTDataset(self.data_to_arr(new_data), 0, 1, self.tokenizer, self.vocab, self.maxLen, True, False)
+            dataloader = DataLoader(to_dataset, batch_size=self.batchSize, num_workers=5)
 
             self.model.eval()
             classified = []
