@@ -1,0 +1,53 @@
+version: 0.1
+os: linux
+files:
+    - source: /Dockerfile-java
+      destination: /home/app
+    - source: /server-nginx.conf
+      destination: /home/app
+    - source: /appspec.yml
+      destination: /home/app
+    - source: /Dockerfile
+      destination: /home/app
+    - source: /setup.py
+      destination: /home/app
+    - source: /README.md
+      destination: /home/app
+    - source: /.github
+      destination: /home/app/.github
+    - source: /crawl
+      destination: /home/app/crawl
+    - source: /scripts
+      destination: /home/app/scripts
+    - source: /sample
+      destination: /home/app/sample
+    - source: /supervisord.conf
+      destination: /home/app
+    - source: /src
+      destination: /home/app/src
+
+permissions:
+  - object: /opt/codedeploy-agent/deployment-root
+    pattern: "*scripts*"
+    mode: 755
+    type:
+      - file
+      - directory
+    owner: root
+    group: root
+
+file_exists_behavior: OVERWRITE
+
+hooks:
+    ApplicationStop:
+        - location: scripts/application-stop.sh
+          timeout: 600
+          runas: root
+    AfterInstall:
+        - location: scripts/after-install.sh
+          timeout: 2400
+          runas: root
+    ApplicationStart:
+      - location: scripts/application-start.sh
+        timeout: 1200
+        runas: root

@@ -1,0 +1,322 @@
+{
+  "서울특별시": {
+    "국립중앙도서관": "https://www.nl.go.kr/NL/contents/N30901000000.do?viewCount=100&ordBy=desc",
+    "서울도서관": "https://lib.seoul.go.kr/lecture/applyList",
+    "국립어린이청소년도서관": "https://www.nlcy.go.kr/NLCY/contents/C20100000000.do?schM=list&searchStartDt=&searchEndDt=&stateCd2=1&categoryCd=&searchCondition=&targetCd=&searchKeyword=&recordCountPerPage=10",
+    "송파구통합도서관": "https://www.splib.or.kr/intro/menu/10052/program/30014/eventList.do?manageCd=&educationTypeCd=&eventStatusCd=apply&eventTargetCd=&searchCondition=title&searchKeyword=",
+    "중구구립도서관": "https://www.junggulib.or.kr/SJGL/menu/10070/program/30020/lectureList.do?manageCd=&lectureTypeCd=&targetCd=&searchStatusCd=apply&searchCondition=title&searchKeyword=",
+    "강서구통합도서관": "https://lib.gangseo.seoul.kr/LibProgramApply?libCode=TOL",
+    "양천구통합도서관": "https://lib.yangcheon.or.kr/main/",
+    "강남구통합도서관": "https://library.gangnam.go.kr/intro/menu/10045/program/30013/lectureList.do?searchCategory=&manageCd=ALL&searchStatusCd=apply&searchCondition=title&searchKeyword=",
+    "강동구통합도서관": "https://www.gdlibrary.or.kr/web/menu/10093/program/30011/lectureList.do?manageCd=ALL&searchStatusCd=apply&searchCondition=title&searchKeyword=",
+    "구로구통합도서관": "https://lib.guro.go.kr/#/libprg/culture-lecture?offset=0&max=20&state=RECEIPT&branchId=1&branchId=31&branchId=28&branchId=34&branchId=35&branchId=36&branchId=37&branchId=39&branchId=42&branchId=23&branchId=48&branchId=57&branchId=59&libraryProgramTypeId=1",
+    "동작구통합도서관": "https://lib.dongjak.go.kr/dj/module/teach/index.do?menu_idx=32&searchCate1=16",
+    "금천구립도서관": "https://geumcheonlib.seoul.kr/geumcheonlib/uce/programList.do?selfId=1090",
+    "서대문구립도서관": "https://lib.sdm.or.kr/sdmlib/menu/10088/program/30024/lectureList.do",
+    "도봉구통합도서관": "https://www.unilib.dobong.kr/edusat/list.do",
+    "동대문구립도서관": "https://www.l4d.or.kr/intro/menu/10108/program/30048/lecturePbList.do?searchCategoryCd=1770&manageCd=MA&statusCd=apply&searchCondition=title&searchKeyword=",
+    "노원구립도서관": "https://www.nowonlib.kr/CulturalProgram",
+    "강북구립도서관": "https://www.gblib.or.kr/",
+    "은평구립도서관": "https://www.eplib.or.kr/culture/event.asp?mode=list",
+    "에버러닝": "https://everlearning.sen.go.kr/ever/menu/10010/program/30002/lectureList.do?searchStatusCd=ONABLE&searchOrganNm=&searchCondition=title&searchKeyword=&searchSigungu=on&searchTarget=&searchCategory=&searchDayOfWeek=&searchDayStartTm=&searchYmdCondition=applyYmd&searchStartYmd=&searchEndYmd=&searchPay=ALL",
+    "종로구립도서관": "https://lib.jongno.go.kr/bbs/board.php?bo_table=ReadingPgm&sfl=&stx=&spt=&sca=&sst=wr_num%2C+wr_reply&sod=&page=1&typepage=1&type=table&sw=&bo_table=ReadingPgm&sca=&sfl=wr_subject&stx=",
+    "영등포구립도서관": "https://www.ydplib.or.kr/intro/menu/10020/program/30012/lectureList.do?manageCd=ALL&categoryCd=&targetCd=&searchStatusCd=apply&searchCondition=title&searchKeyword=",
+    "마포구립도서관": "https://mplib.mapo.go.kr/intro/index.do",
+    "성동구통합도서관": "https://www.sdlib.or.kr/main/"
+  },
+  "부산광역시": {
+    "부산광역시교육청도서관": "https://home.pen.go.kr/yeyak/edu/lib/selectEduList.do?mi=14556&eduSeq=&srchRsSysId=&srchEduCtgry=&currPage=1&srchRsvSttus=REQST&srchPeriodDiv=rcept&srchRsvBgnde=&srchRsvEndde=&srchRsvValue=&pageIndex=50",
+    "부산광역시도서관포털": "https://library.busan.go.kr/portal/board/index.do?menu_idx=67&manage_idx=595&rowCount=50"
+  },
+  "울산광역시": {
+    "울산동구통합도서관": "https://library.donggu.ulsan.kr/main/edusat/list.do",
+    "울주통합도서관": "https://uljulib.ulju.ulsan.kr/pageCont.do?menuNo=4030000",
+    "울산북구구립도서관": "https://usbl.bukgu.ulsan.kr/main/edusat/list.do",
+    "울산남구구립도서관": "https://www.ulsannamgu.go.kr/library/board/libLecture/list.do",
+    "울산중구통합도서관": "https://lib.junggu.ulsan.kr/lib/unit/event/EventProgramList.do?mId=001006001003000000",
+    "울산도서관": "https://library.ulsan.go.kr/board/EduLecture/List.do"
+  },
+  "대전광역시": {
+    "동구공공도서관": "https://www.donggu.go.kr/lll/damoa/contents/learning/edu/01/edu.01.001.motion",
+    "유성구통합도서관": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do?manageCd=ALL&searchTarget=ALL&searchStatusCd=apply&searchCondition=title&searchKeyword=",
+    "대전서구월평도서관": "https://www.seogu.go.kr/learning/wolpyeonglib/contents/learning/lib/02/lib.02.001.motion?mnucd=MENU0600030",
+    "대전서구둔전도서관": "https://www.seogu.go.kr/learning/dunsanlib/contents/learning/lib/02/lib.02.001.motion?mnucd=MENU0400030",
+    "대덕구도서관": "https://lib.daedeok.go.kr/daedeoklib/index.do"
+  },
+  "인천": {
+    "인천광역시교육청통합도서관": "https://lib.ice.go.kr/ice/module/teach/index.do?teach_idx=0&editMode=ADD&menu_idx=92&homepage_id=h9&large_category_idx=0&group_idx=0&category_idx=0&_program_age_div_arr=on&start_join_date=&end_join_date=&start_date=&end_date=&status=0&search_text=&viewPage=1",
+    "인천서구구립도서관": "https://www.issl.go.kr/main/index.do?curl=/program/program_list.do?bbsId=353&menu1=3&menu2=404&scd=1",
+    "연수구립도서관": "https://www.yspubliclib.go.kr/ysgplib/uce/program/openProgramList.do?tmid=403&smid=405&lmid=405",
+    "인천광역시동구구립도서관": "https://lib.icdonggu.go.kr/songlim/apply/edu.jsp?acptrun=y",
+    "인천계양구립도서관": "https://www.gygl.go.kr/culture/app/culture.asp?mNo=MC010020000&libno=",
+    "남동구립도서관": "https://www.namdonglib.go.kr/ndglib/usr/program/openProgramList.do?mnid=mn03&mnidx=125&cldidx=169",
+    "부평구립통합도서관": "https://www.bppl.or.kr/bplib/index.do"
+  },
+  "전라북도": {
+    "교육청통합도서관/교육문화회관": "https://lib.jbe.go.kr/jbe/module/teach/index.do?teach_idx=0&editMode=ADD&menu_idx=17&homepage_id=h9&large_category_idx=0&group_idx=0&category_idx=0&_program_age_div_arr=on&start_join_date=&end_join_date=&start_date=&end_date=&status=0&search_text=&viewPage=1",
+    "전주도서관": "https://lib.jeonju.go.kr/index.jeonju?orderField=RE_SDATE&orderSort=desc&menuCd=DOM_000000102002000000&startPage=1&finalStatus=1&searchType=&searchWord=&reGubun=ALL&reGubun=JL&reGubun=MA&reGubun=ST&reGubun=WT&reGubun=PH&reGubun=HJ&reGubun=DT&reGubun=GT&reGubun=IT&reGubun=MB&reGubun=JT&reGubun=MC&reGubun=JC&reGubun=SS&reGubun=JP&reGubun=JA&reGubun=DG&reGubun=YY&reGubun=SY&reGubun=HA&reGubun=AA&reGubun=AB&reGubun=AC",
+    "익산시통합도서관": "https://lib.iksan.go.kr/main/edusat/list.do?sh_ct_idx=&sh_status=1&sh_edu_target_code=&v_search=total&v_keyword=",
+    "정읍시립도서관": "https://lib.jeongeup.go.kr/main/eduReq.do?PID=0701",
+    "김제시립도서관": "https://gjl.gimje.go.kr/index.gimje?orderField=RE_SDATE&orderSort=desc&menuCd=DOM_000000109008003000&startPage=1&searchYear=2024&searchDateGubun=1&searchWord=",
+    "임실군립도서관": "https://lib.imsil.go.kr/commonlib/uce/board/openProgramList.do?mi=MN0131&acc=Z",
+    "순창군립도서관": "https://lib.sunchang.go.kr/culture/lecture"
+  },
+  "전라남도": {
+    "순천시립도서관": "https://library.suncheon.go.kr:2200/online?ly=box&lib=0&au=1&sd=20240101&ed=20241231&keyword=",
+    "여수시립도서관": "https://yslib.yeosu.go.kr/front/index.php?g_page=culture&m_page=culture01",
+    "해남군립도서관": "https://lib.haenam.go.kr/main/sub.php?mno=43",
+    "강진군도서관": "https://www.gjlib.go.kr/EventList/All/Ing",
+    "장성군립도서관": "https://lib.jangseong.go.kr/Lecture/All/Ing",
+    "화순열린도서관": "https://www.hslib.kr/app.do?S=S01&M=040301000000&b_list=10&app_code=APP001&keyField=&keyWord=&nPage=1",
+    "전라남도도립도서관": "https://lib.jeonnam.go.kr/bbs/board.php?bo_table=culturelecture",
+    "목포시립도서관": "https://www.mokpolib.or.kr/cms/bbs/dk_content.php?ht_id=pro_10",
+    "광양시립도서관": "https://lib.gwangyang.go.kr/lib/culturallecture/lectureList.do?menuCd=L003003"
+  },
+  "광주광역시": {
+    "광주광역시립도서관": "https://citylib.gwangju.kr/main/clturReq?queryType=Y&queryType2=&query=",
+    "광주광역시서구통합도서관": "https://library.seogu.gwangju.kr/library/index.9is?contentUid=9be5df895e37f33d015e5a303b421d23",
+    "광주동구도서관": "https://lib.donggu.kr/Program/All/Ing",
+    "광주광역시북구통합도서관": "https://lib.bukgu.gwangju.kr/main/cultureReq.do?PID=0401",
+    "광산구통합도서관": "https://lib.gwangsan.go.kr/main/clturReq",
+    "광주광역시남구통합도서관": "https://lib.namgu.gwangju.kr/main/clturReq/1?category=&queryType=&queryType3=1&queryType4=A&query="
+  },
+  "경상남도": {
+    "양산시": {
+      "경상남도교육청양산도서관": {
+        "address": {
+          "경상남도교육청양산도서관":"경상남도 양산시 물금읍 신주2길 24"
+        },
+        "url": "https://yslib.gne.go.kr/menu.es?mid=b10402000000",
+        "to_enroll": "#li0403000000 > a"
+      }
+    },
+    "창원시": {
+      "경상남도교육청창원도서관": {
+        "address": {
+          "경상남도교육청창원도서관":"경상남도 창원시 성산구 두대로 197-33(중앙동)"
+        },
+        "url": "https://cwlib.gne.go.kr/board.es?mid=a20802040000&bid=A2_161109",
+        "to_enroll": "#li0810000000 > a"
+      },
+      "경상남도교육청진동도서관": {
+        "address": {
+          "경상남도교육청진동도서관":"경상남도 창원시 마산합포구 진동면 삼진의거대로 661-94"
+        },
+        "url":"https://jdlib.gne.go.kr/index.es?sid=b6",
+        "to_enroll": "#li0402000000 > a"
+      },
+      "경상남도교육청마산도서관": {
+        "address": {
+          "경상남도교육청마산도서관":"경남 창원시 마산합포구 용마산길 12 (산호동)"
+        },
+        "url":"https://mslib.gne.go.kr/menu.es?mid=a40401010000",
+        "to_enroll": "#li0402000000 > a"
+      }
+    },
+    "고성군": {
+      "경상남도교육청고성도서관" : {
+        "address": {
+          "경상남도교육청고성도서관":"경상남도 고성군 고성읍 동외로 195번길 6"
+        },
+        "url":"https://gslib.gne.go.kr/menu.es?mid=b31301000000",
+        "to_enroll": "#li1302000000 > a"
+      }
+    },
+    "사천시": {
+      "경상남도교육청삼천포도서관": {
+        "address": {
+          "경상남도교육청삼천포도서관": "경상남도 사천시 삼천포대교로 622 삼천포도서관"
+        },
+        "url": "https://scplib.gne.go.kr/board.es?mid=a60301010000&bid=A6_NEW09",
+        "to_enroll": "#li0302000000 > a"
+      },
+      "경상남도교육청사천도서관": {
+        "address": {
+          "경상남도교육청사천도서관":"사천시 사천읍 평화2길 21"
+        },
+        "url":"https://salib.gne.go.kr/menu.es?mid=c20401000000",
+        "to_enroll": "#li0402000000 > a"
+      }
+    },
+    "남해군": {
+      "경상남도교육청남해도서관": {
+        "address": {
+          "경상남도교육청남해도서관": "경상남도 남해군 남해읍 화전로 43번길 11-3"
+        },
+        "url": "https://nhlib.gne.go.kr/menu.es?mid=c10206000000",
+        "to_enroll": "#li0205000000 > a"
+      }
+    },
+    "밀양시": {
+      "경상남도교육청밀양도서관": {
+        "address": {
+          "경상남도교육청밀양도서관": "경상남도 밀양시 삼랑진읍 만어로 7"
+        },
+        "url": "https://mrlib.gne.go.kr/sitemap.es?mid=b70904000000",
+        "to_enroll": "#content_detail > div > dl.sitemap-menu04 > dd > ul > li:nth-child(2) > a"
+      },
+      "경상남도교육청하남도서관": {
+        "address": {
+          "경상남도교육청하남도서관":"경상남도 밀양시 하남읍 수산중앙로 63"
+        },
+        "url":"https://hnlib.gne.go.kr/board.es?mid=b50601000000&bid=B5_00201",
+        "to_enroll": "#li0603000000 > a"
+      }
+    },
+    "의령군": {
+      "경상남도교육청의령도서관": {
+        "address": {
+          "경상남도교육청의령도서관": "경상남도 의령군 의령읍 의병로 25길 9-8"
+        },
+        "url": "https://urlib.gne.go.kr/menu.es?mid=c50501000000",
+        "to_enroll": "#li0502000000 > a"
+      }
+    },
+    "산청군": {
+      "경상남도교육청산청지리산도서관": {
+        "address": {
+          "경상남도교육청산청지리산도서관": "경상남도 산청군 신안면 원지강변로 101"
+        },
+        "url": "https://sjlib.gne.go.kr/menu.es?mid=d30402000000",
+        "to_enroll": "#li0401000000 > a"
+      },
+      "경상남도교육청산청도서관": {
+        "address": {
+          "경상남도교육청산청도서관":"경상남도 산청군 산청읍 꽃봉산로79번길 45"
+        },
+        "url":"https://sanlib.gne.go.kr/menu.es?mid=c61101000000",
+        "to_enroll": "#li1102000000 > a"
+      }
+    },
+    "함양군": {
+      "경상남도교육청힘양도서관": {
+        "address": {
+          "경상남도교육청힘양도서관": "경상남도 함양군 함양로 1143-1"
+        },
+        "url": "https://hylib.gne.go.kr/menu.es?mid=a81301000000",
+        "to_enroll": "#li1302000000 > a"
+      }
+    },
+    "거창군": {
+      "경상남도교육청거창도서관": {
+        "address": {
+          "경상남도교육청거창도서관": "경상남도 거창군 거창읍 하동1길 9"
+        },
+        "url": "https://gclib.gne.go.kr/menu.es?mid=b90501000000",
+        "to_enroll": "#li0502000000 > a"
+      }
+    },
+    "함안군": {
+      "경상남도교육청함안도서관": {
+        "address": {
+          "경상남도교육청함안도서관": "경상남도 함안군 가야읍 선왕길 16"
+        },
+        "url": "https://hmlib.gne.go.kr/menu.es?mid=a70402000000",
+        "to_enroll": "#li0401000000 > a"
+      }
+    },
+    "창년군": {
+      "경상남도교육청창년도서관": {
+        "address": {
+          "경상남도교육청창년도서관": "경남 창녕군 창녕읍 남창녕로 52 (말흘리 292)"
+        },
+        "url":"https://cnlib.gne.go.kr/menu.es?mid=c30401000000",
+        "to_enroll": "#li0403000000 > a"
+      }
+    },
+    "김해시": {
+      "경상남도교육청김해도서관": {
+        "address": {
+          "경상남도교육청김해도서관": "경상남도 김해시 왕릉길 72"
+        },
+        "url":"https://ghlib.gne.go.kr/board.es?mid=a30601000000&bid=A3_1156986064",
+        "to_enroll": "#li0604000000 > a"
+      },
+      "경상남도교육청김해지혜의바다도서관": {
+        "address": {
+          "경상남도교육청김해지혜의바다도서관": "경상남도 김해시 주촌면 서부로1541번길 8"
+        },
+        "url":"https://ghjhlib.gne.go.kr/menu.es?mid=d20503000000",
+        "to_enroll": "#li0502000000 > a"
+      },
+      "김해통합도서관": {
+        "address": {
+          "칠암도서관": "경상남도 김해시 활천로285번길 14",
+          "화정글샘도서관": "경상남도 김해시 삼계중앙로13번길 19 (삼계동)",
+          "장유도서관": "경상남도 김해시 대청로176번길 7 (대청동)",
+          "김해기적의도서관": "경상남도 김해시 율하1로 55 (율하동)",
+          "진영한빛도서관": "경상남도 김해시 진영읍 김해대로 440",
+          "김해율하도서관": "경상남도 김해시 율하2로 210 (율하동)"
+        },
+        "url":"https://lib.gimhae.go.kr/00289/00294/00894.web?cpage=1&lec_state=ing&target_cd=00&app_method=&stype=course_nm&sstring="
+      }
+    },
+    "하동군": {
+      "경상남도교육청하동도서관": {
+        "address": {
+          "경상남도교육청하동도서관": "경상남도 하동군 하동읍 경서대로 80"
+        },
+        "url":"https://hdlib.gne.go.kr/menu.es?mid=a50403010000",
+        "to_enroll": "#li0403020000 > a"
+      }
+    },
+    "진주시": {
+      "경상남도교육청진양도서관": {
+        "address": {
+          "경상남도교육청진양도서관": "경상남도 진주시 문산읍 동부로 588번길 24 (삼곡리 640-3번지)"
+        },
+        "url":"https://jinlib.gne.go.kr/board.es?mid=b40301000000&bid=B4_00103",
+        "to_enroll": "#li0307000000 > a"
+      }
+    },
+    "통영시": {
+      "통영시립도서관": {
+        "url":"https://www.tongyeonglib.or.kr/library/index.php?g_page=culture&m_page=culture02",
+        "address": {
+          "도서관": "경상남도 통영시 무전3길 29(무전동)",
+          "충무도서관": "경상남도 통영시 용남면 기호바깥길 7-87",
+          "꿈이랑도서관": "경상남도 통영시 산양읍 둔전길 155",
+          "욕지도서관": "경상남도 통영시 욕지면 중촌길 203"
+        }
+      },
+      "경상남도교육청통영도서관": {
+        "address": {
+          "경상남도교육청통영도서관": "경상남도 통영시 봉수로37(봉평동)"
+        },
+        "url": "https://tylib.gne.go.kr/menu.es?mid=b20401000000",
+        "to_enroll": "#content_detail > div > span > a"
+      }
+    }
+  },
+  "경상북도": {
+    "경상북도교육청통합도서관": "https://www.gbelib.kr/gbelib/module/teach/index.do?teach_idx=0&editMode=ADD&menu_idx=124&homepage_id=h1&large_category_idx=0&group_idx=0&category_idx=0&_program_age_div_arr=on&start_join_date=&end_join_date=&start_date=&end_date=&status=0&search_text=&viewPage=1",
+    "구미시립도서관": "https://lib.gumi.go.kr/page.do?mid=23",
+    "김천시립도서관": "https://www.gcl.go.kr/?page_id=culture_02",
+    "영천시립도서관": "https://www.yclib.go.kr/homepage/index.php?g_page=lecture&m_page=lecture02",
+    "경주시립도서관": "https://library.gyeongju.go.kr/?page_id=culture_02&cate=1",
+    "포항시립도서관": "https://phlib.pohang.go.kr/phlib/module/teach/index.do?menu_idx=24",
+    "안동시립도서관": "https://lib.andong.go.kr/andonglibrary/module/teach/index.do?group_idx=0&teach_idx=0&menu_idx=362&category_idx=0&searchCate1=16&large_category_idx=0&category_idx=0",
+    "상주시립도서관": "https://www.sangju.go.kr/reserve/reservation/list.tc?pageNo=&mn=4505&pageIndex=1&searchTrgtClsfCd=RMS004001&searchFcltNo=128&cyclNo=&rcptNo=&searchUpClsfCd=&searchRgnClsfCd=&searchKeyword=&orderBy=",
+    "문경시립도서관": "https://www.gbmg.go.kr/reservation/library/lecture/list.do?library=1&mId=0107020100",
+    "청송군립진보도서관": "https://jinbolib.cs.go.kr/page.do?mid=129",
+    "의성군립도서관": "https://www.usc.go.kr/reserve/lecture/list.tc?mn=1449&pageIndex=1&type=&typeCode=&pageSeq=681&lectureNo=-1&searchSiteCode=PUBLIC&searchSiteNo=7&searchCondition5=&searchCondition4=B&searchCondition=&searchCondition2=&searchCondition3=&searchKeyword=",
+    "칠곡군립도서관": "https://library.chilgok.go.kr/cg/module/teach/index.do?menu_idx=362",
+    "경북도서관": "https://www.gb.go.kr/lib/reserve/event/list.tc?mn=2403&pageSeq=1601"
+  },
+  "충청북도": {
+    "제천시립도서관": "https://www.jecheon.go.kr/edu/selectEdcLctreList5.do?key=1972",
+    "청주시립도서관": "https://library.cheongju.go.kr/lib/front/index.php?g_page=community&m_page=community03",
+    "음성군립도서관": "https://lib.eumseong.go.kr/lib/front/index.php?g_page=lecture&m_page=lecture02",
+    "진천군립도서관": "https://lib.jincheon.go.kr/lib/front/index.php?g_page=community&m_page=community04&cate=&siteCode=TOL&allLec=&bstart=&dateType=take&slDateS=&slDateE=&sValue=",
+    "보은군립도서관": "https://lib.boeun.go.kr/front/index.php?g_page=culture&m_page=culture01"
+  },
+  "충청남도": {
+    "홍성군": {
+      "충남도서관": {
+        "url": "https://library.chungnam.go.kr/reqst/crse/crseList.do"
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,987 @@
+{
+  "서울": {
+    "더현대 서울": {
+      "Address": "서울특별시 영등포구 여의대로 108 (여의도동)",
+      "Hrefs": {
+        "성인": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=400&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "압구정본점": {
+      "Address": "서울특별시 강남구 압구정로 165 (압구정동)",
+      "Hrefs": {
+        "성인": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=210&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "무역센터점": {
+      "Address": "서울특별시 강남구 테헤란로 517 (삼성동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=220&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "천호점": {
+      "Address": "서울특별시 강동구 천호대로 1005 (천호동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=260&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "신촌점": {
+      "Address": "서울특별시 서대문구 신촌로 83 (창천동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=270&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "미아점": {
+      "Address": "서울특별시 성북구 동소문로 315 (길음동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=410&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "목동점": {
+      "Address": "서울특별시 양천구 목동동로 257 (목동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=420&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "디큐브시티": {
+      "Address": "서울특별시 구로구 경인로 662 (신도림동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=490&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "가든파이브": {
+      "Address": "서울특별시 송파구 충민로 66 (문정동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=750&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    }
+  },
+  "경기도": {
+    "중동점": {
+      "Address": "경기도 부천시 길주로 180 (중동)",
+      "Hrefs": {
+        "성인": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=430&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "킨텍스점": {
+      "Address": "경기도 고양시 일산서구 호수로 817 (대화동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=450&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "판교점": {
+      "Address": "경기도 성남시 분당구 판교역로146번길 20 (백현동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=480&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    }
+  },
+  "대구": {
+    "더현대 대구": {
+      "Address": "대구광역시 중구 달구벌대로 2077 (계산동2가)",
+      "Hrefs": {
+        "성인": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "클럽 웰니스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=29&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파워 트레이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=30&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "인문 & 아트 살롱": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=31&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "취향 커뮤니티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=32&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "살롱 1985": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=33&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "파인 다이닝": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=35&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "키즈 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=37&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "ON 라이브": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=460&keyword=38&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    }
+  },
+  "부산": {
+    "부산점": {
+      "Address": "부산광역시 동구 범일로 125 (범일동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=240&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    }
+  },
+  "울산": {
+    "울산점": {
+      "Address": "울산광역시 남구 삼산로 261 (삼산동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=290&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    },
+    "울산동구점": {
+      "Address": "울산광역시 동구 방어진순환도로 899 (서부동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=250&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    }
+  },
+  "충청북도": {
+    "충청점": {
+      "Address": "충청북도 청주시 흥덕구 직지대로 308 (복대동)",
+      "Hrefs": {
+        "성인": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=1"
+        },
+        "엄마랑 아기랑": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=2"
+        },
+        "유아 어린이": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=3"
+        },
+        "패밀리": {
+          "인문예술": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=001&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "재테크": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=002&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "외국어": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=003&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "사진 여행": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=019&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "웰니스뷰티": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=020&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "쿠킹 취미": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=021&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "미술 기악": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=022&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "노래 댄스": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=023&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "공연이벤트": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=024&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "엄마랑 아가랑": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=025&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "어린이 패밀리": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=026&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4",
+          "자녀교육 프리맘": "https://www.ehyundai.com/newCulture/CT/CT010100_L.do?page=1&stCd=470&keyword=027&orderGubn=status&pageSize=36&detailSearch=1&upCrsTy2=4"
+        }
+      }
+    }
+  }
+}

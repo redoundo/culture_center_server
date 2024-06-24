@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" monitorInterval="5">
+    <!--공통 속성 설정 -->
+    <Properties>
+        <Property name="logFileName">log4jFile</Property>
+        <Property name="consoleLayout">[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] [%c{1}:%L] - %m%n</Property>
+        <Property name="fileLayout">%d [%t] %-5level %c(%M:%L) - %m%n</Property>
+    </Properties>
+
+    <!-- Log Appender 설정 -->
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${consoleLayout}" />
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <logger name="org.springframework" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+
+        <!-- rolling file에는 debug, console에는 info 분리하여 처리 가능하다. -->
+        <logger name="com.culturecenter.javaserver.controller" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.service" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.mapper" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.filter" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.entity" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.dto" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.config" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.repository" level="TRACE" additivity="true" >
+            <AppenderRef ref="console" />
+        </logger>
+        <logger name="com.culturecenter.javaserver.JavaserverApplication" level="TRACE" additivity="true">
+            <AppenderRef ref="console"/>
+        </logger>
+        <logger name="com.culturecenter.javaserver.error" level="TRACE" additivity="true">
+            <AppenderRef ref="console"/>
+        </logger>
+        <logger name="com.culturecenter.javaserver.auth" level="TRACE" additivity="true">
+            <AppenderRef ref="console"/>
+        </logger>
+        <!-- ROOT logger-->
+        <Root level="info">
+
+        </Root>
+    </Loggers>
+</Configuration>
