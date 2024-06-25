@@ -75,4 +75,6 @@ public class Lectures {
     private String lectureHeldDates;
     @Column(name="enrollStatus")
     private String enrollStatus;
+    @Column(name="statusUpdateTime")
+    private Timestamp statusUpdateTime;
 }
