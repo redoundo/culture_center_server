@@ -14,9 +14,19 @@ jobs:
       DEPLOYMENT_GROUP_NAME: ubuntu-code-deploy-group
       S3_BUCKET_NAME: culture-center-bucket
 
-    runs-on: window-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
+
+      - name: setting env
+        run: |
+          cd C:/Users/admin/javaserver
+          Add-Content -Path .env -Value DOCKER_HUB_PASSWORD=${{secrets.DOCKER_HUB_PASSWORD}}
+          Add-Content -Path .env -Value DOCKER_HUB_USERNAME=${{secrets.DOCKER_HUB_USERNAME}}
+          Add-Content -Path .env -Value DATABASE_HOST=${{secrets.DATABASE_HOST}}
+          Add-Content -Path .env -Value DATABASE_PASSWORD=${{secrets.DATABASE_PASSWORD}}
+          Add-Content -Path .env -Value JWT_SECRET=${{secrets.JWT_SECRET}}
+          Add-Content -Path .env -Value DISCORD_WEBHOOK_URL=${{secrets.DISCORD_WEBHOOK_URL}}
 
       - name: Zip Files
         run: |
