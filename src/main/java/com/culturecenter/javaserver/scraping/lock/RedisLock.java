@@ -1,6 +1,7 @@
 package com.culturecenter.javaserver.scraping.lock;
 
 
+import com.culturecenter.javaserver.dto.SearchResultsDto;
 import com.culturecenter.javaserver.entity.Lectures;
 import lombok.RequiredArgsConstructor;
 import org.redisson.api.RBucket;
@@ -26,10 +27,12 @@ public class RedisLock {
         boolean isLocked;
         try{
             while (!lock.tryLock(20, 30, TimeUnit.SECONDS)){
+                // 락을 가져오는 데 실패한 경우, 즉 스크래핑이 진행중일 때는 락을 가져올 수 있을 때까지 기다린다.
                 isLocked = false;
             }
             isLocked = lock.tryLock(10, 30, TimeUnit.SECONDS);
             if(isLocked){
+                // 락을 가져울 수 있다면 스크래핑이 완료된 것이므로 업데이트 된
                 return supplier.get();
             } else throw new RuntimeException("time out exception!!");
 
@@ -47,12 +50,12 @@ public class RedisLock {
     }
 
 
-    public void setScrappingDelay (String lockName, List<Lectures> lectures){
+    public void setScrappingDelay (String lockName, SearchResultsDto results){
         RBucket<String> bucket = client.getBucket("SCRAP_KEY " + lockName);
-        if(!bucket.isExists()) bucket.set(checking.javaObjectToJson(lectures), Duration.ofHours(1));
+        if(!bucket.isExists()) bucket.set(checking.javaObjectToJson(results), Duration.ofHours(1));
     }
 
-    public List<Lectures> cachingScrappedLectures(String lockName){
+    public SearchResultsDto cachingScrappedLectures(String lockName){
         RBucket<String> bucket = client.getBucket("SCRAP_KEY " + lockName);
         if(!bucket.isExists()) return null;
         String json = bucket.get();

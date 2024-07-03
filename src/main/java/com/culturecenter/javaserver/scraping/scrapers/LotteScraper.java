@@ -1,7 +1,4 @@
 package com.culturecenter.javaserver.scraping.scrapers;
-
-import com.culturecenter.javaserver.error.CustomRuntimeException;
-import com.culturecenter.javaserver.error.ErrorCode;
 import com.culturecenter.javaserver.scraping.Command;
 import com.culturecenter.javaserver.scraping.ScrapStatus;
 import org.jsoup.Jsoup;
@@ -25,7 +22,7 @@ public class LotteScraper implements Command {
             return null;
         }
         Element status = doc.selectFirst("#wrap > div.cont_wrap > div > div.page_cont_area.no_padding > div.bg_inner.pd_bot > div > div > div.pin-spacer > div > div > div.shadow_div > div:nth-child(1) > div.pop_wrap > div > div.for_padding.on > div > div.pop_head > div.top_area > div.label_div > p:nth-child(1)");
-        if (status == null) throw new CustomRuntimeException(ErrorCode.STATUS_UPDATE_ELEMENT_NOT_EXIST);
+        if (status == null) return "OVER"; //접수 기한이 종료된 게 오래 되었으면 페이지 자체가 없다. 그런 경우 OVER 반환.
         return ScrapStatus.HOMEPLUS_STATUS.checkStatus(status.text());
     }
 }

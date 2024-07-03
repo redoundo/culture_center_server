@@ -164,7 +164,17 @@ public class SelectService {
      */
     public List<Lectures> selectLectureByConditions (SearchConditions conditions) {
         Pageable pageable = PageRequest.of(conditions.getPage() == null ? 1 : (conditions.getPage() - 1) * 16 + 1, 16);
-        Specification<Lectures> spec = (root, query, criteriaBuilder) -> {
+        Specification<Lectures> spec = searchByConditionsSpec(conditions);
+        return lectureRepository.findAll(spec, pageable).stream().toList();
+    }
+
+    public Integer lectureTotalCount(SearchConditions conditions){
+        Specification<Lectures> spec = searchByConditionsSpec(conditions);
+        return lectureRepository.findAll(spec).size();
+    }
+
+    public Specification<Lectures> searchByConditionsSpec(SearchConditions conditions){
+        return (root, query, criteriaBuilder) -> {
             Predicate predicate = criteriaBuilder.conjunction();
             // 대상 설정만 존재 할 때는 null 이 아니면 가져오게 한다.
             if (checking.checkString(conditions.getTarget()) && !checking.checkString(conditions.getCategory()))
@@ -192,6 +202,6 @@ public class SelectService {
             }
             return predicate;
         };
-        return lectureRepository.findAll(spec, pageable).stream().toList();
     }
+
 }

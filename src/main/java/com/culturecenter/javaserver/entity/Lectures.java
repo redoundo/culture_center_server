@@ -4,7 +4,6 @@ import io.hypersistence.utils.hibernate.type.json.JsonType;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.Type;
-import org.springframework.lang.Nullable;
 
 import java.sql.Timestamp;
 import java.util.Map;

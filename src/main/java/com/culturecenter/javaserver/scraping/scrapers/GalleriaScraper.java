@@ -25,7 +25,7 @@ public class GalleriaScraper implements Command {
         }
 
         Element status = doc.selectFirst("#main > div > section > div.article-side.article-side--gray > span");
-        if (status == null) throw new CustomRuntimeException(ErrorCode.STATUS_UPDATE_ELEMENT_NOT_EXIST);
+        if (status == null) return "OVER"; //접수 기한이 종료된 게 오래 되었으면 페이지 자체가 없다. 그런 경우 OVER 반환.
         return ScrapStatus.HOMEPLUS_STATUS.checkStatus(status.text());
     }
 }

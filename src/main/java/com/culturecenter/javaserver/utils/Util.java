@@ -1,6 +1,7 @@
 package com.culturecenter.javaserver.utils;
 
 import com.culturecenter.javaserver.dto.SearchConditions;
+import com.culturecenter.javaserver.dto.SearchResultsDto;
 import com.culturecenter.javaserver.entity.Lectures;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -73,24 +74,24 @@ public class Util {
         }
         if (!whereCause.isEmpty()) sql = sql + " WHERE " + String.join(" AND ", whereCause);
         if(conditions.getPage() != null) sql = sql + " LIMIT %s,16".formatted(((conditions.getPage() - 1) * 16)) + ";";
-        else sql = sql + " LIMIT 0,16" + ";";
+        else sql = sql + " LIMIT 0,16;";
         return sql;
     }
 
-    public String javaObjectToJson(List<Lectures> lectures){
+    public String javaObjectToJson(SearchResultsDto results){
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            return objectMapper.writeValueAsString(lectures);
+            return objectMapper.writeValueAsString(results);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public List<Lectures> jsonToJavaObject(String cached){
+    public SearchResultsDto jsonToJavaObject(String cached){
         if(!checkString(cached)) return null;
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            return objectMapper.readValue(cached, new TypeReference<List<Lectures>>(){});
+            return objectMapper.readValue(cached, new TypeReference<SearchResultsDto>(){});
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }

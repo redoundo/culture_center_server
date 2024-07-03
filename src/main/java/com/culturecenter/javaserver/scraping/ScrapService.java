@@ -1,6 +1,7 @@
 package com.culturecenter.javaserver.scraping;
 
 import com.culturecenter.javaserver.dto.SearchConditions;
+import com.culturecenter.javaserver.dto.SearchResultsDto;
 import com.culturecenter.javaserver.entity.Lectures;
 import com.culturecenter.javaserver.scraping.factory.ScraperFactory;
 import com.culturecenter.javaserver.scraping.lock.RedisLock;
@@ -23,16 +24,22 @@ public class ScrapService {
     private final RedisLock redisLock;
 
     @Async
-    public List<Lectures> checkAndUpdateStatus(SearchConditions conditions) {
-        String sql = checking.createSqlStatementByConditions(conditions);
-        List<Lectures> nullableLectures = redisLock.cachingScrappedLectures(sql);
+    public SearchResultsDto checkAndUpdateStatus(SearchConditions conditions, String sql) {
+        SearchResultsDto nullableLectures = redisLock.cachingScrappedLectures(sql);
         // redis 에 "SCRAP_KEY " + sql 과 동일한 키가 있으면 database 에서 가져올 필요 없이 redis 에서 cache 해온다.
         if (nullableLectures != null) return nullableLectures;
+//        this.selectService.selectLectureByConditions(conditions);
 
         List<Lectures> lectures =  redisLock.executeWithLock(sql,
                 () -> this.selectService.selectLectureByConditions(conditions));
+        // 전체 페이지 수
+        Integer total = selectService.lectureTotalCount(conditions);
         // "SCRAP_KEY " + sql 과 동일한 키가 있으면 웹 스크래핑을 진행하지 하지 않고 바로 반환. 1시간 동안 유지
-        if(redisLock.rBucketExist(sql)) return lectures;
+        if(redisLock.rBucketExist(sql))
+            return SearchResultsDto.builder()
+                    .total(total)
+                    .lectures(lectures)
+                    .build();
 
         List<CompletableFuture<Lectures>> futureLectureList = lectures.stream().map(this::checkLectureStatus).toList();
         CompletableFuture<List<Lectures>> future =
@@ -42,8 +49,13 @@ public class ScrapService {
                                 .collect(Collectors.toList()));
 
         List<Lectures> scrappedLectures = future.join();
-        redisLock.setScrappingDelay(sql, scrappedLectures); // 30분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
-        return scrappedLectures;
+        SearchResultsDto results = SearchResultsDto.builder()
+                .total(total)
+                .lectures(scrappedLectures)
+                .build();
+        redisLock.setScrappingDelay(sql, results); // 60분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
+
+        return results;
     }
 
     public CompletableFuture<Lectures> checkLectureStatus( Lectures lecture){

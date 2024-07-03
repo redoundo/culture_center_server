@@ -40,7 +40,7 @@ public class RedisConfig {
                 .setAddress(host)
                 .setPassword(password)
                 .setUsername(userName)
-                .setDnsMonitoringInterval(-1);
+                .setConnectionPoolSize(30);
         return Redisson.create(config);
     }
 

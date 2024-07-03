@@ -1,7 +1,4 @@
 package com.culturecenter.javaserver.scraping.scrapers;
-
-import com.culturecenter.javaserver.error.CustomRuntimeException;
-import com.culturecenter.javaserver.error.ErrorCode;
 import com.culturecenter.javaserver.scraping.Command;
 import com.culturecenter.javaserver.scraping.ScrapStatus;
 import org.jsoup.Jsoup;
@@ -32,7 +29,7 @@ public class HyundaiScraper implements Command {
         if(status == null) // 처음의 css selector 로 가져올 수가 없다면 마감 상태일 수도 있으므로, 확인
             status = doc.selectFirst("#selectedCrsBill > button:nth-child(7) > span");
         // 그래도 없는 경우에는 에러 반환.
-        if (status == null) throw new CustomRuntimeException(ErrorCode.STATUS_UPDATE_ELEMENT_NOT_EXIST);
+        if (status == null) return "OVER"; //접수 기한이 종료된 게 오래 되었으면 페이지 자체가 없다. 그런 경우 OVER 반환.
         return ScrapStatus.HYUNDAI_STATUS.checkStatus(status.text());
     }
 }

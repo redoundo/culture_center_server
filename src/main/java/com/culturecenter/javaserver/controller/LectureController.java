@@ -3,9 +3,11 @@ package com.culturecenter.javaserver.controller;
 import com.culturecenter.javaserver.auth.JwtProvider;
 import com.culturecenter.javaserver.dto.AddressFromGeoApiDto;
 import com.culturecenter.javaserver.dto.SearchConditions;
+import com.culturecenter.javaserver.dto.SearchResultsDto;
 import com.culturecenter.javaserver.entity.Lectures;
 import com.culturecenter.javaserver.error.CustomRuntimeException;
 import com.culturecenter.javaserver.error.ErrorCode;
+import com.culturecenter.javaserver.scraping.ScrapService;
 import com.culturecenter.javaserver.service.SelectService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -28,6 +30,7 @@ public class LectureController {
     private final SelectService selectService;
     private final JwtProvider jwtProvider;
     private final WebClient webClient = WebClient.create();
+    private final ScrapService scrapService;
 
     @Value("${naver.reverse.geo.id}")
     private String naverApiId;
@@ -41,11 +44,16 @@ public class LectureController {
      */
     @GetMapping("/lecture")
     @ResponseBody
-    public Map<String, Object> searchLecturesByConditions(SearchConditions conditions, @RequestHeader(value = "Authorization", required = false) String token){
+    public Map<String, Object> searchLecturesByConditions(SearchConditions conditions,
+                                                          @RequestHeader(value = "Authorization", required = false)
+                                                          String token){
         if (conditions == null) throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
 
         Map<String, Object> result = new HashMap<>();
-        result.put("lectures", this.selectService.selectLectureByConditions(conditions));
+        String sql = checking.createSqlStatementByConditions(conditions);
+        SearchResultsDto results = this.scrapService.checkAndUpdateStatus(conditions, sql);
+        result.put("lectures", results.getLectures());
+        result.put("total", results.getTotal());
 
         if(checking.checkString(token) && this.jwtProvider.isValid(token)) {
             Integer userId = this.jwtProvider.parseUserId(token);

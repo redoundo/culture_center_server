@@ -12,5 +12,5 @@ RUN apt-get -y upgrade
 RUN mkdir java-server
 RUN apt-get -y install openjdk-17-jdk nginx supervisor pkg-config libmysqlclient-dev mysql-client
 RUN ln -s /java-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/sites-enabled/server-nginx.conf
- 
+
 CMD ["supervisord", "-n"]
