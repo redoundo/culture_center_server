@@ -9,8 +9,6 @@ files:
       destination: /home/app
     - source: /Dockerfile
       destination: /home/app
-    - source: /setup.py
-      destination: /home/app
     - source: /README.md
       destination: /home/app
     - source: /.github
