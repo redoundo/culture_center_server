@@ -15,6 +15,8 @@ files:
       destination: /home/app/.github
     - source: /crawl
       destination: /home/app/crawl
+    - source: .env
+      destination: /home/app
     - source: /scripts
       destination: /home/app/scripts
     - source: /sample
@@ -37,10 +39,6 @@ permissions:
 file_exists_behavior: OVERWRITE
 
 hooks:
-    ApplicationStop:
-        - location: scripts/application-stop.sh
-          timeout: 600
-          runas: root
     AfterInstall:
         - location: scripts/after-install.sh
           timeout: 2400
