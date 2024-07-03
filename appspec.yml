@@ -39,6 +39,10 @@ permissions:
 file_exists_behavior: OVERWRITE
 
 hooks:
+    ApplicationStop:
+      - location: scripts/application-stop.sh
+        timeout: 1000
+        runas: root
     AfterInstall:
         - location: scripts/after-install.sh
           timeout: 2400
