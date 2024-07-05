@@ -163,7 +163,7 @@ public class SelectService {
      * @return 강좌 내용
      */
     public List<Lectures> selectLectureByConditions (SearchConditions conditions) {
-        Pageable pageable = PageRequest.of(conditions.getPage() == null ? 1 : (conditions.getPage() - 1) * 16 + 1, 16);
+        Pageable pageable = PageRequest.of(1, conditions.getPage() == null ? 16 : conditions.getPage() * 16);
         Specification<Lectures> spec = searchByConditionsSpec(conditions);
         return lectureRepository.findAll(spec, pageable).stream().toList();
     }
@@ -189,7 +189,7 @@ public class SelectService {
             if (checking.checkString(conditions.getCenterName()))
                 predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("center"), conditions.getCenterName()));
             if (checking.checkString(conditions.getAddress()))
-                predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("address"), "%" + conditions.getAddress() + "%"));
+                predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("address"),  conditions.getAddress() + "%"));
             if (conditions.getLatitude() != null && conditions.getLongitude() != null){
                 Subquery<String> subquery = query.subquery(String.class);
                 Root<Branches> branchesRoot = subquery.from(Branches.class);
