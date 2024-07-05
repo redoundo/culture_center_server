@@ -151,8 +151,7 @@ public class SelectService {
     public Lectures selectLectureByLectureId (Integer lectureId) {
         if(lectureId != null && lectureId > 0) {
             Optional<Lectures> optionalLectures = lectureRepository.findById(lectureId);
-            if(optionalLectures.isPresent()) return optionalLectures.get();
-            else throw new CustomRuntimeException(ErrorCode.NO_SUCH_DATA_ERROR);
+            return optionalLectures.orElse(null); //없을 경우 null 을 반환하도록 설정
         }
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }
