@@ -1,8 +1,6 @@
 package com.culturecenter.javaserver.service;
 import com.culturecenter.javaserver.dto.LecturesInterface;
-import jakarta.persistence.criteria.Predicate;
-import jakarta.persistence.criteria.Root;
-import jakarta.persistence.criteria.Subquery;
+import jakarta.persistence.criteria.*;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import com.culturecenter.javaserver.dto.SearchConditions;
