@@ -73,7 +73,7 @@ public class Util {
             whereCause.add("branch IN (SELECT branchName FROM branches WHERE branches.longitude BETWEEN %s AND %s AND branches.latitude BETWEEN %s AND %s)".formatted(lonAndLat[2], lonAndLat[3], lonAndLat[0], lonAndLat[1]));
         }
         if (!whereCause.isEmpty()) sql = sql + " WHERE " + String.join(" AND ", whereCause);
-        if(conditions.getPage() != null) sql = sql + " LIMIT %s,16".formatted(((conditions.getPage() - 1) * 16)) + ";";
+        if(conditions.getPage() != null) sql = sql + " LIMIT 0,%s".formatted((conditions.getPage() * 16)) + ";";
         else sql = sql + " LIMIT 0,16;";
         return sql;
     }

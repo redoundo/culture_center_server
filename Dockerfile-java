@@ -13,4 +13,9 @@ RUN mkdir java-server
 RUN apt-get -y install openjdk-17-jdk nginx supervisor pkg-config libmysqlclient-dev mysql-client
 RUN ln -s /java-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/sites-enabled/server-nginx.conf
 
+VOLUME /var/log/spring_boot
+VOLUME /var/log/nginx
+
+HEALTHCHECK --interval=50s --timeout=10s --start-period=30s --retries=3 CMD curl -f http://localhost:8079/actuator/health || exit 1
+
 CMD ["supervisord", "-n"]
