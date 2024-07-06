@@ -47,7 +47,8 @@ public class SecurityConfig {
                 .authorizeHttpRequests((authorizeHttpRequests) -> {
                     authorizeHttpRequests
                             .requestMatchers("/api/auth/**", "/api/user/auth/isValid" ).permitAll()
-                            .requestMatchers( "/api/lecture/**").permitAll();
+                            .requestMatchers( "/api/lecture/**").permitAll()
+                            .requestMatchers("/health/check").permitAll();
                     authorizeHttpRequests.requestMatchers("/api/user/**").hasRole("USER");
                 })
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
