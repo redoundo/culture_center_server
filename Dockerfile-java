@@ -10,7 +10,7 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN mkdir java-server
-RUN apt-get -y install openjdk-17-jdk nginx supervisor pkg-config libmysqlclient-dev mysql-client libgbm1 libxkbcommon0
+RUN apt-get -y install openjdk-17-jdk nginx supervisor pkg-config libmysqlclient-dev mysql-client libgbm1 libxkbcommon0 libgtk-3-0
 RUN ln -s /java-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/sites-enabled/server-nginx.conf
 
 VOLUME /var/log/spring_boot
