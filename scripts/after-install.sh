@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "after-install executed!!"
 sudo chmod 666 /var/run/docker.sock
 docker kill crawl_container
 docker kill server_container

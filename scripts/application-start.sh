@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "application-start executed!!"
 sudo chmod 666 /var/run/docker.sock
 cd /home/app
 docker image build -t crawlers:latest -f Dockerfile .
