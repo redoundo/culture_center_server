@@ -11,8 +11,7 @@ import com.culturecenter.javaserver.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.PageRequest;
-import com.culturecenter.javaserver.utils.Util;
-import org.springframework.transaction.annotation.Transactional;
+import com.culturecenter.javaserver.utils.Util; 
 
 import java.util.HashMap;
 import java.util.List;
@@ -42,8 +41,7 @@ public class SelectService {
      * @param userId 사용자 아이디
      * @param email 이메일
      * @return 사용자 정보
-     */
-    @Transactional(readOnly = true)
+     */ 
     public Users selectUserInfo (Integer userId, String email){
         if (userId != null && userId > 0) {
             Optional<Users> nullableUser = userRepository.findById(userId);
@@ -54,7 +52,11 @@ public class SelectService {
         else throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
     }
 
-    @Transactional(readOnly = true)
+    /**
+     * 사용자 정보, 지원한, 좋아요를 누른 강좌 정보 제공
+     * @param userId 사용자 아이디
+     * @return 사용자 정보, 지원한, 좋아요를 누른 강좌 정보 제공
+     */
     public Map<String, Object> userInfoAndLikedApplied(Integer userId){
         if (userId == null || userId < 0) throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
         Optional<Users> nullableUser = userRepository.findById(userId);
@@ -71,8 +73,7 @@ public class SelectService {
      * 사용자 아이디로 찜한 강좌들 가져오기
      * @param userId 사용자 아이디
      * @return 짐핸 강좌 내역
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<LecturesInterface> selectLikedByUserId (Integer userId) {
         if(userId != null && userId > 0) return likedRepository.allLectureByUserId(userId);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -82,8 +83,7 @@ public class SelectService {
      * 사용자 아이디로 지원한 강좌들 가져오기
      * @param userId 사용자 아이디
      * @return 지원한 강좌 내역
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<LecturesInterface> selectAppliedByUserId (Integer userId) {
         if (userId != null && userId > 0) return appliedRepository.allLectureByUserId(userId);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -93,8 +93,7 @@ public class SelectService {
      * 유효한 닉네임인지 확인
      * @param nickname 닉네임
      * @return 유효성 여부
-     */
-    @Transactional(readOnly = true)
+     */ 
     public Boolean checkNicknameUniqueness (String nickname) {
         if(checking.checkString(nickname)) return userRepository.checkNicknameUniqueness(nickname);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -104,8 +103,7 @@ public class SelectService {
      * 이메일로 사용자가 이미 존재하는지 확인
      * @param email 이메일
      * @return 존재 여부
-     */
-    @Transactional(readOnly = true)
+     */ 
     public Boolean checkUserExist (String email, String sns) {
         if(checking.checkString(email)) {
             if (sns.equals("CultureCenters")) return userRepository.checkCultureCenterUserExist(email);
@@ -117,8 +115,7 @@ public class SelectService {
     /**
      * 모든 카테고리 반환
      * @return 카테고리들
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<Categories> allCategories () {
         return categoriesRepository.findAll();
     }
@@ -126,8 +123,7 @@ public class SelectService {
     /**
      * 모든 대상 반환
      * @return 대상들
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<Targets> allTargets () {
         return targetRepository.findAll();
     }
@@ -135,8 +131,7 @@ public class SelectService {
     /**
      * 모든 기관 반환.
      * @return 기관들.
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<Centers> allCenters() {
         return centerRepository.findAll();
     }
@@ -145,8 +140,7 @@ public class SelectService {
      * 특정 타입의 센터 반환
      * @param type 타입
      * @return 해당 타입의 센터 정보
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<Centers> centerByType(String type) {
         if (type != null && checking.checkString(type)) return centerRepository.selectCentersByType(type);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -156,8 +150,7 @@ public class SelectService {
      * 강좌 내용 가져오기
      * @param lectureId 강좌 아이디
      * @return 강좌 내용
-     */
-    @Transactional(readOnly = true)
+     */ 
     public Lectures selectLectureByLectureId (Integer lectureId) {
         if(lectureId != null && lectureId > 0) {
             Optional<Lectures> optionalLectures = lectureRepository.findById(lectureId);
@@ -170,8 +163,7 @@ public class SelectService {
      * 검색 조건으로 강좌를 조회한 뒤 반환한다.
      * @param conditions 검색 조건
      * @return 강좌 내용
-     */
-    @Transactional(readOnly = true)
+     */ 
     public List<Lectures> selectLectureByConditions (SearchConditions conditions) {
         Integer page = conditions.getPage();
         Pageable pageable =
@@ -179,8 +171,7 @@ public class SelectService {
         Specification<Lectures> spec = searchByConditionsSpec(conditions);
         return lectureRepository.findAll(spec, pageable).stream().toList();
     }
-
-    @Transactional(readOnly = true)
+ 
     public Integer lectureTotalCount(SearchConditions conditions){
         Specification<Lectures> spec = searchByConditionsSpec(conditions);
         return lectureRepository.findAll(spec).size();
