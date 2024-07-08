@@ -16,6 +16,6 @@ RUN ln -s /java-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/si
 VOLUME /var/log/spring_boot
 VOLUME /var/log/nginx
 
-HEALTHCHECK --interval=50s --timeout=10s --start-period=30s --retries=3 CMD curl -f http://localhost:8079/health/check || exit 1
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 CMD curl -f http://localhost:8079/health/check || exit 1
 
 CMD ["supervisord", "-n"]

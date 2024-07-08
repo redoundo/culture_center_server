@@ -2,7 +2,6 @@ package com.culturecenter.javaserver.scraping.lock;
 
 
 import com.culturecenter.javaserver.dto.SearchResultsDto;
-import com.culturecenter.javaserver.entity.Lectures;
 import lombok.RequiredArgsConstructor;
 import org.redisson.api.RBucket;
 import org.redisson.api.RLock;
@@ -10,7 +9,6 @@ import org.redisson.api.RedissonClient;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Supplier;
 
@@ -24,7 +22,7 @@ public class RedisLock {
 
     public <T> T executeWithLock(String lockName, Supplier<T> supplier){
         RLock lock = client.getLock(lockName);
-        boolean isLocked;
+        boolean isLocked; // 락을 가지고 있지 않은게 default
         try{
             while (!lock.tryLock(20, 30, TimeUnit.SECONDS)){
                 // 락을 가져오는 데 실패한 경우, 즉 스크래핑이 진행중일 때는 락을 가져올 수 있을 때까지 기다린다.
@@ -40,7 +38,7 @@ public class RedisLock {
             throw new RuntimeException(e);
         }
         finally {
-            lock.unlock();
+            if(lock.isHeldByCurrentThread()) lock.unlock();
         }
     }
 

@@ -12,6 +12,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.PageRequest;
 import com.culturecenter.javaserver.utils.Util;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.List;
@@ -42,6 +43,7 @@ public class SelectService {
      * @param email 이메일
      * @return 사용자 정보
      */
+    @Transactional(readOnly = true)
     public Users selectUserInfo (Integer userId, String email){
         if (userId != null && userId > 0) {
             Optional<Users> nullableUser = userRepository.findById(userId);
@@ -52,6 +54,7 @@ public class SelectService {
         else throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
     }
 
+    @Transactional(readOnly = true)
     public Map<String, Object> userInfoAndLikedApplied(Integer userId){
         if (userId == null || userId < 0) throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
         Optional<Users> nullableUser = userRepository.findById(userId);
@@ -69,6 +72,7 @@ public class SelectService {
      * @param userId 사용자 아이디
      * @return 짐핸 강좌 내역
      */
+    @Transactional(readOnly = true)
     public List<LecturesInterface> selectLikedByUserId (Integer userId) {
         if(userId != null && userId > 0) return likedRepository.allLectureByUserId(userId);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -79,6 +83,7 @@ public class SelectService {
      * @param userId 사용자 아이디
      * @return 지원한 강좌 내역
      */
+    @Transactional(readOnly = true)
     public List<LecturesInterface> selectAppliedByUserId (Integer userId) {
         if (userId != null && userId > 0) return appliedRepository.allLectureByUserId(userId);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -89,6 +94,7 @@ public class SelectService {
      * @param nickname 닉네임
      * @return 유효성 여부
      */
+    @Transactional(readOnly = true)
     public Boolean checkNicknameUniqueness (String nickname) {
         if(checking.checkString(nickname)) return userRepository.checkNicknameUniqueness(nickname);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -99,6 +105,7 @@ public class SelectService {
      * @param email 이메일
      * @return 존재 여부
      */
+    @Transactional(readOnly = true)
     public Boolean checkUserExist (String email, String sns) {
         if(checking.checkString(email)) {
             if (sns.equals("CultureCenters")) return userRepository.checkCultureCenterUserExist(email);
@@ -111,6 +118,7 @@ public class SelectService {
      * 모든 카테고리 반환
      * @return 카테고리들
      */
+    @Transactional(readOnly = true)
     public List<Categories> allCategories () {
         return categoriesRepository.findAll();
     }
@@ -119,6 +127,7 @@ public class SelectService {
      * 모든 대상 반환
      * @return 대상들
      */
+    @Transactional(readOnly = true)
     public List<Targets> allTargets () {
         return targetRepository.findAll();
     }
@@ -127,6 +136,7 @@ public class SelectService {
      * 모든 기관 반환.
      * @return 기관들.
      */
+    @Transactional(readOnly = true)
     public List<Centers> allCenters() {
         return centerRepository.findAll();
     }
@@ -136,6 +146,7 @@ public class SelectService {
      * @param type 타입
      * @return 해당 타입의 센터 정보
      */
+    @Transactional(readOnly = true)
     public List<Centers> centerByType(String type) {
         if (type != null && checking.checkString(type)) return centerRepository.selectCentersByType(type);
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -146,6 +157,7 @@ public class SelectService {
      * @param lectureId 강좌 아이디
      * @return 강좌 내용
      */
+    @Transactional(readOnly = true)
     public Lectures selectLectureByLectureId (Integer lectureId) {
         if(lectureId != null && lectureId > 0) {
             Optional<Lectures> optionalLectures = lectureRepository.findById(lectureId);
@@ -159,12 +171,16 @@ public class SelectService {
      * @param conditions 검색 조건
      * @return 강좌 내용
      */
+    @Transactional(readOnly = true)
     public List<Lectures> selectLectureByConditions (SearchConditions conditions) {
-        Pageable pageable = PageRequest.of(1, conditions.getPage() == null ? 16 : conditions.getPage() * 16);
+        Integer page = conditions.getPage();
+        Pageable pageable =
+                PageRequest.of(1, page == null ? 16 : page <= 0? 16 : page * 16);
         Specification<Lectures> spec = searchByConditionsSpec(conditions);
         return lectureRepository.findAll(spec, pageable).stream().toList();
     }
 
+    @Transactional(readOnly = true)
     public Integer lectureTotalCount(SearchConditions conditions){
         Specification<Lectures> spec = searchByConditionsSpec(conditions);
         return lectureRepository.findAll(spec).size();

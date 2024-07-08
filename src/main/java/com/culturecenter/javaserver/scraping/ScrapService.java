@@ -63,8 +63,10 @@ public class ScrapService {
             Command command = this.factory.getScraper(lecture.getCenter());
             String status = command.parse(lecture.getUrl());
             if(status == null) return null;
-            if(!lecture.getEnrollStatus().equals(status)) lecture.setEnrollStatus(status);
-            this.changeService.updateEnrollStatus(lecture.getLectureId(), lecture.getEnrollStatus());
+            if(!lecture.getEnrollStatus().equals(status)) {
+                lecture.setEnrollStatus(status);
+                this.changeService.updateEnrollStatus(lecture.getLectureId(), lecture.getEnrollStatus());
+            }
             return lecture;
         });
     }
