@@ -15,7 +15,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Component;
-import org.springframework.util.StringUtils;
 
 import javax.crypto.SecretKey;
 import java.util.ArrayList;
@@ -72,11 +71,6 @@ public class JwtProvider {
      * @return accessToken || null
      */
     public String resolveToken(HttpServletRequest request){
-//        String token = request.getHeader(header);
-//        if(StringUtils.hasText(token)){
-//            return token;
-//        }
-//        return null;
             String token;
             try {
                 token = request.getHeader(header);
@@ -142,7 +136,7 @@ public class JwtProvider {
     /**
      * 정확하게는 모르겠으나, 여기에서 name 으로 userId 를 넣었다는 건 반드시 알고 있어야 함.
      * @param token accessToken
-     * @return ?? 나도 몰라.
+     * @return ?
      */
     public Authentication getAuthentication(String token){
         Claims claims = parseClaims(token);

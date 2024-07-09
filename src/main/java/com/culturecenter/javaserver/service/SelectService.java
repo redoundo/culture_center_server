@@ -1,6 +1,7 @@
 package com.culturecenter.javaserver.service;
 import com.culturecenter.javaserver.dto.LecturesInterface;
 import jakarta.persistence.criteria.*;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import com.culturecenter.javaserver.dto.SearchConditions;
@@ -170,6 +171,14 @@ public class SelectService {
                 PageRequest.of(1, page == null ? 16 : page <= 0? 16 : page * 16);
         Specification<Lectures> spec = searchByConditionsSpec(conditions);
         return lectureRepository.findAll(spec, pageable).stream().toList();
+    }
+
+    public Page<Lectures> selectLecturePageByConditions (SearchConditions conditions) {
+        Integer page = conditions.getPage();
+        Pageable pageable =
+                PageRequest.of(1, page == null ? 16 : page <= 0? 16 : page * 16);
+        Specification<Lectures> spec = searchByConditionsSpec(conditions);
+        return lectureRepository.findAll(spec, pageable);
     }
  
     public Integer lectureTotalCount(SearchConditions conditions){

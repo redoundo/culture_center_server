@@ -8,6 +8,7 @@ import com.culturecenter.javaserver.scraping.lock.RedisLock;
 import com.culturecenter.javaserver.service.ChangeService;
 import com.culturecenter.javaserver.service.SelectService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -28,34 +29,51 @@ public class ScrapService {
         SearchResultsDto nullableLectures = redisLock.cachingScrappedLectures(sql);
         // redis 에 "SCRAP_KEY " + sql 과 동일한 키가 있으면 database 에서 가져올 필요 없이 redis 에서 cache 해온다.
         if (nullableLectures != null) return nullableLectures;
-//        this.selectService.selectLectureByConditions(conditions);
 
-        List<Lectures> lectures =  redisLock.executeWithLock(sql,
-                () -> this.selectService.selectLectureByConditions(conditions));
-        // 전체 페이지 수
-        Integer total = selectService.lectureTotalCount(conditions);
+        SearchResultsDto result =  redisLock.executeWithLock(sql,
+                () -> this.completedFutureLectures(sql, conditions));
+//        // 전체 페이지 수
+//        Integer total = selectService.lectureTotalCount(conditions);
         // "SCRAP_KEY " + sql 과 동일한 키가 있으면 웹 스크래핑을 진행하지 하지 않고 바로 반환. 1시간 동안 유지
         if(redisLock.rBucketExist(sql))
-            return SearchResultsDto.builder()
-                    .total(total)
-                    .lectures(lectures)
-                    .build();
+            return result;
 
+//        List<CompletableFuture<Lectures>> futureLectureList = lectures.stream().map(this::checkLectureStatus).toList();
+//        CompletableFuture<List<Lectures>> future =
+//                CompletableFuture.allOf(futureLectureList.toArray(new CompletableFuture[0]))
+//                        .thenApply(f -> futureLectureList.stream()
+//                                .map(CompletableFuture::join)
+//                                .collect(Collectors.toList()));
+//
+//        List<Lectures> scrappedLectures = future.join();
+//        SearchResultsDto results = SearchResultsDto.builder()
+//                .total(total)
+//                .lectures(lectures)
+//                .build();
+        redisLock.setScrappingDelay(sql, result); // 60분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
+        return result;
+    }
+
+    public SearchResultsDto completedFutureLectures(String lockName, SearchConditions conditions) {
+        Page<Lectures> page = this.selectService.selectLecturePageByConditions(conditions);
+        int total = (int) page.getTotalElements();
+        List<Lectures> lectures = page.stream().toList();
+        SearchResultsDto dto = SearchResultsDto.builder()
+                .lectures(lectures)
+                .total(total)
+                .build();
+        // "SCRAP_KEY " + sql 과 동일한 키가 있으면 웹 스크래핑을 진행하지 하지 않고 데이터 베이스에서 받아온 강좌 정보를 바로 반환
+        if(redisLock.rBucketExist(lockName))
+            return dto;
         List<CompletableFuture<Lectures>> futureLectureList = lectures.stream().map(this::checkLectureStatus).toList();
         CompletableFuture<List<Lectures>> future =
                 CompletableFuture.allOf(futureLectureList.toArray(new CompletableFuture[0]))
                         .thenApply(f -> futureLectureList.stream()
                                 .map(CompletableFuture::join)
                                 .collect(Collectors.toList()));
-
         List<Lectures> scrappedLectures = future.join();
-        SearchResultsDto results = SearchResultsDto.builder()
-                .total(total)
-                .lectures(scrappedLectures)
-                .build();
-        redisLock.setScrappingDelay(sql, results); // 60분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
-
-        return results;
+        dto.setLectures(scrappedLectures);
+        return dto;
     }
 
     public CompletableFuture<Lectures> checkLectureStatus( Lectures lecture){

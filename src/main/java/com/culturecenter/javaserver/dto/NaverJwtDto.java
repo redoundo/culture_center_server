@@ -17,6 +17,4 @@ public class NaverJwtDto implements SnsJwtDto {
     private @Nullable  Integer expires_in;
     private @Nullable String error;
     private @Nullable String error_description;
-
-
 }

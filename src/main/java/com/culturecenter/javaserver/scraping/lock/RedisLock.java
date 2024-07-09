@@ -22,21 +22,20 @@ public class RedisLock {
 
     public <T> T executeWithLock(String lockName, Supplier<T> supplier){
         RLock lock = client.getLock(lockName);
-        boolean isLocked; // 락을 가지고 있지 않은게 default
+//        boolean isLocked; // 락을 가지고 있지 않은게 default
         try{
-            while (!lock.tryLock(20, 30, TimeUnit.SECONDS)){
-                // 락을 가져오는 데 실패한 경우, 즉 스크래핑이 진행중일 때는 락을 가져올 수 있을 때까지 기다린다.
-                isLocked = false;
-            }
-            isLocked = lock.tryLock(10, 30, TimeUnit.SECONDS);
-            if(isLocked){
-                // 락을 가져울 수 있다면 스크래핑이 완료된 것이므로 업데이트 된
-                return supplier.get();
-            } else throw new RuntimeException("time out exception!!");
+//            while (!lock.tryLock(20, -1, TimeUnit.SECONDS)){
+//                // 락을 가져오는 데 실패한 경우, 즉 스크래핑이 진행중일 때는 락을 가져올 수 있을 때까지 기다린다.
+//                isLocked = false;
+//            }
+//            isLocked = lock.isLocked();
+            lock.lock(-1, TimeUnit.SECONDS);
+            return supplier.get();
 
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
+//        catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
         finally {
             if(lock.isHeldByCurrentThread()) lock.unlock();
         }
