@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 WORKDIR /java-server
 
-COPY jar/javaserver-0.0.1-SNAPSHOT.jar /java-server
+COPY build/libs/javaserver-0.0.1-SNAPSHOT.jar /java-server
 COPY server-nginx.conf /java-server/etc/nginx/sites-available/server-nginx.conf
 COPY sample /java-server
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
@@ -16,6 +16,8 @@ RUN ln -s /java-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/si
 VOLUME /var/log/spring_boot
 VOLUME /var/log/nginx
 
-HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 CMD curl -f http://localhost:8079/health/check || exit 1
+ENV TZ=Asia/Seoul
 
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 CMD curl -f http://localhost:8079/health/check || exit 1
+LABEL autoheal=true
 CMD ["supervisord", "-n"]

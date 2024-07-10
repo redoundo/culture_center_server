@@ -243,13 +243,13 @@ public class SelectService {
             if (checking.checkString(conditions.getCategory()) && checking.checkString(conditions.getTarget()))
                 predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get(conditions.getTarget()), conditions.getCategory()));
             if (checking.checkString(conditions.getKeyword()))
-                predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("title"), "%" + conditions.getKeyword() + "%"));
+                predicate = criteriaBuilder.and(predicate, criteriaBuilder.like(root.get("title"), "%" + conditions.getKeyword() + "%"));
             if (checking.checkString(conditions.getCenterType()))
                 predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("type"), conditions.getCenterType()));
             if (checking.checkString(conditions.getCenterName()))
                 predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("center"), conditions.getCenterName()));
             if (checking.checkString(conditions.getAddress()))
-                predicate = criteriaBuilder.and(predicate, criteriaBuilder.equal(root.get("address"),  conditions.getAddress() + "%"));
+                predicate = criteriaBuilder.and(predicate, criteriaBuilder.like(root.get("address"),  conditions.getAddress() + "%"));
             if (conditions.getLatitude() != null && conditions.getLongitude() != null){
                 Subquery<String> subquery = query.subquery(String.class);
                 Root<Branches> branchesRoot = subquery.from(Branches.class);
