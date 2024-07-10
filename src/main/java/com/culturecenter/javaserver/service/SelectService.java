@@ -1,5 +1,8 @@
 package com.culturecenter.javaserver.service;
 import com.culturecenter.javaserver.dto.LecturesInterface;
+import com.culturecenter.javaserver.dto.redisDto.CategoriesDto;
+import com.culturecenter.javaserver.dto.redisDto.CentersDto;
+import com.culturecenter.javaserver.dto.redisDto.TargetsDto;
 import jakarta.persistence.criteria.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -12,7 +15,7 @@ import com.culturecenter.javaserver.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.PageRequest;
-import com.culturecenter.javaserver.utils.Util; 
+import com.culturecenter.javaserver.utils.Util;
 
 import java.util.HashMap;
 import java.util.List;
@@ -35,6 +38,7 @@ public class SelectService {
     private final CategoriesRepository categoriesRepository;
     private final CenterRepository centerRepository;
     private final TargetRepository targetRepository;
+    private final CacheService cacheService;
 
     /**
      * userId 혹은 email 을 가지고 사용자 정보를 가져온다.
@@ -118,7 +122,18 @@ public class SelectService {
      * @return 카테고리들
      */ 
     public List<Categories> allCategories () {
-        return categoriesRepository.findAll();
+
+        String key = "SELECT * FROM categories";
+        CategoriesDto dto = this.cacheService.getCacheValue(key, CategoriesDto.class);
+
+        if (dto == null) {
+            List<Categories> categories = categoriesRepository.findAll();
+            CategoriesDto categoriesDto = CategoriesDto.builder().categories(categories).build();
+            this.cacheService.putCacheValue(key, categoriesDto, CategoriesDto.class, 60);
+            return categories;
+        }
+
+        return dto.getCategories();
     }
 
     /**
@@ -126,7 +141,18 @@ public class SelectService {
      * @return 대상들
      */ 
     public List<Targets> allTargets () {
-        return targetRepository.findAll();
+
+        String key = "SELECT * FROM targets";
+        TargetsDto dto = this.cacheService.getCacheValue(key, TargetsDto.class);
+
+        if(dto == null) {
+            List<Targets> targets = targetRepository.findAll();
+            TargetsDto targetsDto = TargetsDto.builder().targets(targets).build();
+            this.cacheService.putCacheValue(key, targetsDto, TargetsDto.class, 60);
+            return targets;
+        }
+
+        return dto.getTargets();
     }
 
     /**
@@ -134,7 +160,18 @@ public class SelectService {
      * @return 기관들.
      */ 
     public List<Centers> allCenters() {
-        return centerRepository.findAll();
+
+        String key = "SELECT * FROM centers";
+        CentersDto dto = this.cacheService.getCacheValue(key, CentersDto.class);
+
+        if (dto == null) {
+            List<Centers> centers =  centerRepository.findAll();
+            CentersDto centersDto = CentersDto.builder().centers(centers).build();
+            this.cacheService.putCacheValue(key, centersDto, CentersDto.class, 60);
+            return centers;
+        }
+
+        return dto.getCenters();
     }
 
     /**
@@ -153,9 +190,19 @@ public class SelectService {
      * @return 강좌 내용
      */ 
     public Lectures selectLectureByLectureId (Integer lectureId) {
+
         if(lectureId != null && lectureId > 0) {
+            String key = "SELECT * FROM lectures WHERE lectureId=" + lectureId;
+            Lectures lecture = this.cacheService.getCacheValue(key, Lectures.class);
+            if (lecture != null) return lecture;
+
             Optional<Lectures> optionalLectures = lectureRepository.findById(lectureId);
-            return optionalLectures.orElse(null); //없을 경우 null 을 반환하도록 설정
+            if(optionalLectures.isPresent()) {
+                Lectures notNullLecture = optionalLectures.get();
+                this.cacheService.putCacheValue(key, notNullLecture, Lectures.class);
+                return notNullLecture;
+            }
+            return null;
         }
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }

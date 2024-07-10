@@ -10,6 +10,7 @@ import org.springframework.lang.Nullable;
 @Setter
 @Builder
 @AllArgsConstructor
+@RequiredArgsConstructor
 public class SearchConditions {
     private @Nullable String keyword;
     @Builder.Default

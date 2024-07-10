@@ -2,11 +2,11 @@ package com.culturecenter.javaserver.utils;
 
 import com.culturecenter.javaserver.dto.SearchConditions;
 import com.culturecenter.javaserver.dto.SearchResultsDto;
-import com.culturecenter.javaserver.entity.Lectures;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -87,13 +87,45 @@ public class Util {
         }
     }
 
-    public SearchResultsDto jsonToJavaObject(String cached){
-        if(!checkString(cached)) return null;
+    public <T> String javaObjectToJson (T values){
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            return objectMapper.readValue(cached, new TypeReference<SearchResultsDto>(){});
+            return objectMapper.writeValueAsString(values);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public <T> T jsonToJavaObject(String cached, Class<T> clazz){
+        if(!checkString(cached)) return null;
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            JavaType javaType = objectMapper.getTypeFactory().constructType(clazz);
+            return objectMapper.readValue(cached, javaType);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public <T> boolean sameContentObject(T obj1, T obj2) {
+        if (obj1 == obj2) return true;
+        if (obj1 == null || obj2 == null) return false;
+        if (!obj1.getClass().equals(obj2.getClass())) return false;
+
+        Field[] fields = obj1.getClass().getDeclaredFields();
+        for (Field field : fields) {
+            field.setAccessible(true);
+            try {
+                Object value1 = field.get(obj1);
+                Object value2 = field.get(obj2);
+                if (value1 == null && value2 == null) continue;
+                if (value1 == null || value2 == null) return false;
+                if (!value1.equals(value2)) return false;
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+        return true;
     }
 }

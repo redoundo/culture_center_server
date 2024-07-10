@@ -32,24 +32,10 @@ public class ScrapService {
 
         SearchResultsDto result =  redisLock.executeWithLock(sql,
                 () -> this.completedFutureLectures(sql, conditions));
-//        // 전체 페이지 수
-//        Integer total = selectService.lectureTotalCount(conditions);
+
         // "SCRAP_KEY " + sql 과 동일한 키가 있으면 웹 스크래핑을 진행하지 하지 않고 바로 반환. 1시간 동안 유지
         if(redisLock.rBucketExist(sql))
             return result;
-
-//        List<CompletableFuture<Lectures>> futureLectureList = lectures.stream().map(this::checkLectureStatus).toList();
-//        CompletableFuture<List<Lectures>> future =
-//                CompletableFuture.allOf(futureLectureList.toArray(new CompletableFuture[0]))
-//                        .thenApply(f -> futureLectureList.stream()
-//                                .map(CompletableFuture::join)
-//                                .collect(Collectors.toList()));
-//
-//        List<Lectures> scrappedLectures = future.join();
-//        SearchResultsDto results = SearchResultsDto.builder()
-//                .total(total)
-//                .lectures(lectures)
-//                .build();
         redisLock.setScrappingDelay(sql, result); // 60분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
         return result;
     }
