@@ -18,7 +18,7 @@ VOLUME /var/log/nginx
 
 ENV TZ=Asia/Seoul
 
-HEALTHCHECK --interval=1m1s --timeout=20s --start-period=3m30s --health-start-interval=1m1s --retries=3 CMD curl -f http://localhost:8079/health/check || kill 1
+HEALTHCHECK --interval=1m1s --timeout=20s --start-period=3m30s --retries=3 CMD curl -f http://localhost:8079/health/check || kill 1
 
 LABEL autohealLabel=true
 
