@@ -118,4 +118,17 @@ class JavaserverApplicationTests {
 		List<Lectures> lectures = this.selectService.selectLectureByConditions(conditions);
 		assertEquals(32, lectures.size());
 	}
+	
+	@Test
+	@DisplayName("@Async 없이 스크래핑 진행")
+	@Disabled("pass")
+	void NoAsync(){
+		SearchConditions conditions = SearchConditions
+				.builder()
+				.centerName("HOMEPLUS")
+				.build();
+		String sql = checking.createSqlStatementByConditions(conditions);
+		SearchResultsDto results = this.scrapService.checkAndUpdateStatus(conditions, sql);
+ 		assertEquals(selectService.lectureTotalCount(conditions), results.getTotal());
+	}
 }

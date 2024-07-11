@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-import static com.culturecenter.javaserver.utils.Util.checking;
 @Service
 @RequiredArgsConstructor
 public class ScrapService {
@@ -24,7 +23,6 @@ public class ScrapService {
     private final ChangeService changeService;
     private final RedisLock redisLock;
 
-    @Async
     public SearchResultsDto checkAndUpdateStatus(SearchConditions conditions, String sql) {
         SearchResultsDto nullableLectures = redisLock.cachingScrappedLectures(sql);
         // redis 에 "SCRAP_KEY " + sql 과 동일한 키가 있으면 database 에서 가져올 필요 없이 redis 에서 cache 해온다.
@@ -62,6 +60,7 @@ public class ScrapService {
         return dto;
     }
 
+    @Async
     public CompletableFuture<Lectures> checkLectureStatus( Lectures lecture){
         return CompletableFuture.supplyAsync(() -> {
             Command command = this.factory.getScraper(lecture.getCenter());

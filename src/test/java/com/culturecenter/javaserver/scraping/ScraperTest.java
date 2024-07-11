@@ -31,8 +31,8 @@ public class ScraperTest {
     public void setup() {
         Config config = new Config();
         config.useSingleServer()
-                .setAddress("*********") // 개인 정보를 위해 삭제
-                .setPassword("***") // 개인 정보를 위해 삭제
+                .setAddress("***") // 개인 정보를 위해 삭제
+                .setPassword("****") // 개인 정보를 위해 삭제
                 .setUsername("default")
                 .setConnectionPoolSize(30)
                 .setConnectionMinimumIdleSize(5);
@@ -73,7 +73,6 @@ public class ScraperTest {
                 finally {
                     countDownLatch.countDown();
                     if(lock.isLocked() && lock.isHeldByCurrentThread()) lock.unlock(); // 반드시 lock 해제 필요
-//                    if(lock.isLocked()) lock.unlockAsync(Thread.currentThread().getId());
                 }
             });
         }
@@ -108,5 +107,6 @@ public class ScraperTest {
             throw new RuntimeException(e);
         }
     }
+
 
 }
