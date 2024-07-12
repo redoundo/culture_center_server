@@ -39,10 +39,10 @@ public class RedisConfig {
                 .setPassword(password)
                 .setUsername(userName)
                 .setConnectionPoolSize(12)
-                .setConnectionMinimumIdleSize(7)
-                .setSubscriptionConnectionPoolSize(10)
-                .setSubscriptionsPerConnection(2)
-                .setSubscriptionConnectionMinimumIdleSize(7);
+                .setConnectionMinimumIdleSize(1);
+//                .setSubscriptionConnectionPoolSize(10)
+//                .setSubscriptionsPerConnection(2)
+//                .setSubscriptionConnectionMinimumIdleSize(7);
         return Redisson.create(config);
     }
 
