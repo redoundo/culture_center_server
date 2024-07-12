@@ -348,8 +348,6 @@
 ![culture_center_server_erd](https://github.com/redoundo/culture_center_server/assets/96558064/dd8bf927-d2b4-4627-8e37-98b7168a4c26)
 
 
-
-
 ### 사용 기술
 
 `front-end`
@@ -358,7 +356,6 @@
 - Vercel
 
 `back-end`
-
 - Spring boot
 - Nginx
 - Docker
@@ -376,8 +373,7 @@
 - Mysql
 - AWS RDS
 
-`crawler`
-- Python
+`crawler` 
 - Playwright
 
 `web scrapping`
