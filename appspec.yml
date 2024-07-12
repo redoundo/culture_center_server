@@ -17,6 +17,8 @@ files:
       destination: /home/app/crawl
     - source: .env
       destination: /home/app
+    - source: gradlew
+      destination: /home/app
     - source: /scripts
       destination: /home/app/scripts
     - source: /sample

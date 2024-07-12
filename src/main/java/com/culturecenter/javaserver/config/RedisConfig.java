@@ -38,11 +38,11 @@ public class RedisConfig {
                 .setAddress(host)
                 .setPassword(password)
                 .setUsername(userName)
-                .setConnectionPoolSize(12)
-                .setConnectionMinimumIdleSize(1);
-//                .setSubscriptionConnectionPoolSize(10)
-//                .setSubscriptionsPerConnection(2)
-//                .setSubscriptionConnectionMinimumIdleSize(7);
+                .setConnectionPoolSize(10)
+                .setConnectionMinimumIdleSize(7)
+                .setSubscriptionConnectionPoolSize(10)
+                .setSubscriptionsPerConnection(2)
+                .setSubscriptionConnectionMinimumIdleSize(7);
         return Redisson.create(config);
     }
 

@@ -18,8 +18,13 @@ public class EmartScraper implements Command {
             try (Browser browser = playwright.chromium().launch()) {
                 Page page = browser.newPage();
                 page.navigate(url);
-                String status = page.innerText("#container > div > div.clsdtl-info > div.clsdtl-vis > div > span.ico-txt-2");
-                state= ScrapStatus.EMART_STATUS.checkStatus(status);
+                if(page.isVisible("#container > div > div.clsdtl-info > div.clsdtl-vis > div > span.ico-txt-2")) {
+                    String status = page.innerText("#container > div > div.clsdtl-info > div.clsdtl-vis > div > span.ico-txt-2");
+                    state = ScrapStatus.EMART_STATUS.checkStatus(status);
+                }else state = "OVER";
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+                System.out.println("current url :   " + url);
             }
         }
         return state;
