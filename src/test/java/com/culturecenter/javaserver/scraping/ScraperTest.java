@@ -82,7 +82,6 @@ public class ScraperTest {
     }
 
     @Test
-    @Disabled("pass")
     @DisplayName("PlayWright 가 제대로 작동하는지 확인.")
     void contextLoads() {
         ScraperFactory factory = new ScraperFactory();

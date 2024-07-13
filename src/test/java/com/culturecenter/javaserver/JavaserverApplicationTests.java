@@ -3,7 +3,9 @@ package com.culturecenter.javaserver;
 import com.culturecenter.javaserver.dto.SearchConditions;
 import com.culturecenter.javaserver.dto.SearchResultsDto;
 import com.culturecenter.javaserver.entity.Lectures;
+import com.culturecenter.javaserver.scraping.Command;
 import com.culturecenter.javaserver.scraping.ScrapService;
+import com.culturecenter.javaserver.scraping.factory.ScraperFactory;
 import com.culturecenter.javaserver.scraping.lock.RedisLock;
 import com.culturecenter.javaserver.service.SelectService;
 import org.junit.jupiter.api.Disabled;
@@ -83,6 +85,15 @@ class JavaserverApplicationTests {
 		SearchResultsDto cachedLectures = this.redisLock.cachingScrappedLectures("SELECT * FROM lectures  WHERE center='HOMEPLUS' LIMIT 0,16;");
 		assertEquals(dto, cachedLectures);
 	}
+	@Test
+	@DisplayName("PlayWright 가 제대로 작동하는지 확인.")
+	void contextLoads() {
+		ScraperFactory factory = new ScraperFactory();
+		Command command = factory.getScraper("EMART");
+		String url = "https://www.cultureclub.emart.com/class/406hC3jsQ2024S2947";
+		String status = command.parse(url);
+		assertEquals(status, "OVER");
+	}
 
 	@Test
 	@DisplayName("k6 로 테스트 테스트 하는 도중에 에러가 난 다는 것을 알게 되어 테스트 진행")
@@ -131,4 +142,14 @@ class JavaserverApplicationTests {
 		SearchResultsDto results = this.scrapService.checkAndUpdateStatus(conditions, sql);
  		assertEquals(selectService.lectureTotalCount(conditions), results.getTotal());
 	}
+
+	@Test
+	@DisplayName("keyword 요청 에러 확인")
+	void keywordTest(){
+		SearchConditions conditions = SearchConditions.builder().page(4).build();
+		Integer total = this.selectService.lectureTotalCount(conditions);
+		assertEquals(64, total);
+	}
+
+
 }
