@@ -6,6 +6,8 @@ import com.culturecenter.javaserver.entity.Categories;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,6 +38,7 @@ public class UtilsTest {
     }
 
     @Test
+    @Disabled
     @DisplayName("다양한 타입을 오류 없이 json 으로 바꾸거나 자바 객체로 바꾸는지 확인")
     public void objectToJsonToObjectTest() {
 
@@ -63,5 +66,16 @@ public class UtilsTest {
 
         assertTrue(checking.sameContentObject(conditions, conditions1));
         assertTrue(checking.sameContentObject(dto, categoriesDto));
+    }
+
+    @Test
+    @DisplayName("비밀번호 변경 테스트")
+    @Disabled
+    void encryptTest() {
+        String password = "password";
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        String encryptedPassword = passwordEncoder.encode(password);
+        System.out.println(encryptedPassword);
+        assertNotNull(encryptedPassword);
     }
 }

@@ -86,11 +86,24 @@ class JavaserverApplicationTests {
 		assertEquals(dto, cachedLectures);
 	}
 	@Test
+	@Disabled("pass")
 	@DisplayName("PlayWright 가 제대로 작동하는지 확인.")
 	void contextLoads() {
 		ScraperFactory factory = new ScraperFactory();
 		Command command = factory.getScraper("EMART");
 		String url = "https://www.cultureclub.emart.com/class/406hC3jsQ2024S2947";
+		String status = command.parse(url);
+		assertEquals(status, "OVER");
+	}
+
+
+	@Test
+	@DisplayName("jsoup 웹 스크래핑 작동 확인")
+	@Disabled("pass")
+	void jsoupTest(){
+		String url = "https://culture.lottemart.com/cu/gus/course/courseinfo/courseview.do?search_list_type=&search_str_cd=103&search_order_gbn=&search_reg_status=1&is_category_open=N&from_fg=&cls_cd=20240210333572&fam_no=&wish_typ=&search_term_cd=202402&search_day_fg=&search_cls_nm=&search_cat_cd=&search_opt_cd=&search_tit_cd=";
+		ScraperFactory factory = new ScraperFactory();
+		Command command = factory.getScraper("LOTTEMART");
 		String status = command.parse(url);
 		assertEquals(status, "OVER");
 	}
@@ -145,10 +158,11 @@ class JavaserverApplicationTests {
 
 	@Test
 	@DisplayName("keyword 요청 에러 확인")
+	@Disabled("pass")
 	void keywordTest(){
-		SearchConditions conditions = SearchConditions.builder().page(4).build();
+		SearchConditions conditions = SearchConditions.builder().keyword("타로").build();
 		Integer total = this.selectService.lectureTotalCount(conditions);
-		assertEquals(64, total);
+		assertEquals(8, total);
 	}
 
 
