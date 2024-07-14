@@ -17,8 +17,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 import static com.culturecenter.javaserver.utils.Util.checking;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class JavaserverApplicationTests {
@@ -164,6 +163,16 @@ class JavaserverApplicationTests {
 		Integer total = this.selectService.lectureTotalCount(conditions);
 		assertEquals(8, total);
 	}
-
+	
+	
+	@Test
+	@DisplayName("동기식, 비동기식 시간 차이 확인 테스트")
+	@Disabled("pass")
+	void AsyncSyncDiff() {
+		String sql = "SELECT * FROM lectures WHERE lectureId=6";
+		assertTrue(this.redisLock.rBucketExist(sql));
+//		Lectures lectures = this.selectService.selectLectureByLectureId(6);
+//		assertNotNull(lectures);
+	}
 
 }

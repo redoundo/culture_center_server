@@ -34,7 +34,7 @@ public class ScrapService {
         // "SCRAP_KEY " + sql 과 동일한 키가 있으면 웹 스크래핑을 진행하지 하지 않고 바로 반환. 1시간 동안 유지
         if(redisLock.rBucketExist(sql))
             return result;
-        redisLock.setScrappingDelay(sql, result); // 60분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
+        redisLock.setCacheDelay("SCRAP_KEY " + sql, result, 120); // 120분 동안 스크래핑 하지 않도록 설정 및 캐시 설정
         return result;
     }
 

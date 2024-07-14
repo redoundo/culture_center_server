@@ -30,21 +30,27 @@ public class RedisLock {
         }
     }
 
+//    public boolean rBucketExist(String lockName){
+//        RBucket<Object> bucket = client.getBucket("SCRAP_KEY " + lockName);
+//        return bucket.isExists();
+//    }
+
     public boolean rBucketExist(String lockName){
         RBucket<Object> bucket = client.getBucket("SCRAP_KEY " + lockName);
-        return bucket.isExists();
+        return bucket.isExistsAsync().toCompletableFuture().join();
     }
 
 
-    public void setScrappingDelay (String lockName, SearchResultsDto results){
-        RBucket<String> bucket = client.getBucket("SCRAP_KEY " + lockName);
-        if(!bucket.isExists()) bucket.set(checking.javaObjectToJson(results), Duration.ofHours(1));
+    public <T> void setCacheDelay(String lockName, T results, Integer duration){
+        RBucket<String> bucket = client.getBucket(lockName);
+        if(!bucket.isExists())
+            bucket.setAsync(checking.javaObjectToJson(results), Duration.ofMinutes(duration.longValue())).toCompletableFuture().join();
     }
 
     public SearchResultsDto cachingScrappedLectures(String lockName){
         RBucket<String> bucket = client.getBucket("SCRAP_KEY " + lockName);
-        if(!bucket.isExists()) return null;
-        String json = bucket.get();
+        if(!bucket.isExistsAsync().toCompletableFuture().join()) return null;
+        String json = bucket.getAsync().toCompletableFuture().join();
         return checking.jsonToJavaObject(json, SearchResultsDto.class);
     }
 }

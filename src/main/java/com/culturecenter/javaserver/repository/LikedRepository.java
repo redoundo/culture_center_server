@@ -6,10 +6,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 @Repository
 public interface LikedRepository extends JpaRepository<Liked, Integer> {
@@ -37,5 +39,6 @@ public interface LikedRepository extends JpaRepository<Liked, Integer> {
             + " lectures.enrollStart AS enrollStart, lectures.enrollEnd AS enrollEnd, lectures.lectureSupplies AS lectureSupplies,"
             + " lectures.curriculum AS curriculum, lectures.crawledDate AS crawledDate, lectures.lectureHeldDates AS lectureHeldDates"
             + " FROM Liked liked INNER JOIN Lectures lectures ON liked.likedUserId=:userId AND lectures.lectureId=liked.likedLectureId")
-    List<LecturesInterface> allLectureByUserId(@Param("userId") Integer userId);
+    @Async
+    CompletableFuture<List<LecturesInterface>> allLectureByUserId(@Param("userId") Integer userId);
 }

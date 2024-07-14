@@ -21,6 +21,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.function.Supplier;
 
 import static com.culturecenter.javaserver.utils.Util.checking;
 
@@ -53,7 +56,7 @@ public class SelectService {
             if(!nullableUser.isPresent()) throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
             else return nullableUser.get();
         }
-        if(email != null && checking.checkString(email)) return userRepository.selectUserByEmail(email);
+        if(email != null && checking.checkString(email)) return userRepository.selectUserByEmail(email).join();
         else throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
     }
 
@@ -80,7 +83,7 @@ public class SelectService {
      * @return 짐핸 강좌 내역
      */ 
     public List<LecturesInterface> selectLikedByUserId (Integer userId) {
-        if(userId != null && userId > 0) return likedRepository.allLectureByUserId(userId);
+        if(userId != null && userId > 0) return likedRepository.allLectureByUserId(userId).join();
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }
 
@@ -90,7 +93,7 @@ public class SelectService {
      * @return 지원한 강좌 내역
      */ 
     public List<LecturesInterface> selectAppliedByUserId (Integer userId) {
-        if (userId != null && userId > 0) return appliedRepository.allLectureByUserId(userId);
+        if (userId != null && userId > 0) return appliedRepository.allLectureByUserId(userId).join();
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }
 
@@ -100,7 +103,7 @@ public class SelectService {
      * @return 유효성 여부
      */ 
     public Boolean checkNicknameUniqueness (String nickname) {
-        if(checking.checkString(nickname)) return userRepository.checkNicknameUniqueness(nickname);
+        if(checking.checkString(nickname)) return userRepository.checkNicknameUniqueness(nickname).join();
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }
 
@@ -111,8 +114,8 @@ public class SelectService {
      */ 
     public Boolean checkUserExist (String email, String sns) {
         if(checking.checkString(email)) {
-            if (sns.equals("CultureCenters")) return userRepository.checkCultureCenterUserExist(email);
-            else return userRepository.checkUserExist(email);
+            if (sns.equals("CultureCenters")) return userRepository.checkCultureCenterUserExist(email).join();
+            else return userRepository.checkUserExist(email).join();
         }
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }
@@ -188,21 +191,34 @@ public class SelectService {
      * 강좌 내용 가져오기
      * @param lectureId 강좌 아이디
      * @return 강좌 내용
-     */ 
+     */
+//    public Lectures selectLectureByLectureId (Integer lectureId) {
+//
+//        if(lectureId != null && lectureId > 0) {
+//            String key = "SELECT * FROM lectures WHERE lectureId=" + lectureId;
+//            Lectures lecture = this.cacheService.getCacheValue(key, Lectures.class);
+//            if (lecture != null) return lecture;
+//
+//            Optional<Lectures> optionalLectures = lectureRepository.findById(lectureId);
+//            if(optionalLectures.isPresent()) {
+//                Lectures notNullLecture = optionalLectures.get();
+//                this.cacheService.putCacheValue(key, notNullLecture, Lectures.class);
+//                return notNullLecture;
+//            }
+//            return null;
+//        }
+//        else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
+//    }
     public Lectures selectLectureByLectureId (Integer lectureId) {
-
         if(lectureId != null && lectureId > 0) {
             String key = "SELECT * FROM lectures WHERE lectureId=" + lectureId;
             Lectures lecture = this.cacheService.getCacheValue(key, Lectures.class);
             if (lecture != null) return lecture;
 
-            Optional<Lectures> optionalLectures = lectureRepository.findById(lectureId);
-            if(optionalLectures.isPresent()) {
-                Lectures notNullLecture = optionalLectures.get();
-                this.cacheService.putCacheValue(key, notNullLecture, Lectures.class);
-                return notNullLecture;
-            }
-            return null;
+            CompletableFuture<Lectures> completableLectures = this.lectureRepository.findByLectureId(lectureId);
+            Lectures lectures = completableLectures.join();
+            this.cacheService.putCacheValue(key, lectures , Lectures.class);
+            return lectures;
         }
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
     }
