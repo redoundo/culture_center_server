@@ -16,6 +16,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.PageRequest;
 import com.culturecenter.javaserver.utils.Util;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.List;
@@ -49,7 +50,8 @@ public class SelectService {
      * @param userId 사용자 아이디
      * @param email 이메일
      * @return 사용자 정보
-     */ 
+     */
+    @Transactional
     public Users selectUserInfo (Integer userId, String email){
         if (userId != null && userId > 0) {
             Optional<Users> nullableUser = userRepository.findById(userId);
@@ -65,6 +67,7 @@ public class SelectService {
      * @param userId 사용자 아이디
      * @return 사용자 정보, 지원한, 좋아요를 누른 강좌 정보 제공
      */
+    @Transactional
     public Map<String, Object> userInfoAndLikedApplied(Integer userId){
         if (userId == null || userId < 0) throw new CustomRuntimeException(ErrorCode.NEED_SIGN_IN_EXCEPTION);
         Optional<Users> nullableUser = userRepository.findById(userId);
@@ -81,7 +84,8 @@ public class SelectService {
      * 사용자 아이디로 찜한 강좌들 가져오기
      * @param userId 사용자 아이디
      * @return 짐핸 강좌 내역
-     */ 
+     */
+    @Transactional
     public List<LecturesInterface> selectLikedByUserId (Integer userId) {
         if(userId != null && userId > 0) return likedRepository.allLectureByUserId(userId).join();
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -91,7 +95,8 @@ public class SelectService {
      * 사용자 아이디로 지원한 강좌들 가져오기
      * @param userId 사용자 아이디
      * @return 지원한 강좌 내역
-     */ 
+     */
+    @Transactional
     public List<LecturesInterface> selectAppliedByUserId (Integer userId) {
         if (userId != null && userId > 0) return appliedRepository.allLectureByUserId(userId).join();
         else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
@@ -111,7 +116,8 @@ public class SelectService {
      * 이메일로 사용자가 이미 존재하는지 확인
      * @param email 이메일
      * @return 존재 여부
-     */ 
+     */
+    @Transactional
     public Boolean checkUserExist (String email, String sns) {
         if(checking.checkString(email)) {
             if (sns.equals("CultureCenters")) return userRepository.checkCultureCenterUserExist(email).join();
@@ -132,7 +138,7 @@ public class SelectService {
         if (dto == null) {
             List<Categories> categories = categoriesRepository.findAll();
             CategoriesDto categoriesDto = CategoriesDto.builder().categories(categories).build();
-            this.cacheService.putCacheValue(key, categoriesDto, CategoriesDto.class, 60);
+            this.cacheService.putCacheValue(key, categoriesDto, CategoriesDto.class, 720);
             return categories;
         }
 
@@ -151,7 +157,7 @@ public class SelectService {
         if(dto == null) {
             List<Targets> targets = targetRepository.findAll();
             TargetsDto targetsDto = TargetsDto.builder().targets(targets).build();
-            this.cacheService.putCacheValue(key, targetsDto, TargetsDto.class, 60);
+            this.cacheService.putCacheValue(key, targetsDto, TargetsDto.class, 720);
             return targets;
         }
 
@@ -170,7 +176,7 @@ public class SelectService {
         if (dto == null) {
             List<Centers> centers =  centerRepository.findAll();
             CentersDto centersDto = CentersDto.builder().centers(centers).build();
-            this.cacheService.putCacheValue(key, centersDto, CentersDto.class, 60);
+            this.cacheService.putCacheValue(key, centersDto, CentersDto.class, 720);
             return centers;
         }
 
@@ -209,6 +215,7 @@ public class SelectService {
 //        }
 //        else throw new CustomRuntimeException(ErrorCode.MISSING_CONTENT_ERROR);
 //    }
+    @Transactional
     public Lectures selectLectureByLectureId (Integer lectureId) {
         if(lectureId != null && lectureId > 0) {
             String key = "SELECT * FROM lectures WHERE lectureId=" + lectureId;
