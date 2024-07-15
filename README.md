@@ -323,10 +323,6 @@
    </pre>
    </details>
 
-### 람다 snap start 및 런타임 최적화 도입 이전/이후
-![lambda snap start 이전 이후-크기조정](https://github.com/user-attachments/assets/93d60d6a-9a08-4031-80cf-c625352b6041)
-
-
 
 
 ### Api 레퍼런스

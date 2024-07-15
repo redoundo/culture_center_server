@@ -10,9 +10,8 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 RUN apt-get update
 RUN apt-get -y upgrade
 RUN mkdir java-server
-RUN apt-get -y install openjdk-17-jdk nginx supervisor pkg-config libmysqlclient-dev mysql-client curl playwright
+RUN apt-get -y install openjdk-17-jdk nginx supervisor pkg-config libmysqlclient-dev mysql-client curl
 RUN ln -s /java-server/etc/nginx/sites-available/server-nginx.conf /etc/nginx/sites-enabled/server-nginx.conf
-RUN playwright install-deps chromium
 
 VOLUME /var/log/spring_boot
 VOLUME /var/log/nginx
