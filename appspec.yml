@@ -19,6 +19,8 @@ files:
       destination: /home/app
     - source: gradlew
       destination: /home/app
+    - source: /gradle
+      destination: /home/app
     - source: /scripts
       destination: /home/app/scripts
     - source: /sample
