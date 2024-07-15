@@ -50,9 +50,11 @@
 ![javaserver architecture](https://github.com/redoundo/culture_center_server/assets/96558064/3f60c986-cad2-4440-a825-ebaaf2c08b6d)
 
 
+### 서버 제작 중 문제 상황 및 해결 과정
 
 
-### 문제 상황 및 해결 과정
+
+### crawler 제작 중 문제 상황 및 해결 과정
 
 1. 데이터를 수집하는 센터마다 강좌를 분류하는 기준이 상이하며 오분류 된 강좌가 존재 하는 상황.
    - 여러 사이트에서 크롤링을 해온 데이터를 재분류 해야 하는데 정규 표현식 만으로 해결 하는 게 힘들었습니다. 그래서 정규 표현식 대신 머신 러닝을 통해 데이터를 재분류를 하기로 결정 했습니다.
@@ -275,23 +277,7 @@
                message_thread.join() 
      </pre>
 </details>
-
-4. 전역 에러 처리
-   - REST_FRAMEWORK 의 EXCEPTION_HANDLER 에 에러 헨들러를 등록하여 개별적으로 에러를 처리 하지 않고 한곳에서 에러를 처리하게끔 구성 했습니다.
-       <details>
-           <summary>error handler 코드</summary>
-           <pre>
-               def custom_exception_handler(exc, context):
-                   # DRF의 기본 예외 처리 함수 호출
-                   response = exception_handler(exc, context)
-                   if isinstance(exec, CustomException) or isinstance(exec, ErrorCode):
-                       return JsonResponse({"status": exec.status, 
-                           "errorMessage": exec.message, "errorCode": exec.errorName})
-                   return response
-           </pre>
-       </details>
-
-5. 크롤러 실행 자동화
+4. 크롤러 실행 자동화
    - 크롤러 컨테이너가 실행 되고 있는 상태인지 확인한 뒤, exit 혹은 pause 상태일 때만 컨테이너를 실행 시키게끔 만들었습니다.
        <details>
            <summary>crontab 설정</summary>
@@ -336,6 +322,11 @@
 
    </pre>
    </details>
+
+### 람다 snap start 및 런타임 최적화 도입 이전/이후
+![lambda snap start 이전 이후-크기조정](https://github.com/user-attachments/assets/93d60d6a-9a08-4031-80cf-c625352b6041)
+
+
 
 
 ### Api 레퍼런스
